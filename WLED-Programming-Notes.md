@@ -30,27 +30,24 @@ Append the new function(s) and use current functions as templates. Cannot add an
 ## Delays
 You DO NOT use delay statements here, except to keep the watchdog happy. Here is the awesome FastLED method of timing/scheduling:
 
-`EVERY_N_MILLISECONDS_I(pixTimer, SEGMENT.speed) {`
-
-    `pixTimer.setPeriod(256 - SEGMENT.speed);`
-
-    `// Put your display code here.`
-
-`}`
+EVERY_N_MILLISECONDS_I(pixTimer, SEGMENT.speed) {
+  pixTimer.setPeriod(256 - SEGMENT.speed);
+  // Put your display code here.
+}
 
 Here's the standard blink without delay version:
 
-`long lastTime = 0;`
-`int delayMs = 2000;            // We want to do something every 2 seconds.`
+long lastTime = 0;
+int delayMs = 2000;            // We want to do something every 2 seconds.
 
-`void userLoop()`
-`{`
-  `if (millis()-lastTime > delayMs)`
-  `{`
-    `lastTime = millis();`
-    `//do something you want to do every 2 seconds`
-  `}`
-`}`
+void userLoop()
+{
+  if (millis()-lastTime > delayMs)
+  {
+    lastTime = millis();
+    //do something you want to do every 2 seconds
+  }
+}
 
 
 ## Displaying the LED's.
