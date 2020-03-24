@@ -30,10 +30,10 @@ Append the new function(s) and use current functions as templates. Cannot add an
 ## Delays
 You DO NOT use delay statements here, except to keep the watchdog happy. Here is the awesome FastLED method of timing/scheduling:
 
-EVERY_N_MILLISECONDS_I(pixTimer, SEGMENT.speed) {
-  pixTimer.setPeriod(256 - SEGMENT.speed);
-  // Put your display code here.
-}
+`EVERY_N_MILLISECONDS_I(pixTimer, SEGMENT.speed) {`
+  `pixTimer.setPeriod(256 - SEGMENT.speed);`
+  `// Put your display code here.`
+`}`
 
 Here's the standard blink without delay version:
 
