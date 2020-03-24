@@ -107,7 +107,7 @@ It's assumed that you're able to download and install these libraries without ad
 if you can't. You must **restart**, yes **restart** the Arduino IDE before it will recognize them. 
 
 If this feels like a treasure hunt, it is. Now, imagine what the authors of WLED had to go through just
-to get this all working together.
+to get this all working together. We just figured out how to compile it and to get some sound reactive code running.
 
 
 
