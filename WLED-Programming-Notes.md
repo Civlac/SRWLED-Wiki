@@ -53,8 +53,8 @@ void userLoop()
 ## Displaying the LED's.
 We were used to FastLED.show(). Well, no longer.
 
-CRGB myCol = ColorFromPalette(currentPalette, index, brightness, LINEARBLEND);
-setPixelColor(myLED, myCol.red, myCol.green, myCol.blue);
+`CRGB myCol = ColorFromPalette(currentPalette, index, brightness, LINEARBLEND);`
+`setPixelColor(myLED, myCol.red, myCol.green, myCol.blue);`
 
 ## Important WLED variables
 
