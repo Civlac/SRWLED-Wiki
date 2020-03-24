@@ -84,6 +84,7 @@ WLED makes use of a LOT of 3rd party libraries and is NOT easy to compile, espec
 * NeoPixelBus
 * FastLED
 * IRremoteESP8266
+* ArduinoFFT
 
 See the next section to find/install these libraries.
 
@@ -100,6 +101,7 @@ See the next section to find/install these libraries.
 1. NeoPixelBus DOES appear to be in the Library Manager. Install it by navigating to "Tools | Manage Libraries..." and searching for "NeoPixelBus" and install it.
 1. FastLED also appears to be in the Library Manager. Install that as well.
 1. IRremoteESP8266 also appears to be in the Library Manager. Install that as well.
+1. ArduinoFFT also appears in the library manager. Install that as well.
 
 It's assumed that you're able to download and install these libraries without additional instruction. Please Google up
 if you can't. You must **restart**, yes **restart** the Arduino IDE to use them.   
