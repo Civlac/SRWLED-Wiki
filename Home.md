@@ -30,9 +30,9 @@ The following instructions show you how to flash the original (not sound reactiv
 
 See: https://www.youtube.com/watch?v=4EXefD6INos
 
+1.  The sound reactive binaries are located at: https://github.com/atuline/WLED/releases
+1.  For sound reactive WeMOS D1 Mini, download and save WLED_0.9.1_ESP8266_Sound.bin
 1.  The original WLED binaries are located at https://github.com/Aircoookie/WLED/releases
-1.	Use WLED version 0.9.1.
-1.  For WeMOS D1 Mini, download and save WLED_0.9.1_ESP8266.bin
 1.  Download nodemcu-pyflasher from https://github.com/marcelstoer/nodemcu-pyflasher/releases
 1.  I downloaded NodeMCU-PyFlasher-4.0.x64.exe.
 1.	Plug the WeMOS D1 Mini into computer.
@@ -42,8 +42,8 @@ See: https://www.youtube.com/watch?v=4EXefD6INos
 1. 	Press Flash NodeMCU.
 
 The sound reactive WLED binary is located as follows:
-*   ESP8266 binary ***********************
-*   ESP32 binary *************************
+*   ESP8266 binary: https://github.com/atuline/WLED/releases/download/v0.9.1-s1/WLED_0.9.1_ESP8266_Sound.bin
+*   ESP32 binary: <not yet available>
 
 
 
