@@ -1,8 +1,8 @@
 ## Introduction
-This page provide programmers information on adding another slider to WLED. This information is not yet complete, as it doesn't yet deal with icons, EEPROM or IR.
+This page provides WLED programmers information on adding another slider to WLED. This information is not yet complete, as it doesn't yet deal with icons, EEPROM or IR. I will also be researching how to programmatically show/hide these sliders.
 
 ## Updating html_ui.h
-This file is compressed and is taken from data\index.htm. Please see Aircoookie's page on 'adding your own effect':
+This file is compressed and is taken from data\index.htm. Please see Aircoookie's page on 'adding your own effect:
 
 https://github.com/Aircoookie/WLED/wiki/Add-own-functionality
 
@@ -15,4 +15,8 @@ To serve your changes by the internal webserver, you will need to follow these o
 1. Update PAGE_index_L to the binary size stated in the bottom of the downloaded .c file
 Recompile and flash WLED!
 
+###Table of Files and Changes to add a new Slider displayed as Effect FFT1
+
+| File | Line # | Original   | App/Rep | New Content |
+| ---- |  ----  |   ----     |  ----   |  ----       |
 
