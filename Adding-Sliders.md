@@ -15,8 +15,6 @@ To serve your changes by the internal webserver, you will need to follow these o
 1. Update PAGE_index_L to the binary size stated in the bottom of the downloaded .c file
 Recompile and flash WLED!
 
-###Table of Files and Changes to add a new Slider displayed as Effect FFT1
+Here's a link to my Google document containing the changes required:
 
-| File | Line # | Original   | App/Rep | New Content |
-| ---- |  ----  |   ----     |  ----   |  ----       |
-
+https://docs.google.com/document/d/1m6dm3O_aXgJLGDJfM6E-4CHzzvU8bsaHqrs7VmisYko/edit
