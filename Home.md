@@ -180,9 +180,16 @@ ASound1, 2, 3, 4, 7 are for ESP8266/ESP32 and have adjustable speed and intensit
 
 ASound3, 6, 8, 9 are for ESP8266/ESP32 and have adjustable intensity.
 
-ASound10
+ASound10 maps the major frequencies in the incoming signal to colors in the HSV color space. From the low being mapped to red (0) and the blues mapped to high notes (255) and everything in between. The band you are looking at can be restricted by the FFT Low and FFT High sliders. We are digitizing at 10240Hz, meaning the highest frequency bin that you can find is 5120Hz, which for most music is just fine.
+ 
+Slider use: 
+Speed: determines the time delay before each pixel is moved down to the next in line
+Intensity: This is basically your volume slider. The higher this is set the higher the amplification of the volume
+FFT Low: The low cut off for the FFT bins. Good values are from 0 to 10
+FFT High: High cut off for the FFT bins. This is important because every type of music is different and what is considered a high note in one type of music is not the case in others. 
+FFT Custom: Dampening value, or how much each led "looses" in brightness from one step to the next. Good values are close to 100%
 
-ASound11
+ASound11 Just like Fire 2012, but the volume of the surrounding sound determines how often and how hot sparks are ignited in the lower half of the display
 
 ASound12
 
