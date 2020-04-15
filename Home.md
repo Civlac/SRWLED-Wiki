@@ -78,7 +78,7 @@ If you already have ESP8266 drivers installed, please ensure your ESP8266 driver
 
 
 
-## WLED library pre-requisites:
+## WLED library pre-requisites (for ESP8266):
 
 WLED makes use of a LOT of 3rd party libraries and is NOT easy to compile, especially for anyone new to Arduino. Although the WLED distribution contains several of these libraries, it doesn't include them all. Additional libraries you need to install are:
 
@@ -113,6 +113,8 @@ if you can't. You must **restart**, yes **restart** the Arduino IDE before it wi
 If this feels like a treasure hunt, it is. Now, imagine what the authors of WLED had to go through just
 to get this all working together. We just figured out how to compile it and to get some sound reactive code running.
 
+## Libraries required for ESP32
+AsyncTCP - https://github.com/me-no-dev/AsyncTCP
 
 
 ## Hardware used 
