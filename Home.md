@@ -49,7 +49,9 @@ The sound reactive WLED binary is located as follows:
 
 
 ## Compiling from a fresh install of the Arduino IDE
-Warning: This may not be complete for the ESP32.
+Download the source code tree.
+
+Warning: This is beta software and is worked on daily. There is a chance that there are bugs. 
 
 1. Start the Arduino IDE and add ESP8266/ESP32 board support by going to "File | Preferences" ("Arduino | Preferences" for macOS (⌘,))
 1. In "Additional Boards Manager URLs:" add https://arduino.esp8266.com/stable/package_esp8266com_index.json for ESP8266 and https://dl.espressif.com/dl/package_esp32_index.json for ESP32. You can add both by separating them with a comma. 
@@ -153,7 +155,7 @@ Using the WLED 0.9.1 codebase, we have added some sound reactive routines. These
 
 ## Reset the device
 
-1.	Log in to the device. If you cannot log in, then you need to Reflash the device, which will default to AP mode
+1.	Log in to the device. If you cannot log in, then you need to Reflash the device, which may default to AP mode
 1.	Select the Config cog at the top right of the application display
 1.	Select "Security and Updates"
 1.	Check "Factory reset"
@@ -177,11 +179,9 @@ ASound10 maps the major frequencies in the incoming signal to colors in the HSV 
 1. FFT High: High cut off for the FFT bins. Values range from 0-100. This is important because every type of music is different and what is considered a high note in one type of music is not the case in others. 
 1. FFT Custom: This slider works similarly to a "pre-amp" for the input signal. The possible values for this slider are 1-10. A good starting point for this is around 2-3.
 
-(_Previously: Dampening value, or how much each led "looses" in brightness from one step to the next. Good values are close to 100%_)
-
 **Under Development:**
 
-ASound11 Just like Fire 2012, but the volume of the surrounding sound determines how often and how hot sparks are ignited in the lower half of the display
+ASound11 
 
 ASound12
 
