@@ -1,5 +1,5 @@
 ## Introduction
-This version of WLED contains sound reactive routines ASOUND1 through ASOUND15. Each are controllable by intensity and/or speed.
+This version of WLED contains sound reactive routines ASound01 through ASound15. Each are controllable by intensity and/or speed. ASound10 through ASound15 also include 3 dedicated FFT control sliders.
 
 ## Hardware
 WLED uses pin D4 and Rx on the WeMOS D1 Mini by default. Let’s stick with defaults whenever we can. We are also working on an FFT version for the ESP32.
