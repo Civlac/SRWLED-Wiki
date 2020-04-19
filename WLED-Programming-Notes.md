@@ -56,25 +56,25 @@ void userLoop()
 ## Displaying the LED's.
 We were used to FastLED.show(). Well, no longer.
 
-CRGB myCol = ColorFromPalette(currentPalette, index, brightness, LINEARBLEND);
-setPixelColor(myLED, myCol.red, myCol.green, myCol.blue);
+`CRGB myCol = ColorFromPalette(currentPalette, index, brightness, LINEARBLEND);`
+`setPixelColor(myLED, myCol.red, myCol.green, myCol.blue);`
 
 ## Important WLED variables
 
-SEGLEN			   // int most likely.
-SEGMENT.intensity          // uint8_t
-SEGMENT.speed              // uint8_t
-SEGENV.call		   // uint32_t – counter each time a routine is called
-SEGENV.next_time           // uint32_t – millis counter
-now			   // uint32-t – millis counter
+* SEGLEN			   // int most likely.
+* SEGMENT.intensity          // uint8_t - You can use this from the slider
+* SEGMENT.speed              // uint8_t - You can use this from the slider
+* SEGENV.call		   // uint32_t – counter each time a routine is called
+* SEGENV.next_time           // uint32_t – millis counter
+* now			   // uint32-t – millis counter
 
-SEGENV.aux0           	   // uint32_t   - Available for use
-SEGENV.aux1	           // uint32_t   - Available for use
+* SEGENV.aux0           	   // uint32_t   - Available for use
+* SEGENV.aux1	           // uint32_t   - Available for use
 
 
 ## Important Structures
 
-FX.h:204 - Segment<value> aka SEGMENT
-FX.h:252 - Segment runtime.value> aka SEGENV
-FX.h:58  - Other stuff
+* FX.h:204 - Segment<value> aka SEGMENT
+* FX.h:252 - Segment runtime.value> aka SEGENV
+* FX.h:58  - Other stuff
 
