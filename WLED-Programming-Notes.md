@@ -87,7 +87,7 @@ which supports SEGCOLOR(0) and SEGCOLOR(1) when no palette is selected. SEGCOLOR
 
 # FastLED
 
-A significant amount of FastLED functionality has been enabled in WLED. Things included:
+WLED uses the NeoPixelBus library to drive the LED's directly, however a significant amount of FastLED functionality has been enabled in WLED. Things included:
 
 * FastLED Math and trigonometry.
 * Noise.
