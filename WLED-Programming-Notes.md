@@ -98,6 +98,6 @@ What is NOT included:
 * FastLED.show().
 * FastLED pixel setup.
 * FastLED power management.
-* FastLED arrays and working directly with arrays.
+* FastLED arrays and working directly with the leds[x] array.
 * fill_rainbow and related routines that directly affect the array.
 * fade/nscale. You need to use the WLED equivalent.
