@@ -85,3 +85,19 @@ which supports SEGCOLOR(0) and SEGCOLOR(1) when no palette is selected. SEGCOLOR
 * FX.h:252 - Segment runtime.value> aka SEGENV
 * FX.h:58  - Other stuff
 
+# FastLED
+
+A significant amount of FastLED functionality has been enabled in WLED. Things included:
+
+* FastLED Math and trigonometry.
+* Noise.
+* Palettes.
+* EVERY_N_MILLIS.
+
+What is NOT included:
+* FastLED.show().
+* FastLED pixel setup.
+* FastLED power management.
+* FastLED arrays and working directly with arrays.
+* fill_rainbow and related routines that directly affect the array.
+* fade/nscale. You need to use the WLED equivalent.
