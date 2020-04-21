@@ -179,11 +179,18 @@ ASound10 maps the major frequencies in the incoming signal to colors in the HSV 
 1. FFT High: High cut off for the FFT bins. Values range from 0-100. This is important because every type of music is different and what is considered a high note in one type of music is not the case in others. 
 1. FFT Custom: This slider works similarly to a "pre-amp" for the input signal. The possible values for this slider are 1-10. A good starting point for this is around 2-3.
 
-**Under Development:**
-
 ASound11 
+this effect is just as sound10, but in this case the "injection point" where the temporal tail starts is at the beginning of the Segment rather than in the center of the segment. All sliders work just as they do in sound10
 
 ASound12
+sound12 delivers a spectral "analysis" of the audio signal compressed into 16 bins which are supposed to be at least half way similar log (human ear is log as well)
+ 
+this effect is best being displayed on strips in multiples of 16 leds (and only in multiples of 16), you can use it on strips shorter than 16 leds but then the higher frequency bins are just cut off
+ 
+The only slider that is active in this effect is the general brightness slider, everything else is being computed on the fly. 
+
+
+**Under Development:**
 
 ASound13
 
