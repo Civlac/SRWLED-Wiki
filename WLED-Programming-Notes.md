@@ -110,20 +110,13 @@ Andrew's method of assigning colours is to use palettes, or if palette == 0, the
       CRGB color;
 
       if (SEGMENT.palette == 0) {
-
         uint32_t myClr = color_blend(SEGCOLOR(1), SEGCOLOR(0), intensity);
-
         setPixelColor(location, myClr);
-
       } else {
-
         color = ColorFromPalette(currentPalette, index, intensity);
-
         setPixelColor(location, color.red, color.green, color.blue);
-
       }
-
-} // setPixCol()`
+    } // setPixCol()`
 
 
 
