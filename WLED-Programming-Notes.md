@@ -68,15 +68,21 @@ which supports SEGCOLOR(0) and SEGCOLOR(1) when no palette is selected. SEGCOLOR
 
 ## Important WLED variables
 
-* SEGLEN			   // int most likely. Your segment length.
+* SEGLEN			   // uint16_t most likely. Your segment length.
+* SEGMENT.length              // uint16_t - Segment length
 * SEGMENT.intensity          // uint8_t - You can use this from the slider.
 * SEGMENT.speed              // uint8_t - You can use this from the slider.
-* SEGENV.call		   // uint32_t – counter each time a routine is called.
-* SEGENV.next_time           // uint32_t – millis counter.
-* now			   // uint32-t – millis counter.
+* SEGMENT.palette            // uint8_t - Current palette. Otherwise SEGCOLOR(0) and SEGCOLOR(1).
+* SEGMENT.mode             // uint8_t - Current mode.
 
-* SEGENV.aux0           	   // uint32_t   - Available for use.
+* now			   // uint32_t – Millis counter.
+
+* SEGENV.call		   // uint32_t – Counter each time a routine is called.
+* SEGENV.next_time           // uint32_t – Millis counter.
+* SEGENV.step              // uint32_t - Use this as a stepper.
+* SEGENV.aux0             // uint32_t   - Available for use.
 * SEGENV.aux1	           // uint32_t   - Available for use.
+
 
 
 ## Important Structures
