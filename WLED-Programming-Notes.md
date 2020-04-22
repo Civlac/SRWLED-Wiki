@@ -101,3 +101,22 @@ What is NOT included:
 * Working directly with the leds[x] array.
 * fill_rainbow and related routines that directly affect the array.
 * fade/nscale. You need to use the WLED equivalent.
+
+## Assigning Colours to LED's
+Andrew's method of assigning colours is to use palettes, or if palette == 0, then to use the colours selected from the colour wheel, including the white channel if enabled.
+`void WS2812FX::setPixCol(uint16_t location, uint32_t index, uint8_t intensity) {`
+
+  `CRGB color;`
+
+  `if (SEGMENT.palette == 0) {                                             // No palette loaded, so let's use the first colour. . . and white.`
+    `uint32_t myClr = color_blend(SEGCOLOR(1), SEGCOLOR(0), intensity);    // Scale the brightness of the colour.`
+    `setPixelColor(location, myClr);                                       // This supports RGBW.`
+  `} else {`
+    `color = ColorFromPalette(currentPalette, index, intensity);           // This just uses the palettes and just RGB ones at that.`
+    `setPixelColor(location, color.red, color.green, color.blue);`
+  `}`
+
+`} // setPixCol()`
+
+
+
