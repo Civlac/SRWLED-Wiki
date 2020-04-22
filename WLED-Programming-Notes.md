@@ -104,25 +104,26 @@ What is NOT included:
 
 ## Assigning Colours to LED's
 Andrew's method of assigning colours is to use palettes, or if palette == 0, then to use the colours selected from the colour wheel, including the white channel if enabled.
-`void WS2812FX::setPixCol(uint16_t location, uint32_t index, uint8_t intensity) {`
 
-  `CRGB color;`
+void WS2812FX::setPixCol(uint16_t location, uint32_t index, uint8_t intensity) {
 
-  `if (SEGMENT.palette == 0) {`
+  CRGB color;
 
-    `uint32_t myClr = color_blend(SEGCOLOR(1), SEGCOLOR(0), intensity);`
+  if (SEGMENT.palette == 0) {
 
-    `setPixelColor(location, myClr);`
+    uint32_t myClr = color_blend(SEGCOLOR(1), SEGCOLOR(0), intensity);
 
-  `} else {`
+    setPixelColor(location, myClr);
 
-    `color = ColorFromPalette(currentPalette, index, intensity);`
+  } else {
 
-    `setPixelColor(location, color.red, color.green, color.blue);`
+    color = ColorFromPalette(currentPalette, index, intensity);
 
-  `}`
+    setPixelColor(location, color.red, color.green, color.blue);
 
-`} // setPixCol()`
+  }
+
+} // setPixCol()`
 
 
 
