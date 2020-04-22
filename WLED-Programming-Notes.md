@@ -116,7 +116,7 @@ Andrew's method of assigning colours is to use palettes, or if palette == 0, the
         color = ColorFromPalette(currentPalette, index, intensity);
         setPixelColor(location, color.red, color.green, color.blue);
       }
-    } // setPixCol()`
+    } // setPixCol()
 
 
 
