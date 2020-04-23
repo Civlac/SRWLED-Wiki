@@ -37,7 +37,7 @@ The only slider that is active in this effect is the general brightness slider, 
 ***
 ## Non-reactive Animations
 
-Andrew has added some non-reactive routines that can be controlled.
+Andrew has added some non-reactive routines, most of which are controllable.
 
 ### Phased
 A spring like effect using changing phases of sine waves.
