@@ -40,20 +40,20 @@ Andrew has added some non-reactive routines that can be controlled.
 
 ### Phased
 A spring like effect using changing phases of sine waves.
-* Speed - Changes speed of animation
-* Intensity - 
+* Speed - Adjust speed of animation.
+* Intensity - Adjust rate of phase change.
 
 ### Twinkleup
 A very short twinkle routine, which includes fade-in.
-* Speed - 
-* Intensity - 
+* Speed - Adjust speed of animation.
+* Intensity - Adjust percentage of animated pixels.
 
 ### Noisepal
 A slow and soothing noise routine with palettes that slowly change on the fly. This does not have any controls.
 
 ### Sinewave
 A moving sine wave with a lot of controls.
-* Speed - Speed of the animation.
-* Intensity - PWM width of the wave.
-* FFT1 - Rate of colour change.
-* FFT2 - Frequency of the sine wave.
+* Speed - Adjust speed of the animation.
+* Intensity - Adjust PWM width of the wave.
+* FFT1 - Adjust rate of colour change.
+* FFT2 - Adjust frequency of the sine wave.
