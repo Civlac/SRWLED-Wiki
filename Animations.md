@@ -34,6 +34,7 @@ The only slider that is active in this effect is the general brightness slider, 
 
 ### ASound15
 
+***
 ## Non-reactive Animations
 
 Andrew has added some non-reactive routines that can be controlled.
