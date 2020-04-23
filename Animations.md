@@ -1,5 +1,4 @@
-## Sound Reactive Animation Controls
-
+## Sound Reactive Animations
 ### ASound01, 02, 03, 04, 07
 These are for ESP8266/ESP32 and have adjustable speed and intensity.
 
@@ -34,7 +33,7 @@ The only slider that is active in this effect is the general brightness slider, 
 
 ### ASound15
 
-## Non-reactive Animation Controls
+## Non-reactive Animations
 
 Andrew has added some non-reactive routines that can be controlled.
 
