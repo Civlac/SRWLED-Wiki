@@ -19,14 +19,14 @@ Only applicable to Asound10 at this time:
 1. FFT Custom: This slider works similarly to a "pre-amp" for the input signal. The possible values for this slider are 1-10. A good starting point for this is around 2-3.
 
 ### ASound11 
-this effect is just as sound10, but in this case the "injection point" where the temporal tail starts is at the beginning of the Segment rather than in the center of the segment. All sliders work just as they do in sound10
+this effect is just as sound10, but in this case, the "injection point" where the temporal tail starts is at the beginning of the Segment rather than in the center of the segment. All sliders work just as they do in sound10
 
 ### ASound12
-sound12 delivers a spectral "analysis" of the audio signal compressed into 16 bins which are supposed to be at least half way similar log (human ear is log as well)
+sound12 delivers a spectral "analysis" of the audio signal compressed into 16 bins which are supposed to be at least halfway similar log (human ear is log as well)
  
-this effect is best being displayed on strips in multiples of 16 leds (and only in multiples of 16), you can use it on strips shorter than 16 leds but then the higher frequency bins are just cut off
+this effect is best being displayed on strips in multiples of 16 LEDs (and only in multiples of 16), you can use it on strips shorter than 16 LEDs but then the higher frequency bins are just cut off
  
-The only slider that is active in this effect is the general brightness slider, everything else is being computed on the fly. 
+The two sliders that are active in this effect is the general brightness slider and FFT3. Brightness is self-explanatory and FFT3 (custom) in this case FFT3 acts as a form of squelch. As long as the FFT output is below the threshold that can be set with FFT3 there will be no lights.
 
 ### ASound13
 
@@ -40,13 +40,13 @@ The only slider that is active in this effect is the general brightness slider, 
 Andrew has added some non-reactive routines, most of which are controllable.
 
 ### Phased
-A spring like effect using changing phases of sine waves.
-* Speed - Adjust speed of animation.
+A spring-like effect using changing phases of sine waves.
+* Speed - Adjust the speed of the animation.
 * Intensity - Adjust rate of phase change.
 
 ### Twinkleup
 A very short twinkle routine, which includes fade-in.
-* Speed - Adjust speed of animation.
+* Speed - Adjust the speed of the animation.
 * Intensity - Adjust percentage of animated pixels.
 
 ### Noisepal
@@ -54,7 +54,7 @@ A slow and soothing noise routine with palettes that slowly change on the fly. T
 
 ### Sinewave
 A moving sine wave with a lot of controls.
-* Speed - Adjust speed of the animation.
+* Speed - Adjust the speed of the animation.
 * Intensity - Adjust PWM width of the wave.
-* FFT1 - Adjust rate of colour change.
-* FFT2 - Adjust frequency of the sine wave.
+* FFT1 - Adjust the rate of color change.
+* FFT2 - Adjust the frequency of the sine wave.
