@@ -33,3 +33,18 @@ Some existing animations have been updated to now support palettes as well as th
 * Noise 4
 * Plasma
 
+### To Review
+* Bpm
+* Chase Flash
+* Chase Flash Rnd
+* Circus
+* Juggle
+* Lake
+* Lightning
+* Pride2015
+
+Some of the routines seem redundant. I recommend reviewing the code in each and retire the ones that:
+* Have the fewest controls.
+* Have the longest code.
+* Don't support the default colours.
+
