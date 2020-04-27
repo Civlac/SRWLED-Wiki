@@ -9,4 +9,4 @@
 [WLED Programming Notes](https://github.com/atuline/WLED/wiki/WLED-Programming-Notes)    
 
 ### Links
-[WLED Wiki](https://github.com/Aircoookie/WLED/wiki)
+[WLED Main Wiki](https://github.com/Aircoookie/WLED/wiki)
