@@ -1,4 +1,4 @@
-##New Animations
+## New Animations
 
 New animations have been added that support palettes as well as the default colours, including the white channel.
 
