@@ -42,6 +42,7 @@ Some existing animations have been updated to now support palettes as well as th
 * Lake
 * Lightning
 * Pride2015
+* Compare running to sinewave
 
 Some of the routines seem redundant. I recommend reviewing the code in each and retire the ones that:
 * Have the fewest controls.
