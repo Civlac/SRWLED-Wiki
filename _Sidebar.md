@@ -7,3 +7,6 @@
 ### Technicals
 [Sliders in WLED](https://github.com/atuline/WLED/wiki/Adding-Sliders)    
 [WLED Programming Notes](https://github.com/atuline/WLED/wiki/WLED-Programming-Notes)    
+
+### Links
+[WLED Wiki](https://github.com/Aircoookie/WLED/wiki)
