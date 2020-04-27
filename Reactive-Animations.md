@@ -1,5 +1,7 @@
 ## Sound Reactive Animations
 
+There is a 'Squelch' setting on the LED settings page that allows you to reduce background noise for ASound01 through ASound09. We're still working on a similar function for ASound10 through ASound15.
+
 ### ASound01, 02, 03, 04, 07
 These are for ESP8266/ESP32 and have adjustable speed and intensity.
 
@@ -33,28 +35,5 @@ The two sliders that are active in this effect is the general brightness slider 
 ### ASound14
 
 ### ASound15
+This routine maps ALL of the bins throughout the length of the LED's. Currently, it seems to mirror the data.
 
-***
-## Non-reactive Animations
-
-Andrew has added some non-reactive routines, most of which are controllable.
-
-### Phased
-A spring-like effect using changing phases of sine waves.
-* Speed - Adjust the speed of the animation.
-* Intensity - Adjust rate of phase change.
-
-### Twinkleup
-A very short twinkle routine, which includes fade-in.
-* Speed - Adjust the speed of the animation.
-* Intensity - Adjust percentage of animated pixels.
-
-### Noisepal
-A slow and soothing noise routine with palettes that slowly change on the fly. This does not have any controls.
-
-### Sinewave
-A moving sine wave with a lot of controls.
-* Speed - Adjust the speed of the animation.
-* Intensity - Adjust PWM width of the wave.
-* FFT1 - Adjust the rate of color change.
-* FFT2 - Adjust the frequency of the sine wave.
