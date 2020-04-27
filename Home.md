@@ -80,13 +80,13 @@ If you already have ESP8266/32 drivers installed, please ensure your drivers are
 WLED makes use of a LOT of 3rd party libraries and is NOT easy to compile, especially for anyone new to Arduino. Although the WLED distribution contains several of these libraries, it doesn't include them all. Additional libraries you need to install are:
 
 * ESPAsyncTCP (ESP8266 Only)
-* AsyncTCP (ESP32 Only)
-* ESPAsyncWebServer
 * ESPAsyncUDP (ESP8266 Only)
+* IRRemoteESP8266 (ESP8266 Only)
+* ESPAsyncWebServer
 * NeoPixelBus by Makuna
 * FastLED
-* IRRemoteESP8266 (ESP8266 Only)
-* ArduinoFFT
+* AsyncTCP (ESP32 Only)
+* ArduinoFFT (ESP32 Only)
 
 See the next section to find/install these libraries.
 
@@ -119,6 +119,7 @@ Using the WLED 0.9.1 codebase, we have added some sound reactive routines. These
 * [WeMOS D1 Mini (ESP8266)](https://docs.wemos.cc/en/latest/d1/d1_mini.html)
 * [Espressif ESP32 DevKitC V4](https://www.digikey.com/product-detail/en/espressif-systems/ESP32-DEVKITC-32D/1965-1000-ND/9356990)
 
+**[Example Wiring Schematic](https://github.com/atuline/WLED/wiki/Example-Wiring)**
 
 ## Default pins used
 
