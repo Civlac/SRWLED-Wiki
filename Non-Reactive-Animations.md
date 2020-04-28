@@ -36,7 +36,6 @@ Some existing animations have been updated to now support palettes as well as th
 
 ### To Review
 * Circus
-* Juggle
 * Lake
 * Lightning
 * Pride2015
