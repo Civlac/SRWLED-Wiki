@@ -17,7 +17,7 @@ Model | Compatibility | Notes
 *MAX9812* | Good | Only 20dB gain, but worked OK.
 *MAX9814* | Good | Best to set gain to 40dB.
 
-The inexpensive sound sensors you can buy from Aliexpress or elsewhere (shch as LM393 or KY-038) typically have a digital output and may or may not work adequately. Also, some sensors have little amplification and won't work at all. For more information on our microphone test results, see the [Arduino Compatible Microphones document](https://github.com/atuline/WLED/blob/master/Microphones.pdf).
+The inexpensive sound sensors you can buy from Aliexpress or elsewhere (shch as LM393 or KY-038) typically have a digital output and may or may not work adequately. Also, some sensors have little amplification and won't work at all. For more information on our microphone test results, see our [Arduino Compatible Microphones document](https://github.com/atuline/WLED/blob/master/Microphones.pdf).
 
 ## Line In Wiring
 
