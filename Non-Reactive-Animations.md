@@ -26,6 +26,7 @@ A moving sine wave with a lot of controls.
 
 Some existing animations have been updated to now support palettes as well as the default colours, including the white channel. These include:
 
+* Bpm
 * Fill Noise
 * Noise 1
 * Noise 2
@@ -34,7 +35,6 @@ Some existing animations have been updated to now support palettes as well as th
 * Plasma
 
 ### To Review
-* Bpm
 * Chase Flash
 * Chase Flash Rnd
 * Circus
