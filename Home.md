@@ -117,7 +117,7 @@ Using the WLED 0.9.1 codebase, we have added some sound reactive routines. These
 * [WeMOS D1 Mini (ESP8266)](https://docs.wemos.cc/en/latest/d1/d1_mini.html)
 * [Espressif ESP32 DevKitC V4](https://www.digikey.com/product-detail/en/espressif-systems/ESP32-DEVKITC-32D/1965-1000-ND/9356990)
 
-**[Example Wiring Schematic](https://github.com/atuline/WLED/wiki/Example-Wiring)**
+**[Audio Input Options](https://github.com/atuline/WLED/wiki/Audio-Input-Options)**
 
 ## Default pins used
 
