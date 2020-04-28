@@ -28,6 +28,7 @@ Some existing animations have been updated to now support palettes as well as th
 
 * Bpm
 * Fill Noise
+* Lake
 * Noise 1
 * Noise 2
 * Noise 3
@@ -35,7 +36,7 @@ Some existing animations have been updated to now support palettes as well as th
 * Plasma
 
 ### To Review
-* Lake
+
 * Lightning
 * Pride2015
 * Compare running to sinewave
