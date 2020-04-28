@@ -1,4 +1,6 @@
-### Microphones Tested
+### Microphone Input
+
+Below are a number of popular Arduino compatible microphones that have been tested.
 
 Model | Compatibility | Notes
 --- | --- | ---
