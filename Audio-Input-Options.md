@@ -12,7 +12,7 @@ Model | Compatibility | Notes
 The inexpensive sound sensors you can buy from Aliexpress or elsewhere (such as LM393 or KY-038) typically have a digital output and may or may not work adequately. If you are using the [MAX9814](https://learn.adafruit.com/adafruit-agc-electret-microphone-amplifier-max9814/), you need to connect gain to vdd to set the gain to 40dB. Also, some sound sensors have either digital outputs or have little amplification and may not work at all. For more information on our microphone test results, see our [Arduino Compatible Microphones document](https://github.com/atuline/WLED/blob/master/Microphones.pdf).
 
 ### Line-in Wiring
-The following diagram shows one way of connecting a 3.5mm jack and an analog microphone to the ESP8266/32 while being able to change your desired input with a simple SPDT switch.
+The following diagram shows one way of connecting a 3.5mm jack and an analog microphone to the ESP8266/32, while being able to change your desired input with a simple SPDT switch.
 
 The left and right channels of the TRS Jack are connected together to sample both channels simultaneously as one channel.
 
