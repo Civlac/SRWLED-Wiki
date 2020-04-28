@@ -1,13 +1,3 @@
-### Example Wiring Schematic
-
-The following diagram shows one way of connecting a 3.5mm jack and a MAX9814 Microphone to the ESP8266/32 while being able to change your desired input with a simple SPDT switch.
-
-The left and right channels of the TRS Jack are connected together to sample both channels simultaneously as one channel.
-
-If you are using the [MAX9814 Mic](https://learn.adafruit.com/adafruit-agc-electret-microphone-amplifier-max9814/), you need to connect gain to vdd to set the gain to 40dB.
-
-Connect the output of the capacitor to the ADC pin for your board.
-
 ### Microphones Tested
 
 Model | Compatibility | Notes
@@ -18,6 +8,17 @@ Model | Compatibility | Notes
 *MAX9814* | Good | Best to set gain to 40dB.
 
 The inexpensive sound sensors you can buy from Aliexpress or elsewhere (shch as LM393 or KY-038) typically have a digital output and may or may not work adequately. Also, some sensors have little amplification and won't work at all. For more information on our microphone test results, see our [Arduino Compatible Microphones document](https://github.com/atuline/WLED/blob/master/Microphones.pdf).
+
+### Example Wiring Schematic
+
+The following diagram shows one way of connecting a 3.5mm jack and a MAX9814 Microphone to the ESP8266/32 while being able to change your desired input with a simple SPDT switch.
+
+The left and right channels of the TRS Jack are connected together to sample both channels simultaneously as one channel.
+
+If you are using the [MAX9814 Mic](https://learn.adafruit.com/adafruit-agc-electret-microphone-amplifier-max9814/), you need to connect gain to vdd to set the gain to 40dB.
+
+Connect the output of the capacitor to the ADC pin for your board.
+
 
 ## Line In Wiring
 
