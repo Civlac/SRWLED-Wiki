@@ -9,7 +9,7 @@ Model | Compatibility | Notes
 *MAX9812* | Good | Only 20dB gain, but worked OK.
 *MAX9814* | Good | Best to set gain to 40dB.
 
-The inexpensive sound sensors you can buy from Aliexpress or elsewhere (such as LM393 or KY-038) typically have a digital output and may or may not work adequately. If you are using the [MAX9814 Mic](https://learn.adafruit.com/adafruit-agc-electret-microphone-amplifier-max9814/), you need to connect gain to vdd to set the gain to 40dB. Also, some sensors have little amplification and won't work at all. For more information on our microphone test results, see our [Arduino Compatible Microphones document](https://github.com/atuline/WLED/blob/master/Microphones.pdf).
+The inexpensive sound sensors you can buy from Aliexpress or elsewhere (such as LM393 or KY-038) typically have a digital output and may or may not work adequately. If you are using the [MAX9814](https://learn.adafruit.com/adafruit-agc-electret-microphone-amplifier-max9814/), you need to connect gain to vdd to set the gain to 40dB. Also, some sensors have little amplification and won't work at all. For more information on our microphone test results, see our [Arduino Compatible Microphones document](https://github.com/atuline/WLED/blob/master/Microphones.pdf).
 
 ### Line-in Wiring
 The following diagram shows one way of connecting a 3.5mm jack and an analog microphone to the ESP8266/32 while being able to change your desired input with a simple SPDT switch.
