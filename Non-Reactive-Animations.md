@@ -35,8 +35,6 @@ Some existing animations have been updated to now support palettes as well as th
 * Plasma
 
 ### To Review
-* Chase Flash
-* Chase Flash Rnd
 * Circus
 * Juggle
 * Lake
