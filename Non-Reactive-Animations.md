@@ -24,25 +24,15 @@ A moving sine wave with a lot of controls.
 
 ## Updated Animations
 
-Some existing animations have been updated to now support palettes as well as the default colours, including the white channel. These include:
+Some existing animations have been updated to now support palettes as well as the default colours, including the white channel. These are:
 
 * Bpm
 * Fill Noise
 * Lake
+* Lightning
 * Noise 1
 * Noise 2
 * Noise 3
 * Noise 4
 * Plasma
 * Pride 2015
-
-### To Review
-
-* Lightning
-* Compare running to sinewave
-
-Some of the routines seem redundant. I recommend reviewing the code in each and retire the ones that:
-* Have the fewest controls.
-* Have the longest code.
-* Don't support the default colours.
-
