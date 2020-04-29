@@ -57,8 +57,8 @@ The sound reactive WLED binary is located as follows:
 1. In the "Additional Boards Manager URLs" section, copy these URL's and add: https://arduino.esp8266.com/stable/package_esp8266com_index.json for an ESP8266 and https://dl.espressif.com/dl/package_esp32_index.json for an ESP32. You can add both by separating them with a comma. 
 1. Press "OK" to install support for the ESP8266/ESP32 platform
 1. Go to "Tools | Board | Boards Manager..."
-1. For the ESP8266/32, search for "ESP8266" or "ESP32"
-1. Click on "Install"
+1. For the ESP8266/32, search for "ESP8266" and/or "ESP32"
+1. Click on "Install" for each.
 1. As of April 2020, the current version for ESP8266 was 2.6.3
 1. As of April 2020, the current version for ESP32 was 1.0.4
 
@@ -70,7 +70,8 @@ If you already have ESP8266/32 drivers installed, please ensure your drivers are
 1. As of April 2020, the current version was 1.0.4
 
 
-**Note:** Before attempting to compile WLED, make sure you can select your ESP board and compile a basic sketch. 
+**Note:** Before attempting to compile WLED, make sure you can select your ESP board and compile a basic sketch such as:
+"File | Examples | 01. Basics | Blink"
 
 
 ## WLED library pre-requisites:
