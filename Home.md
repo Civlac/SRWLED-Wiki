@@ -113,7 +113,7 @@ To install libraries that are not in the library manager, you would typically:
 1. Download and install [ESPAsyncUDP](https://github.com/me-no-dev/ESPAsyncUDP)
 1. For ESP32 Download and install [AsyncTCP](https://github.com/me-no-dev/AsyncTCP)
 
-If you add the library manually or with git you will most likely need to **restart**, yes **restart** the Arduino IDE before it will be recognized.
+If you add the library manually or with git you will most likely need to **restart**, yes **restart** the Arduino IDE before it will be recognized. For more information on libraries, see https://www.arduino.cc/en/Guide/Libraries.
 
 ### Download WLED
 * Download in a browser from wled.me and unzip into a new directory.
