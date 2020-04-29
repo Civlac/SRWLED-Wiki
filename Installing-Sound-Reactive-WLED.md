@@ -93,7 +93,8 @@ If you add the library manually or with git you will most likely need to **resta
 * In a web browser you can navigate to wled at [wled.me](https://github.com/Aircoookie/WLED) and unzip into a new directory.
 * You can then 'Download' the Zip file.
 * Unzip it into a new directory.
-* If you have 'git' installed, in an appropriate directory, you can run "git clone https://github.com/Aircookie/WLED.git WLED".
+* If you have 'git' installed, in an appropriate directory, you can run:
+`"git clone https://github.com/Aircookie/WLED.git WLED"`
 
 ### Compiling WLED
 
