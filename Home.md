@@ -92,7 +92,10 @@ See the next section to find/install these libraries.
 ## To install libraries that are included in the Library Manager
 
 1. Navigate to "Tools | Manage Libraries..." or "Sketch | Include Libraries | Manage Libraries..." for macOS (⇧⌘I)
-1. Find "NeoPixelBus by Makuna", "FastLED", "IRremoteESP8266", and "arduinoFFT" and install them.
+1. Search for and install "NeoPixelBus by Makuna"
+1. Search for and install "FastLED"
+1. Search for and install "IRremoteESP8266"
+1. Search for and install "arduinoFFT"
 
 ## To download additional libraries that are not included in the Library Manager
 
