@@ -1,5 +1,6 @@
 ### Home
-[Introduction](https://github.com/atuline/WLED/wiki)    
+[Introduction](https://github.com/atuline/WLED/wiki)  
+[Installing](https://github.com/atuline/WLED/wiki/Installing-Sound-Reactive-WLED)  
 [Reactive Animations](https://github.com/atuline/WLED/wiki/Reactive-Animations)    
 [Non-Reactive Animations](https://github.com/atuline/WLED/wiki/Non-Reactive-Animations)    
 [Audio Input Options](https://github.com/atuline/WLED/wiki/Audio-Input-Options)    
