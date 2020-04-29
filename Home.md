@@ -89,15 +89,15 @@ WLED makes use of a LOT of 3rd party libraries and is NOT easy to compile, espec
 
 See the next section to find/install these libraries.
 
-## To install libraries that are included in the Library Manager
+## Install libraries that are included in the Library Manager
 
 1. Navigate to "Tools | Manage Libraries..." or "Sketch | Include Libraries | Manage Libraries..." for macOS (⇧⌘I)
 1. Search for and install "NeoPixelBus by Makuna"
-1. Search for and install "FastLED"
-1. Search for and install "IRremoteESP8266"
-1. Search for and install "arduinoFFT"
+1. Search for and install "FastLED by Daniel Garcia"
+1. Search for and install "IRremoteESP8266 by Ken Shirriff, etc"
+1. Search for and install "arduinoFFT by Enqrique Condes"
 
-## To download additional libraries that are not included in the Library Manager
+## Install libraries that are not included in the Library Manager:
 
 1. Download and install [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP)
 1. Download and install [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
