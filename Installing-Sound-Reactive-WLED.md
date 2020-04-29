@@ -95,7 +95,7 @@ If you add the library manually or with git you will most likely need to **resta
 * Unzip it into a new directory.
 * If you have 'git' installed, in an appropriate directory, you can run:
 
-    `"git clone https://github.com/Aircookie/WLED.git WLED"`
+    `git clone https://github.com/Aircookie/WLED.git WLED`
 
 ### Compiling WLED
 
