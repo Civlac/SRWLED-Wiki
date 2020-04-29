@@ -101,7 +101,7 @@ If you add the library manually or with git you will most likely need to **resta
 
 Once you have:
 
-* Installed Arduino IDE.
+* Installed the Arduino IDE.
 * Installed support for ESP32/ESP8266.
 * Updated the drivers on an existing installation of the IDE.
 * Downloaded and installed the library pre-requisites.
