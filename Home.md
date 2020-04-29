@@ -78,14 +78,15 @@ If you already have ESP8266/32 drivers installed, please ensure your drivers are
 
 WLED makes use of a LOT of 3rd party libraries and is NOT easy to compile, especially for anyone new to Arduino. Although the WLED distribution contains several of these libraries, it doesn't include them all. Additional libraries you need to install are:
 
-* ESPAsyncTCP (ESP8266 Only)
-* ESPAsyncUDP (ESP8266 Only)
-* IRRemoteESP8266 (ESP8266 Only)
-* ESPAsyncWebServer
 * NeoPixelBus by Makuna
 * FastLED
-* AsyncTCP (ESP32 Only)
+* IRRemoteESP8266 (ESP8266 Only)
 * ArduinoFFT (ESP32 Only)
+* ESPAsyncTCP (ESP8266 Only)
+* ESPAsyncUDP (ESP8266 Only)
+* ESPAsyncWebServer
+* AsyncTCP (ESP32 Only)
+
 
 See the next section to find/install these libraries.
 
