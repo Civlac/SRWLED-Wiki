@@ -104,11 +104,22 @@ See the next section to find/install these libraries.
 
 It's assumed that you're able to download and install these libraries without additional instruction. More info on installing libraries in the Arduino IDE can be found [HERE](https://www.arduino.cc/en/Guide/Libraries). You must **restart**, yes **restart** the Arduino IDE before it will recognize them. 
 
-Download the WLED code from wled.me either by:
+### Download WLED
 * Download in a browser from wled.me and unzip into a new directory.
 * Using git (I use gitbash for Windows).
 * git clone https://github.com/Aircookie/WLED.git WLED
 
+### Compiling WLED
+
+Once you have:
+
+* Installed Arduino IDE.
+* Installed support for ESP32/ESP8266.
+* Updated the drivers on an existing installation of the IDE.
+* Downloaded and installed the library pre-requisites.
+* Downloaded and installed WLED.
+
+You should now be able to compile and upload WLED to your ESP device.
 
 If this feels like a treasure hunt, it is. Now, imagine what the authors of WLED had to go through just
 to get this all working together. We just figured out how to compile it and to get some sound reactive code running.
