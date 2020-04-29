@@ -52,7 +52,7 @@ The sound reactive WLED binary is located as follows:
 
 ## Compiling from a fresh install of the Arduino IDE
 
-1. Download and install the Arduino IDE from arduino.cc.
+1. Download and install the Arduino IDE from [arduino.cc](https://www.arduino.cc/en/Main/Software).
 1. Start the Arduino IDE and add ESP8266/ESP32 board support by going to "File | Preferences" ("Arduino | Preferences" for macOS (⌘,))
 1. In "Additional Boards Manager URLs" add: https://arduino.esp8266.com/stable/package_esp8266com_index.json for ESP8266 and https://dl.espressif.com/dl/package_esp32_index.json for ESP32. You can add both by separating them with a comma. 
 1. Press "OK" to install support for the ESP8266/ESP32 platform
