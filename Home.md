@@ -104,7 +104,14 @@ See the next section to find/install these libraries.
 1. Download and install [ESPAsyncUDP](https://github.com/me-no-dev/ESPAsyncUDP)
 1. For ESP32 Download and install [AsyncTCP](https://github.com/me-no-dev/AsyncTCP)
 
-On a Windows 10 computer, you would typically download the zip file (or use git) and store the .zip file in "C:\Users\username\Documents\Arduino\libraries". You would then unzip the file and store it in a new directory, typically removing the "-master" after the end of the directory name. More info on installing libraries in the Arduino IDE can be found [HERE](https://www.arduino.cc/en/Guide/Libraries). You must **restart**, yes **restart** the Arduino IDE before it will recognize them. 
+On a Windows 10 computer, you would typically:
+1. Download the zip file
+1. In the Arduino IDE use "Sketch | Include Library | Add Zip Library"
+1. Navigate to where you downloaded the .zipped library.
+1. Select it and press OK.
+1. Your library should now be included if you go "Sketch | Include Libraries" and navigate down to Contributed libraries.
+
+If you add the library manually, you must **restart**, yes **restart** the Arduino IDE before it will be recognized.
 
 ### Download WLED
 * Download in a browser from wled.me and unzip into a new directory.
