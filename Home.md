@@ -71,7 +71,7 @@ If you already have ESP8266/32 drivers installed, please ensure your drivers are
 
 
 **Note:** Before attempting to compile WLED, make sure you can select your ESP board and compile a basic sketch such as:
-"File | Examples | 01. Basics | Blink"
+"File | Examples | 01.Basics | Blink"
 
 
 ## WLED library pre-requisites:
