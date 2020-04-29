@@ -100,19 +100,20 @@ See the next section to find/install these libraries.
 
 ## Install libraries that are not included in the Library Manager:
 
-1. Download and install [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP)
-1. Download and install [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
-1. Download and install [ESPAsyncUDP](https://github.com/me-no-dev/ESPAsyncUDP)
-1. For ESP32 Download and install [AsyncTCP](https://github.com/me-no-dev/AsyncTCP)
+To install libraries that are not in the library manager, you would typically:
 
-On a Windows 10 computer, you would typically:
 1. Download the zip file
 1. In the Arduino IDE use "Sketch | Include Library | Add Zip Library"
 1. Navigate to where you downloaded the .zipped library.
 1. Select it and press OK.
 1. Your library should now be included if you go "Sketch | Include Libraries" and navigate down to Contributed libraries.
 
-If you add the library manually, you must **restart**, yes **restart** the Arduino IDE before it will be recognized.
+1. Download and install [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP)
+1. Download and install [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
+1. Download and install [ESPAsyncUDP](https://github.com/me-no-dev/ESPAsyncUDP)
+1. For ESP32 Download and install [AsyncTCP](https://github.com/me-no-dev/AsyncTCP)
+
+If you add the library manually or with git you will most likely need to **restart**, yes **restart** the Arduino IDE before it will be recognized.
 
 ### Download WLED
 * Download in a browser from wled.me and unzip into a new directory.
