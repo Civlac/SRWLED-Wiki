@@ -51,7 +51,8 @@ The sound reactive WLED binary is located as follows:
 
 
 ## Compiling from a fresh install of the Arduino IDE
-Download the source code tree.
+
+Download the Arduino IDE from arduino.cc.
 
 1. Start the Arduino IDE and add ESP8266/ESP32 board support by going to "File | Preferences" ("Arduino | Preferences" for macOS (⌘,))
 1. In "Additional Boards Manager URLs" add: https://arduino.esp8266.com/stable/package_esp8266com_index.json for ESP8266 and https://dl.espressif.com/dl/package_esp32_index.json for ESP32. You can add both by separating them with a comma. 
@@ -102,6 +103,12 @@ See the next section to find/install these libraries.
 
 
 It's assumed that you're able to download and install these libraries without additional instruction. More info on installing libraries in the Arduino IDE can be found [HERE](https://www.arduino.cc/en/Guide/Libraries). You must **restart**, yes **restart** the Arduino IDE before it will recognize them. 
+
+Download the WLED code from wled.me either by:
+* Download in a browser from wled.me and unzip into a new directory.
+* Using git (I use gitbash for Windows).
+* git clone https://github.com/Aircookie/WLED.git WLED
+
 
 If this feels like a treasure hunt, it is. Now, imagine what the authors of WLED had to go through just
 to get this all working together. We just figured out how to compile it and to get some sound reactive code running.
