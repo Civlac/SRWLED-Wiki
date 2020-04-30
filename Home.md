@@ -26,7 +26,7 @@ You MUST be familiar with how to install the ESP8266/ESP32 board drivers as well
 
 Before attempting to compile this fork of WLED, make sure you CAN compile the one from [wled.me](http://wled.me).
 
-If you are unable to compile WLED, please consider flashing your device with binaries instead. In the meantime, our "Installing Sound Reactive WLED" has some instruction for you.
+If you are unable to compile WLED, please consider flashing your device with binaries instead. In the meantime, our "[Installing Sound Reactive WLED](https://github.com/atuline/WLED/wiki/Installing-Sound-Reactive-WLED)" has some instruction for you.
 
 ## Hardware used 
 
