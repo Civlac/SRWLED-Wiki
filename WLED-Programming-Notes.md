@@ -69,7 +69,7 @@ which supports SEGCOLOR(0) and SEGCOLOR(1) when no palette is selected. SEGCOLOR
 ## Important WLED variables
 
 * SEGLEN	              // uint16_t - Segment length.
-* SEGMENT.length              // uint16_t - Segment length (but not for ESP8266 :^\ )
+* SEGMENT.length              // uint16_t - Segment length (but not for ESP8266 :^/ )
 * SEGMENT.intensity          // uint8_t - You can use this from the slider.
 * SEGMENT.speed              // uint8_t - You can use this from the slider.
 * SEGMENT.palette            // uint8_t - Current palette. Otherwise SEGCOLOR(0) and SEGCOLOR(1).
