@@ -43,6 +43,9 @@ If you already have ESP8266/32 drivers installed, please ensure your drivers are
 1. As of April 2020, the current version was 2.6.3
 1. As of April 2020, the current version was 1.0.4
 
+## Board Settings
+
+![](https://github.com/atuline/WLED/blob/assets/media/LOLIN_D32.png?raw=true)
 
 **Note:** Before attempting to compile WLED, make sure you can select your ESP board and compile a basic sketch such as:
 "File | Examples | 01.Basics | Blink"
