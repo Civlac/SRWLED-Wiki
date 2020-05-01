@@ -97,8 +97,8 @@ WLED uses the NeoPixelBus library to drive the LED's directly, however a signifi
 
 * FastLED Math and trigonometry.
 * Noise.
-* Palettes
-* Palette transitioning (use your own palette variable though).
+* Palettes.
+* Palette transitioning (use your own palette variables though).
 * EVERY_N_MILLIS.
 
 What is NOT included:
