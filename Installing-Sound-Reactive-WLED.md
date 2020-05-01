@@ -95,6 +95,7 @@ To install libraries that are not in the library manager, you would typically:
 1. For ESP32 Download and install [AsyncTCP](https://github.com/me-no-dev/AsyncTCP)
 
 If you add the library manually or with git you will most likely need to **restart**, yes **restart** the Arduino IDE before it will be recognized. For more information on libraries, see: https://www.arduino.cc/en/Guide/Libraries.
+
 When you are done, if you navigate to 'File | Examples' and scroll all the way down, you should see:
 
 ![](https://github.com/atuline/WLED/blob/assets/media/examples.png?raw=true)
