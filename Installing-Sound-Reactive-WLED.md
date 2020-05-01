@@ -117,6 +117,7 @@ Once you have:
 * Updated the drivers on an existing installation of the IDE.
 * Downloaded and installed the library pre-requisites.
 * Downloaded and installed WLED.
+* Connected your device and ensured it connected to a COM port.
 
 You should now be able to compile and upload WLED to your ESP device.
 
