@@ -13,6 +13,10 @@ If you are using the [MAX9814](https://learn.adafruit.com/adafruit-agc-electret-
 
 If the LED's are active when the ambient volume is low while running ASound01 through ASound09, you can increase the background noise filtering (or squelch) by navigating to the 'Config | LED Preferences | Sound' and increase the Squelch value. You can also make it more sensitive by lowering that Squelch value. We have not yet implemented a similar capability for ASound10 through ASound15.
 
+***
+
+### The following schematics are provided as an example only. There are many ways to achieve the same results. These are only a few of those ways.
+
 Microphone Wiring Example (MAX9814) | Line In Wiring Example
 --- | ---
 ![Simple Mic Schematic](https://github.com/atuline/WLED/blob/assets/media/WLED_Simple_Mic_Wiring.png) | ![Line In Schematic](https://github.com/atuline/WLED/blob/assets/media/WLED_Line_In_Wiring.png)
