@@ -10,5 +10,5 @@
 [WLED Programming Notes](https://github.com/atuline/WLED/wiki/WLED-Programming-Notes)    
 
 ### Links
-[WLED Main Wiki](https://github.com/Aircoookie/WLED/wiki)
+[WLED Main Wiki](https://github.com/Aircoookie/WLED/wiki)    
 [FastLED Wiki](https://github.com/FastLED/FastLED/wiki/Basic-usage)
