@@ -11,3 +11,4 @@
 
 ### Links
 [WLED Main Wiki](https://github.com/Aircoookie/WLED/wiki)
+[FastLED Wiki](https://github.com/FastLED/FastLED/wiki/Basic-usage)
