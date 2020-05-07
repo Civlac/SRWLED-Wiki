@@ -24,7 +24,7 @@ A moving sine wave with a lot of controls.
 
 ## Updated Animations
 
-Some existing animations have been updated to now support palettes as well as the default colours, including the white channel. These are:
+Some existing animations have been updated to now support palettes as well as the default colours, including the white channel (for RGBW strips). These are:
 
 * Bpm
 * Fill Noise
