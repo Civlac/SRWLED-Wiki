@@ -14,7 +14,7 @@ An 8 line random fade-in/out routine that's a fraction of the size of the others
 * Intensity - Adjust percentage of animated pixels.
 
 ### Noisepal
-A slow and soothing noise routine with palettes that slowly change on the fly. This does not have any controls.
+A slow and soothing noise routine with palettes that slowly change on the fly. This does not have any controls. It's based on an old Noise routine at https://www.youtube.com/watch?v=fjoDkqoU5Fk
 
 ### Sinewave
 A moving sine wave with a lot of controls.
