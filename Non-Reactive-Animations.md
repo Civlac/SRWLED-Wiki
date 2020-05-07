@@ -1,6 +1,6 @@
 ## New Animations
 
-New animations have been added that support palettes as well as the default colours, including the white channel.
+New animations have been added that support palettes as well as the default colours, including the RGBW supported white channel.
 
 ### Phased
 A spring-like effect using changing phases of sine waves.
