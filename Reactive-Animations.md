@@ -31,6 +31,7 @@ this effect is best being displayed on strips in multiples of 16 LEDs (and only 
 The two sliders that are active in this effect is the general brightness slider and FFT3. Brightness is self-explanatory and FFT3 (custom) in this case FFT3 acts as a form of squelch. As long as the FFT output is below the threshold that can be set with FFT3 there will be no lights.
 
 ### ASound13
+Testing peak detection. led[10] uses FFT bins, while led[9] just uses volume. Will change.
 
 ### ASound14
 
