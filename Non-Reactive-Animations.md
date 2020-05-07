@@ -8,7 +8,7 @@ A spring-like effect using changing phases of sine waves.
 * Intensity - Adjust rate of phase change.
 
 ### Twinkleup
-A 7 line fade-in/out routine that's a fraction of the size of the others.
+A 7 line random fade-in/out routine that's a fraction of the size of the others.
 
 * Speed - Adjust the speed of the animation.
 * Intensity - Adjust percentage of animated pixels.
