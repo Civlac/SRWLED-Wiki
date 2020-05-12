@@ -11,7 +11,7 @@ Sound reactive effects for WLED!
 
 **Sound reactive ESP32 FFT:** Andreas Pleschutznig
 
-**General Contributor/Documentation:** Chris Reese
+**General Contributor/Documentation/Versioning:** Chris Reese
 
 
 
