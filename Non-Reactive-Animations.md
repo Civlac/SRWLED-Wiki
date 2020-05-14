@@ -5,7 +5,13 @@ New animations have been added that support palettes as well as the default colo
 ### Phased
 A spring-like effect using changing phases of sine waves.
 * Speed - Adjust the speed of the animation.
-* Intensity - Adjust rate of phase change.
+* Intensity - Adjust the number of pixels displayed.
+* FFT1 - Adjusts length of each section.
+
+### Phased Noise
+A spring-like effect using changing phases of sine waves, with perlin noise varying the length of each section.
+* Speed - Adjust the speed of the animation.
+* Intensity - Adjust the number of pixels displayed.
 
 ### Twinkleup
 An 8 line random fade-in/out routine that's a fraction of the size of the others.
