@@ -14,7 +14,7 @@ A spring-like effect using changing phases of sine waves, with perlin noise vary
 * Intensity - Adjust the number of pixels displayed.
 
 ### Twinkleup
-An 8 line random fade-in/out routine that's a fraction of the size of the others.
+An 8 line random fade-in/out routine that's a fraction of the size of similar routines.
 
 * Speed - Adjust the speed of the animation.
 * Intensity - Adjust percentage of animated pixels.
