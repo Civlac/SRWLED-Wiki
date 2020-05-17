@@ -10,6 +10,11 @@ These are for ESP8266/ESP32.
 These are for ESP8266/ESP32.
 **Sliders Used:** Intensity
 
+### ASound17
+A perlin noise based volume reactive fire routine.
+**Sliders Used:** None yet
+
+
 ***
 
 ### FFT Routines for ESP32:
