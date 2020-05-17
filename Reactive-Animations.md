@@ -1,14 +1,14 @@
 ## Sound Reactive Animations
 
-**NOTICE:** There is a 'Squelch' setting on the LED settings page that allows you to reduce background noise for ASound01 through ASound09. It is located at the very bottom of the LED settings page. We're working on a similar function for ASound10 through ASound15.
+**NOTICE:** There is a 'Squelch' setting on the LED settings page that allows you to reduce background noise for ASound01 through ASound09. It is located at the very bottom of the LED settings page.
 
 ### ASound02, 03, 04, 05, 07
 These are for ESP8266/ESP32.
-* **Sliders Used:** Speed and Intensity
+**Sliders Used:** Speed and Intensity
 
 ### ASound01, 06, 08, 09
 These are for ESP8266/ESP32.
-* **Sliders Used:** Intensity
+**Sliders Used:** Intensity
 
 ***
 
@@ -48,12 +48,26 @@ This effect is best displayed on strips in multiples of 16 LEDs (and only in mul
 1. FFT3 (custom): This acts as a form of squelch. As long as the FFT output is below the threshold that can be set with FFT3 there will be no lights. (Setting this lower will result in more lights while setting this higher will result in less lights)
 
 ### ASound13 (IN DEVELOPEMENT)
-Testing peak detection. led[10] uses FFT bins, while led[9] just uses volume. Will change.
+FFT version of a Waterfall.
+
+**Sliders used:**
+1. Speed: This determines the time delay before each pixel is moved down the line.
 
 ### ASound14
-Not used at this time.
+Random pixels by frequency.
+
+**Sliders used:**
+1. Speed: Adjustable fade rate. Keep it high.
+1. Intensity: Change this to select your base colour.
 
 ### ASound15
 This routine maps ALL of the bins throughout the length of the LEDs. Currently, it seems to mirror the data.
-* **Sliders used:** Intensity
 
+**Sliders used:**
+1. Intensity.
+
+### ASound16
+Blast/fade a single frequency assigned colour to the beat (err, really detected peak).
+
+**Sliders used:**
+1. Speed.  Adjusts speed of fade.
