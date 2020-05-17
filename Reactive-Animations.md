@@ -2,11 +2,11 @@
 
 **NOTICE:** There is a 'Squelch' setting on the LED settings page that allows you to reduce background noise for ASound01 through ASound09. It is located at the very bottom of the LED settings page. We're working on a similar function for ASound10 through ASound15.
 
-### ASound01, 02, 03, 04, 07
+### ASound02, 03, 04, 05, 07
 These are for ESP8266/ESP32.
 * **Sliders Used:** Speed and Intensity
 
-### ASound03, 06, 08, 09
+### ASound01, 06, 08, 09
 These are for ESP8266/ESP32.
 * **Sliders Used:** Intensity
 
