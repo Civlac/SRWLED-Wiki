@@ -68,7 +68,7 @@ This routine maps ALL of the bins throughout the length of the LEDs. Currently, 
 1. Intensity.
 
 ### ASound16
-Blast/fade a single frequency assigned colour to the beat (err, really detected peak).
+Blast/fade a single frequency assigned limited palette of perlin noise to the beat (err, really detected peak).
 
 **Sliders used:**
 1. Speed: Adjustable fade rate. Keep it high.
