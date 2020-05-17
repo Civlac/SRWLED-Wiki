@@ -47,11 +47,12 @@ This effect is best displayed on strips in multiples of 16 LEDs (and only in mul
 **FFT Sliders:** 
 1. FFT3 (custom): This acts as a form of squelch. As long as the FFT output is below the threshold that can be set with FFT3 there will be no lights. (Setting this lower will result in more lights while setting this higher will result in less lights)
 
-### ASound13 (IN DEVELOPEMENT)
+### ASound13
 FFT version of a Waterfall.
 
 **Sliders used:**
 1. Speed: This determines the time delay before each pixel is moved down the line.
+1. Intensity: Adjustable base colour.
 
 ### ASound14
 Random pixels by frequency.
