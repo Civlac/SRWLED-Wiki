@@ -58,7 +58,7 @@ Random pixels by frequency.
 
 **Sliders used:**
 1. Speed: Adjustable fade rate. Keep it high.
-1. Intensity: Change this to select your base colour.
+1. Intensity: Adjustable base colour.
 
 ### ASound15
 This routine maps ALL of the bins throughout the length of the LEDs. Currently, it seems to mirror the data.
@@ -70,4 +70,5 @@ This routine maps ALL of the bins throughout the length of the LEDs. Currently, 
 Blast/fade a single frequency assigned colour to the beat (err, really detected peak).
 
 **Sliders used:**
-1. Speed.  Adjusts speed of fade.
+1. Speed: Adjustable fade rate. Keep it high.
+1. Intensity: Adjustable base colour.
