@@ -81,3 +81,13 @@ Blast/fade a single frequency assigned limited palette of perlin noise to the be
 **Sliders used:**
 1. Speed: Adjustable fade rate. Keep it high.
 1. Intensity: Adjustable base colour.
+
+### ASound18
+Not yet developed.
+
+### ASound19
+Using perlin sound as movement for 3 different frequency bins.
+
+**Sliders used:**
+1. Speed: Speed of perlin movement.
+1. Intensity: To be added as fade rate.
