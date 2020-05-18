@@ -4,14 +4,17 @@
 
 ### ASound02, 03, 04, 05, 07
 These are for ESP8266/ESP32.
+
 **Sliders Used:** Speed and Intensity
 
 ### ASound01, 06, 08, 09
 These are for ESP8266/ESP32.
+
 **Sliders Used:** Intensity
 
 ### ASound17
 A perlin noise based volume reactive fire routine.
+
 **Sliders Used:** None yet
 
 
