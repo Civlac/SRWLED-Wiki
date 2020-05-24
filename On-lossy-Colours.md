@@ -13,8 +13,8 @@ See: [https://github.com/Aircoookie/WLED/issues/820](https://github.com/Aircoook
 As a workaround, you could allocate memory for each function on the fly as a double buffer and use that, or you could hard code an array. Either way, you need to double up on the memory requirements and that is extremely limited with the 
 
 ### Allocate memory
-  if (!SEGENV.allocateData(SEGLEN)) return mode_static(); // Allocation failed
-  byte* myVal = SEGENV.data;                              // Could also be an int or long or whatever.
+`  if (!SEGENV.allocateData(SEGLEN)) return mode_static(); // Allocation failed`
+  `byte* myVal = SEGENV.data;                              // Could also be an int or long or whatever.`
 
   You could then refer to myVal[0] up through myVal[SEGLEN-1]
 
