@@ -27,7 +27,7 @@ First off, I would encapsulate ALL of this with #ifndef statements because you c
 
 ```
 #ifndef ESP8266
-uint32_t ledData[1500];            // Or whatever value, but I would reserve this for ESP82 only.
+uint32_t ledData[1500];  // Or whatever value, but I would reserve this for ESP82 only.
 #endif
 ```
 Similarly, you would encapsulate all functions and definitions that support that array. In the (encapsulated) animation, you would do the following:
