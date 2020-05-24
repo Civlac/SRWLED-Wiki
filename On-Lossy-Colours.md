@@ -1,5 +1,5 @@
 ## Issue
-The following code moves the pixels down the line, but as it gets to the end it the intensity decreases significantly:
+The following code moves the pixels down the line, but as it gets to the end, the intensity decreases significantly:
 
 `setPixelColor(i,getPixelColor(i-1));`
 
