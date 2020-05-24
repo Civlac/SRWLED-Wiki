@@ -54,7 +54,8 @@ uint16_t WS2812FX::mode_myMode(void) {
     color = c;                       // Implicit conversion to RGB supplied by FastLED
     setPixelColor(i, color.red, color.green, color.blue);
   }
-
+#else
+// DO SOMETHING ELSE IF YOU WANT!
 #endif
 
   return FRAMETIME;
