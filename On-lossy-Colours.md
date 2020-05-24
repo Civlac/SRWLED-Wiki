@@ -41,9 +41,15 @@ In the animation, you would define:
 You could then use leds[i] = leds[i-1] and finally have a helper routine to push that array to the actual LED's, such as:
 
 `    for (int i= 0; i < SEGLEN; i++) {`
+
       `c.h = (leds[i] >> 16) & 0xFF;`
+
       `c.s = (leds[i] >> 8) &0xFF;`
+
       `c.v = leds[i] & 0xFF;`
+
       `color = c;`
+
       `setPixelColor(i, color.red, color.green, color.blue);`
+
     `}`
