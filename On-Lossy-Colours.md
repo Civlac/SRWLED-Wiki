@@ -13,29 +13,27 @@ See: [https://github.com/Aircoookie/WLED/issues/820](https://github.com/Aircoook
 As a workaround, you could allocate memory for each function on the fly as a double buffer and use that, or you could hard code an array. Either way, you need to double up on the memory requirements and that is extremely limited with the 
 
 ### Allocate memory
-`  if (!SEGENV.allocateData(SEGLEN)) return mode_static(); // Allocation failed`
-
-  `byte* myVal = SEGENV.data;                              // Could also be an int or long or whatever.`
-
-  You could then refer to myVal[0] up through myVal[SEGLEN-1]
+```
+if (!SEGENV.allocateData(SEGLEN)) return mode_static(); // Allocation failed
+byte* myVal = SEGENV.data;                              // Could also be an int or long or whatever.
+```
+You could then refer to myVal[0] up through myVal[SEGLEN-1]
 
 One problem with dynamic memory allocation at the firmware level is that it can become segmented and fail.
 
 ### Hard coded array
 
-First off, I would encapsulate ALL of this with #ifndef statements because you can't guarantee memory available on an ESP8266.
+First off, I would encapsulate ALL of this with #ifndef statements because you can't guarantee memory available on an ESP8266. In FX.cpp, you would define globally:
 
-IN FX.cpp, you would define globally:
-
-`#ifndef ESP8266`
-
-`uint32_t ledData[1500];            // Or whatever value, but I would reserve this for ESP82 only.`
-
-`#endif`
-
+```
+#ifndef ESP8266
+uint32_t ledData[1500];            // Or whatever value, but I would reserve this for ESP82 only.
+#endif
+```
 Similarly, you would encapsulate all functions and definitions that support that array. In the (encapsulated) animation, you would do the following:
 
-```uint16_t WS2812FX::mode_myMode(void) {
+```
+uint16_t WS2812FX::mode_myMode(void) {
 
 #ifndef ESP8266
 
@@ -60,4 +58,5 @@ Similarly, you would encapsulate all functions and definitions that support that
 #endif
 
   return FRAMETIME;
-} // mode_myMode()```
+} // mode_myMode()
+```
