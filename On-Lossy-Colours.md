@@ -10,7 +10,7 @@ getPixelColor() is lossy, whereas setPixelColor() perfectly sets the intended co
 See: [https://github.com/Aircoookie/WLED/issues/820](https://github.com/Aircoookie/WLED/issues/820)
 
 ## Workarounds
-As a workaround, you could allocate memory for each function on the fly as a double buffer and use that, or you could hard code an array. Either way, you need to double up on the memory requirements and that is extremely limited with the 
+As a workaround, you could allocate memory for each function on the fly as a double buffer and use that, or you could hard code an array. Either way, you need to double up on the memory requirements and that is extremely limited with the ESP8266  and not recommended for that platform.
 
 ### Allocate memory
 ```
