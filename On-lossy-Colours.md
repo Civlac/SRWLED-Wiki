@@ -26,9 +26,9 @@ First off, I would encapsulate ALL of this with #ifndef statements because you c
 
 IN FX.cpp, you would define globally:
 
-#ifndef ESP8266
-uint32_t ledData[1500];            // Or whatever value, but I would reserve this for ESP82 only.
-#endif
+`#ifndef ESP8266`
+`uint32_t ledData[1500];            // Or whatever value, but I would reserve this for ESP82 only.`
+`#endif`
 
 Similarly, you would encapsulate functions that support that array. The functionality inside it would include:
 
