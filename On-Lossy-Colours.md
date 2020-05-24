@@ -33,23 +33,42 @@ IN FX.cpp, you would define globally:
 
 `#endif`
 
-Similarly, you would encapsulate functions that support that array. The functionality inside it would include:
+Similarly, you would encapsulate all functions and definitions that support that array. In the (encapsulated) animation, you would do the following:
 
-In the animation, you would define:
-`    uint32_t* leds = ledData;`
+`uint16_t WS2812FX::mode_myMode(void) {`
 
-You could then use leds[i] = leds[i-1] and finally have a helper routine to push that array to the actual LED's, such as:
+`#ifndef ESP8266`
 
-`    for (int i= 0; i < SEGLEN; i++) {`
+  `uint32_t* leds = ledData;`
 
-      `c.h = (leds[i] >> 16) & 0xFF;`
+`// PERFORM ANIMATION MAGIC HERE!!`
 
-      `c.s = (leds[i] >> 8) &0xFF;`
 
-      `c.v = leds[i] & 0xFF;`
+  `for (int i = SEGLEN; i > 0; i--) {    // You can shift LED's the FastLED way.`
 
-      `color = c;`
+    `leds[i] = leds[i-1];`
 
-      `setPixelColor(i, color.red, color.green, color.blue);`
+  `}`
 
-    `}`
+
+  `for (int i= 0; i < SEGLEN; i++) {   // Now send to the NeoPixelBus array`
+
+    `c.h = (leds[i] >> 16) & 0xFF;`
+
+    `c.s = (leds[i] >> 8) &0xFF;`
+
+    `c.v = leds[i] & 0xFF;`
+
+    `color = c;                       // Implicit conversion to RGB supplied by FastLED`
+
+    `setPixelColor(i, color.red, color.green, color.blue);`
+
+  `}`
+
+`#endif`
+
+  `return FRAMETIME;`
+
+`} // mode_myMode()`
+
+
