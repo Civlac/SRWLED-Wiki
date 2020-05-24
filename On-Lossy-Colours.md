@@ -55,7 +55,7 @@ uint16_t WS2812FX::mode_myMode(void) {
     setPixelColor(i, color.red, color.green, color.blue);
   }
 #else
-// DO SOMETHING ELSE IF YOU WANT!
+// DO SOMETHING ELSE IF YOU WANT. Maybe a fade_out(32);
 #endif
 
   return FRAMETIME;
