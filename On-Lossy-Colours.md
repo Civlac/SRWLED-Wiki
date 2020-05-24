@@ -43,11 +43,9 @@ uint16_t WS2812FX::mode_myMode(void) {
 
 // PERFORM ANIMATION MAGIC HERE!!
 
-
   for (int i = SEGLEN; i > 0; i--) {    // You can shift LED's the FastLED way.
     leds[i] = leds[i-1];
   }
-
 
   for (int i= 0; i < SEGLEN; i++) {   // Now send to the NeoPixelBus array
     c.h = (leds[i] >> 16) & 0xFF;
@@ -57,6 +55,7 @@ uint16_t WS2812FX::mode_myMode(void) {
     setPixelColor(i, color.red, color.green, color.blue);
   }
 #endif
+
   return FRAMETIME;
 } // mode_myMode()
 ```
