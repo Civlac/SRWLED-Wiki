@@ -5,7 +5,7 @@ The following code moves the pixels down the line, but as it gets to the end, th
 
 ## Explanation
 
-getPixelColor() is lossy, whereas setPixelColor() perfectly sets the intended color. Unfortunately the raw pixel memory buffer is also lossy, since it has to save the values scaled by master brightness. And unfortunately, if you do s = x*b /255, later doing x = s*255/b won't yield exactly the same result (thanks integer division). To solve this problem we would need a secondary pixel data buffer.
+getPixelColor() is lossy, whereas setPixelColor() perfectly sets the intended color. Unfortunately the raw pixel memory buffer is also lossy, since it has to save the values scaled by master brightness. And unfortunately, if you do s = x*b /255, later doing x = s\*255/b won't yield exactly the same result (thanks integer division). To solve this problem we would need a secondary pixel data buffer.
 
 See: [https://github.com/Aircoookie/WLED/issues/820](https://github.com/Aircoookie/WLED/issues/820)
 
