@@ -17,7 +17,7 @@ As a workaround, you could allocate memory for each function on the fly as a dou
 if (!SEGENV.allocateData(SEGLEN)) return mode_static(); // Allocation failed
 byte* myVal = SEGENV.data;                   // Could also be an int or long or whatever.
 ```
-You could then refer to myVal[0] up through myVal[SEGLEN-1]
+You could then refer to myVal[0] up through myVal[SEGLEN-1] within the routine.
 
 One problem with dynamic memory allocation at the firmware level is that it can become segmented and fail.
 
