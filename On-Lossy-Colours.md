@@ -35,40 +35,29 @@ IN FX.cpp, you would define globally:
 
 Similarly, you would encapsulate all functions and definitions that support that array. In the (encapsulated) animation, you would do the following:
 
-`uint16_t WS2812FX::mode_myMode(void) {`
+```uint16_t WS2812FX::mode_myMode(void) {
 
-`#ifndef ESP8266`
+#ifndef ESP8266
 
-  `uint32_t* leds = ledData;`
+  uint32_t* leds = ledData;
 
-`// PERFORM ANIMATION MAGIC HERE!!`
-
-
-  `for (int i = SEGLEN; i > 0; i--) {    // You can shift LED's the FastLED way.`
-
-    `leds[i] = leds[i-1];`
-
-  `}`
+// PERFORM ANIMATION MAGIC HERE!!
 
 
-  `for (int i= 0; i < SEGLEN; i++) {   // Now send to the NeoPixelBus array`
-
-    `c.h = (leds[i] >> 16) & 0xFF;`
-
-    `c.s = (leds[i] >> 8) &0xFF;`
-
-    `c.v = leds[i] & 0xFF;`
-
-    `color = c;                       // Implicit conversion to RGB supplied by FastLED`
-
-    `setPixelColor(i, color.red, color.green, color.blue);`
-
-  `}`
-
-`#endif`
-
-  `return FRAMETIME;`
-
-`} // mode_myMode()`
+  for (int i = SEGLEN; i > 0; i--) {    // You can shift LED's the FastLED way.
+    leds[i] = leds[i-1];
+  }
 
 
+  for (int i= 0; i < SEGLEN; i++) {   // Now send to the NeoPixelBus array
+    c.h = (leds[i] >> 16) & 0xFF;
+    c.s = (leds[i] >> 8) &0xFF;
+    c.v = leds[i] & 0xFF;
+    color = c;                       // Implicit conversion to RGB supplied by FastLED
+    setPixelColor(i, color.red, color.green, color.blue);
+  }
+
+#endif
+
+  return FRAMETIME;
+} // mode_myMode()```
