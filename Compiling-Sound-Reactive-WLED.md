@@ -5,7 +5,7 @@ Since then, the ESP8266 has given us some red popup error messages on the contro
 
 He then recommended that change the compiler options for the WeMOS D1 Mini, which is:
 
-'Tools | lwIP variant', and to select 'v1.4 Higher Bandwidth'.
+'Tools | lwIP variant', and to select 'v1.4 Higher Bandwidth'. The default WAS 'v2 Lower Memory'.
 
 We previously compiled with one of the v2 options. This appears to have cleared the issue for us, but more testing is required.
 
