@@ -40,8 +40,8 @@ If you already have ESP8266/32 drivers installed, please ensure your drivers are
 
 1. Go to "Tools | Board | Boards Manager...".
 1. For the ESP8266/32, search for "ESP8266" or "ESP32"
-1. As of April 2020, the current version was 2.6.3
-1. As of April 2020, the current version was 1.0.4
+1. As of May 2020, the current version was 2.7.1
+1. As of May 2020, the current version was 1.0.4
 
 ## Board Settings
 
