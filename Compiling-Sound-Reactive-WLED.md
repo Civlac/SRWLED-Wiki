@@ -9,7 +9,7 @@ He then recommended that we make a compile time change for the ESP8266, which is
 
 'Tools | lwIP variant', and to select 'v1.4 Higher Bandwidth'.
 
-We were previously compiling with one of the v2 options. This appears to have cleared the issue for us
+We were previously compiling with one of the v2 options. This appears to have cleared the issue for us, but more testing is required.
 
 ## ESP32
 We don't have any notes on this.
