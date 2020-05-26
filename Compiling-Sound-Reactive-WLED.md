@@ -11,6 +11,8 @@ He then recommended that we make a compile time change for the ESP8266, which is
 
 We were previously compiling with one of the v2 options. This appears to have cleared the issue for us, but more testing is required.
 
+Side note: Andrew has about 40 ESP8266's, so he defintely has some skin in the ESP8266 game.
+
 ## ESP32
 We don't have any notes on this.
 
