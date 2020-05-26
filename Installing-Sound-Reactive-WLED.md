@@ -33,8 +33,8 @@ The sound reactive WLED binary is located as follows:
 1. Go to "Tools | Board | Boards Manager..."
 1. For the ESP8266/32, search for "ESP8266" and/or "ESP32"
 1. Click on "Install" for each.
-1. As of April 2020, the current version for ESP8266 was 2.6.3
-1. As of April 2020, the current version for ESP32 was 1.0.4
+1. As of May 2020, the current version for ESP8266 was 2.7.1
+1. As of May 2020, the current version for ESP32 was 1.0.4
 
 If you already have ESP8266/32 drivers installed, please ensure your drivers are recent:
 
