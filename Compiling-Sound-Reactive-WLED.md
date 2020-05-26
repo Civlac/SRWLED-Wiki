@@ -14,3 +14,6 @@ We were previously compiling with one of the v2 options. This appears to have cl
 ## ESP32
 We don't have any notes on this.
 
+## Platform IO
+Currently, neither of the developers of the sound reactive fork of WLED are using Platform IO. We rely on others to let us know of any changes we need to make for that platform.
+
