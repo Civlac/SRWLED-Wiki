@@ -17,5 +17,8 @@ We were previously compiling with one of the v2 options. This appears to have cl
 We don't have any notes on this.
 
 ## Platform IO
-Currently, neither of the developers of the sound reactive fork of WLED are using Platform IO. We rely on others to let us know of any changes we need to make for that platform. We are still using the traditional Arduino IDE, versions 1.8.10 and 1.8.11. Old people with old habits.
+Currently, neither of the developers of the sound reactive fork of WLED are using Platform IO. We rely on others to let us know of any changes we need to make for that platform.
+
+## Arduino IDE
+We are still using the traditional Arduino IDE, versions 1.8.10 and 1.8.11. Old people with old habits.
 
