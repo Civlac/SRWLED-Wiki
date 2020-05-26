@@ -11,7 +11,7 @@ He then recommended that change a compiler options for the WeMOS D1 Mini, which 
 
 We were previously compiling with one of the v2 options. This appears to have cleared the issue for us, but more testing is required.
 
-**Side note:** Andrew has about 40 ESP8266's, so he defintely has some skin in the ESP8266 game.
+**Side note:** Andrew has about 40 D1 Mini's, so he defintely has some skin in the ESP8266 game.
 
 ## ESP32
 We don't have any notes on this.
