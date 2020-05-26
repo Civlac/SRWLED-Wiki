@@ -5,7 +5,7 @@ We've taken great care to try and continue to support the limited ESP8266 platfo
 
 Since then, the ESP8266 has given us some red popup error message in the controls screen. We've gone though our updates with a fine tooth comb and have even had Aircoookie review our modified JSON strings, and everything seems to be OK.
 
-He then recommended that we make a compile time change for the ESP8266, which is:
+He then recommended that change a compiler options for the WeMOS D1 Mini, which is:
 
 'Tools | lwIP variant', and to select 'v1.4 Higher Bandwidth'.
 
