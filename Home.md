@@ -42,9 +42,9 @@ For more information, see our **[Audio Input Options](https://github.com/atuline
 
 ## Default pins used
 
-* GPIO2 (D4 on WEMOS) for both ESP8266 and ESP32
+* GPIO2 (D4 on WEMOS) for both ESP8266 and ESP32 for WS2812
 * A0 for ESP8266 (microphone pin)
-* GPIO36 for the ESP32 (microphone pin)
+* GPIO36 (or VP) for the ESP32 (microphone pin)
 
 
 ## Connect to WLED
