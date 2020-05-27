@@ -29,3 +29,6 @@ The left and right channels of the TRS Jack are connected together to sample bot
 Connect the output of the capacitor to the ADC pin for your board.
 
 ![Dual Input Wiring](https://github.com/atuline/WLED/blob/assets/media/WLED_Reactive_Adv_Wiring.png)
+
+### Pins Used
+On the ESP32, the ADC pin used is pin 36 (also known as VP), while the ESP8266 uses A0.
