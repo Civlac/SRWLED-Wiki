@@ -32,3 +32,6 @@ Connect the output of the capacitor to the ADC pin for your board.
 
 ### Pins Used
 On the ESP32, the ADC pin used is pin 36 (also known as VP), while the ESP8266 uses A0.
+
+### Squelch
+The volume reactive routines (starting with a single *), support a squelch or background noise suppression. This can be configured near the bottom of the LED Settings page.
