@@ -109,3 +109,6 @@ What is NOT included:
 * fill_rainbow and related routines that directly affect the array.
 * fade/nscale. You need to use the WLED equivalent.
 
+# 2D functionality
+* An XY() function has been added.
+* matrixWidth and matrixHeight are new 'LED Settings'.
