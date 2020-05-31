@@ -111,4 +111,5 @@ What is NOT included:
 
 # 2D functionality
 * An XY() function has been added.
+* A serpentine/zig-zag setting has been added to 'LED Settings'.
 * matrixWidth and matrixHeight are new 'LED Settings'.
