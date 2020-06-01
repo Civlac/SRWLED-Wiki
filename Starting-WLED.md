@@ -1,2 +1,2 @@
-When you first connect to WLED in AP mode, there is some really annoying behaviour on the captive portal implementation in Android. The captive portal, being the limited browser you are forwarded to in order to login to a web site. 
+When you first connect to a WLED device in AP mode, there is some really annoying behaviour on the captive portal implementation in Android. The captive portal, being the limited browser you are forwarded to in order to login to a web site. 
 What happens is that if you go into 'Effects', you can't scroll up. In order to get around that, click the three dots at the top right of the page, select 'Use Network as is' and then open up Chrome and navigate to the site at 4.3.2.1.
