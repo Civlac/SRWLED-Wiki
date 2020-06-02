@@ -116,7 +116,7 @@ What is NOT included:
 
 # On Variable Length Arrays
 
-These will be used so that we can address leds[x] in our routines rather than the NeoPixelBus method. We'll also be using that for functions, i.e. heat[x].
+These will be used so that we can address leds[x] in our routines with the known and lossless FastLED method rather than the lossy NeoPixelBus method. We'll also be using these for ancillary functions, i.e. heat[x].
 
 Since you cannot define variable arrays in C, we need other methods to do so for our functions.
 
