@@ -170,8 +170,8 @@ The leds[] array is already defined in the CHSV colour space.
     }
 ```
 
-### Current Using the CHSV Colour Space
-As used in 3829 animation.
+### Current Use of the CHSV Colour Space
+As used in the first FFT animation in FX.cpp around line 3829.
 
 ```
     uint32_t leds = ledData;
