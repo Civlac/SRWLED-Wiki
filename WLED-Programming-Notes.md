@@ -143,7 +143,9 @@ Already declared in FX.cpp:
   leds[0] = CRGB::Red;
   leds[1] = ColorFromPalette(currentPalette, index, bright, LINEARBLEND);
 ```
+
 ### Display the CRGB Array for RGB support only.
+
 ```
    for (int i=0; i<SEGLEN; i++) {
       setPixelColor(i, leds[i].red, leds[i].green, led[i].blue);
@@ -155,6 +157,7 @@ Already declared in FX.cpp:
 ```
    CHSV *leds = ledData;
    leds[i]  = CHSV(25, 255,255);
+```
 
 ### Display Using the CHSV Colour Space
 
