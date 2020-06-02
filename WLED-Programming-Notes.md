@@ -159,7 +159,7 @@ Already declared in FX.cpp:
    leds[i]  = CHSV(25, 255,255);
 ```
 
-### Display Using the CHSV Colour Space
+### Proposed Display the CHSV Colour Space
 The leds[] array is already defined in the CHSV colour space.
 
 ```
@@ -170,7 +170,8 @@ The leds[] array is already defined in the CHSV colour space.
     }
 ```
 
-### Currently in 3829 animation
+### Current Using the CHSV Colour Space
+As used in 3829 animation.
 
 ```
     uint32_t leds = ledData;
@@ -179,7 +180,7 @@ The leds[] array is already defined in the CHSV colour space.
     leds[i] = (c.h << 16) + (c.s << 8)  + (c.v );
 ```
 
-// Displaying that CHSV array
+// Current Display of CHSV array
 
 ```
     for (int i=0; i<SEGLEN; i++) {
