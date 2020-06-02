@@ -1,6 +1,8 @@
 ## Introduction
 This version of WLED contains sound reactive routines ASound01 through ASound15. Each are controllable by intensity and/or speed. ASound10 through ASound15 also include 3 dedicated FFT control sliders.
 
+Caveat: Some information on this page is in our 'dev' branch only and not yet ready for prime time.
+
 ## Hardware
 WLED uses pin D4 and Rx on the WeMOS D1 Mini by default. Let’s stick with defaults whenever we can. We are also working on an FFT version for the ESP32.
 
@@ -139,7 +141,7 @@ Already declared in FX.cpp:
 ### Using CRGB Color Space
 
 ```
-  CRGB *leds = (CRGB)ledData;     // Define the pointer and override the default data type.
+  CRGB *leds = (CRGB *)ledData;     // Define the pointer and override the default data type.
   leds[0] = CRGB::Red;
   leds[1] = ColorFromPalette(currentPalette, index, bright, LINEARBLEND);
 ```
@@ -155,7 +157,7 @@ Already declared in FX.cpp:
 ### Proposed Using CHSV Colour Space
 
 ```
-   CHSV *leds = (CHSV)ledData;
+   CHSV *leds = (CHSV *)ledData;
    leds[i]  = CHSV(25, 255,255);
 ```
 
@@ -195,7 +197,7 @@ As used in the first FFT animation in FX.cpp around line 3829.
 
 We'll use that large dataStore array that was defined globally in FX.cpp. Although it was defined as a unint32_t, you can still use smaller dynamic arrays and override the data type using pointers with a function:
 
-`uint8_t *myArray = (uint8_t)dataStore;    // Just make sure you don't go over.`
+`uint8_t *myArray = (uint8_t *)dataStore;    // Just make sure you don't go over.`
 
 You can now use it as a 1D or quasi 2D array, i.e.
 ```
