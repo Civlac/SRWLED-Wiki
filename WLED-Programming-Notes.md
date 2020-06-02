@@ -128,4 +128,35 @@ The WLED method has been to malloc() some memory as follows:
 
 For the 2D and FastLED data array functionality, the developers of this fork have decided to create fixed arrays and to create pointers to those arrays.
 
+Globally declare in FX.cpp:
+```
+  uint32_t ledData[1500];       // For conversion from NeoPixelBus to FastLED. RGB or RGBW. Currently on line 3801.
+  uint32_t dataStore[4096];     // For ancillary. Can be any type. Currently on line 3802.
+```
+Within the functions in FX.cpp:
+
+  uint32_t *leds = ledData;
+  leds[0] = CRGB::Red;
+  leds[1] = ColorFromPalette(currentPalette, index, bright, LINEARBLEND);
+
+// Display the CRGB Array
+
+
+
+// Display a CHSV Array
+```
+    CRGB color;
+    CHSV c;
+    for (int i= 0; i < SEGLEN; i++) {
+      c.h = (leds[i] >> 16) & 0xFF;
+      c.s = (leds[i] >> 8) &0xFF;
+      c.v = leds[i] & 0xFF;
+      color = c;
+      setPixelColor(i, color.red, color.green, color.blue);
+    }
+```
+
+Conversion is 3951
+
+
 
