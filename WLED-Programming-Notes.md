@@ -137,10 +137,11 @@ Already declared in FX.cpp:
 ```
 Within the functions in FX.cpp:
 
+```
   CRGB *leds = (CRGB)ledData;     // Define the pointer and override the default data type.
   leds[0] = CRGB::Red;
   leds[1] = ColorFromPalette(currentPalette, index, bright, LINEARBLEND);
-
+```
 ### Display the CRGB Array for RGB support only.
 ```
    for (int i=0; i<SEGLEN; i++) {
