@@ -135,7 +135,8 @@ Already declared in FX.cpp:
   uint32_t ledData[1500];       // For conversion from NeoPixelBus to FastLED. RGB or RGBW.
   uint32_t dataStore[4096];     // For ancillary. Can use any data type.
 ```
-Within the functions in FX.cpp:
+
+### Using CRGB Color Space
 
 ```
   CRGB *leds = (CRGB)ledData;     // Define the pointer and override the default data type.
@@ -150,7 +151,21 @@ Within the functions in FX.cpp:
 ```
 
 
-### Display a CHSV Array
+### Proposed Using CHSV Colour Space
+```
+   CHSV *leds = ledData;
+   leds[i]  = CHSV(25, 255,255);
+
+### Display Using the CHSV Colour Space
+```
+    CRGB color;
+    CHSV c;
+    for (int i=0; i<SEGLEN; i++) {
+      color = leds[i];
+      setPixelColor(i, color.red, color.green, color.blue);
+    }
+```
+### Currently in 3829 animation
 ```
     CRGB color;
     CHSV c;
