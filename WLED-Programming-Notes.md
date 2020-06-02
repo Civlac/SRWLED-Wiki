@@ -144,7 +144,7 @@ Already declared in FX.cpp:
   leds[1] = ColorFromPalette(currentPalette, index, bright, LINEARBLEND);
 ```
 
-### Display the CRGB Array for RGB support only.
+### Display the CRGB Array
 
 ```
    for (int i=0; i<SEGLEN; i++) {
