@@ -114,7 +114,7 @@ What is NOT included:
 * A serpentine/zig-zag setting has been added to 'LED Settings'.
 * matrixWidth and matrixHeight are new 'LED Settings'.
 
-# On variable arrays
+# On Variable Arrays for leds[x] and ancillary functions, i.e. heat[x]
 
 Since you cannot define variable arrays in C, we need other methods to do so for our functions.
 
@@ -126,7 +126,7 @@ The WLED method has been to malloc() some memory as follows:
   heat[value] = 25;
 ```
 
-For the 2D and FastLED data array functionality, the developers of this fork have decided to create fixed arrays and to create pointers to those arrays.
+For the 2D and FastLED data array functionality, the developers of this fork have decided to create fixed arrays instead and to create pointers to those arrays.
 
 Globally declare in FX.cpp:
 ```
@@ -139,15 +139,19 @@ Within the functions in FX.cpp:
   leds[0] = CRGB::Red;
   leds[1] = ColorFromPalette(currentPalette, index, bright, LINEARBLEND);
 
-// Display the CRGB Array
+### Display the CRGB Array for RGB support only.
+```
+   for (int i=0; i<SEGLEN; i++) {
+      setPixelColor(i, leds[i].red, leds[i].green, led[i].blue);
+   }
+```
 
 
-
-// Display a CHSV Array
+### Display a CHSV Array
 ```
     CRGB color;
     CHSV c;
-    for (int i= 0; i < SEGLEN; i++) {
+    for (int i=0; i<SEGLEN; i++) {
       c.h = (leds[i] >> 16) & 0xFF;
       c.s = (leds[i] >> 8) &0xFF;
       c.v = leds[i] & 0xFF;
@@ -155,8 +159,17 @@ Within the functions in FX.cpp:
       setPixelColor(i, color.red, color.green, color.blue);
     }
 ```
+### How to use a non-dynamically created variable array
 
-Conversion is 3951
+We'll use that large dataStore array that was defined globally in FX.cpp. Although it was defined as a unint32_t, you can still use smaller dynamic arrays and override the data type using pointers with a function:
+
+`uint8_t *myArray = (uint8_t)dataStore;    // Just make sure you don't go over.`
+
+You can now use it as a 1D or quasi 2D array, i.e.
+```
+  myArray[5] = 4;
+  myArray[5*matrixWidth + 4] = 10;
+```
 
 
 
