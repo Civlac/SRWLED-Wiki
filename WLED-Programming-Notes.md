@@ -124,7 +124,7 @@ The WLED method has been to malloc() some memory as follows:
 
 ```
   if (!SEGENV.allocateData(SEGLEN)) return mode_static();
-  byte* heat = SEGENV.data;
+  byte *heat = SEGENV.data;
   heat[value] = 25;
 ```
 
