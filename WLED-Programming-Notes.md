@@ -150,13 +150,14 @@ Already declared in FX.cpp:
    }
 ```
 
-
 ### Proposed Using CHSV Colour Space
+
 ```
    CHSV *leds = ledData;
    leds[i]  = CHSV(25, 255,255);
 
 ### Display Using the CHSV Colour Space
+
 ```
     CRGB color;
     CHSV c;
@@ -165,7 +166,9 @@ Already declared in FX.cpp:
       setPixelColor(i, color.red, color.green, color.blue);
     }
 ```
+
 ### Currently in 3829 animation
+
 ```
     CRGB color;
     CHSV c;
