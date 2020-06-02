@@ -155,15 +155,15 @@ Already declared in FX.cpp:
 ### Proposed Using CHSV Colour Space
 
 ```
-   CHSV *leds = ledData;
+   CHSV *leds = (CHSV)ledData;
    leds[i]  = CHSV(25, 255,255);
 ```
 
 ### Display Using the CHSV Colour Space
+The leds[] array is already defined in the CHSV colour space.
 
 ```
     CRGB color;
-    CHSV c;
     for (int i=0; i<SEGLEN; i++) {
       color = leds[i];
       setPixelColor(i, color.red, color.green, color.blue);
@@ -173,8 +173,15 @@ Already declared in FX.cpp:
 ### Currently in 3829 animation
 
 ```
-    CRGB color;
+    uint32_t leds = ledData;
     CHSV c;
+    c = CHSV(20, 255, 255);
+    leds[i] = (c.h << 16) + (c.s << 8)  + (c.v );
+```
+
+// Displaying that CHSV array
+
+```
     for (int i=0; i<SEGLEN; i++) {
       c.h = (leds[i] >> 16) & 0xFF;
       c.s = (leds[i] >> 8) &0xFF;
