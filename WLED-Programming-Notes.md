@@ -114,7 +114,9 @@ What is NOT included:
 * A serpentine/zig-zag setting has been added to 'LED Settings'.
 * matrixWidth and matrixHeight are new 'LED Settings'.
 
-# On Variable Arrays for leds[x] and ancillary functions, i.e. heat[x]
+# On Variable Length Arrays
+
+These will be used so that we can address leds[x] in our routines rather than the NeoPixelBus method. We'll also be using that for functions, i.e. heat[x].
 
 Since you cannot define variable arrays in C, we need other methods to do so for our functions.
 
@@ -126,16 +128,16 @@ The WLED method has been to malloc() some memory as follows:
   heat[value] = 25;
 ```
 
-For the 2D and FastLED data array functionality, the developers of this fork have decided to create fixed arrays instead and to create pointers to those arrays.
+For the 2D and FastLED data array functionality, the developers of this fork are not comfortable with the malloc() method of memory allocation and have decided to create large fixed arrays instead and to create pointers for use with variable length arrays.
 
-Globally declare in FX.cpp:
+Already declared in FX.cpp:
 ```
-  uint32_t ledData[1500];       // For conversion from NeoPixelBus to FastLED. RGB or RGBW. Currently on line 3801.
-  uint32_t dataStore[4096];     // For ancillary. Can be any type. Currently on line 3802.
+  uint32_t ledData[1500];       // For conversion from NeoPixelBus to FastLED. RGB or RGBW.
+  uint32_t dataStore[4096];     // For ancillary. Can use any data type.
 ```
 Within the functions in FX.cpp:
 
-  uint32_t *leds = ledData;
+  CRGB *leds = (CRGB)ledData;     // Define the pointer and override the default data type.
   leds[0] = CRGB::Red;
   leds[1] = ColorFromPalette(currentPalette, index, bright, LINEARBLEND);
 
@@ -167,8 +169,8 @@ We'll use that large dataStore array that was defined globally in FX.cpp. Althou
 
 You can now use it as a 1D or quasi 2D array, i.e.
 ```
-  myArray[5] = 4;
-  myArray[5*matrixWidth + 4] = 10;
+  myArray[5] = 4;                        // 1D array
+  myArray[5*matrixWidth + 4] = 10;       // 2D array
 ```
 
 
