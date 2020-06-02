@@ -113,3 +113,19 @@ What is NOT included:
 * An XY() function has been added.
 * A serpentine/zig-zag setting has been added to 'LED Settings'.
 * matrixWidth and matrixHeight are new 'LED Settings'.
+
+# On variable arrays
+
+Since you cannot define variable arrays in C, we need other methods to do so for our functions.
+
+The WLED method has been to malloc() some memory as follows:
+
+```
+  if (!SEGENV.allocateData(SEGLEN)) return mode_static();
+  byte* heat = SEGENV.data;
+  heat[value] = 25;
+```
+
+For the 2D and FastLED data array functionality, the developers of this fork have decided to create fixed arrays and to create pointers to those arrays.
+
+
