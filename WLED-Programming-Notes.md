@@ -180,7 +180,7 @@ As used in 3829 animation.
     leds[i] = (c.h << 16) + (c.s << 8)  + (c.v );
 ```
 
-// Current Display of CHSV array
+## Current Display of CHSV array
 
 ```
     for (int i=0; i<SEGLEN; i++) {
