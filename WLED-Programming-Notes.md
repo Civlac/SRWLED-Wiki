@@ -133,7 +133,7 @@ For the 2D and FastLED data array functionality, the developers of this fork are
 Already declared in FX.cpp:
 ```
   uint32_t ledData[1500];       // For conversion from NeoPixelBus to FastLED. RGB or RGBW.
-  uint32_t dataStore[4096];     // For ancillary. Can use any data type.
+  uint32_t dataStore[4096];     // For ancillary functions. Can use any data type.
 ```
 
 ### Using CRGB Color Space
