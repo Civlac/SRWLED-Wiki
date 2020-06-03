@@ -1,4 +1,4 @@
-Using a 16x16 panel from  Aliexpress.
+## Using a 16x16 panel from  Aliexpress.
 
 We'll standardize on:
 
