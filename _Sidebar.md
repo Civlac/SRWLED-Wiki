@@ -10,7 +10,7 @@
 ### Technicals
 [Sliders in WLED](https://github.com/atuline/WLED/wiki/Adding-Sliders)    
 [WLED Programming Notes](https://github.com/atuline/WLED/wiki/WLED-Programming-Notes)  
-[On Lossy Colours](https://github.com/atuline/WLED/wiki/On-Lossy-Colours)  21  
+[On Lossy Colours](https://github.com/atuline/WLED/wiki/On-Lossy-Colours)
 [It's Not Working](https://github.com/atuline/WLED/wiki/My--device--is-not-working)
 
 ### Links
