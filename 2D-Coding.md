@@ -1,6 +1,6 @@
 ## Using a 16x16 panel from  Aliexpress.
 
-We'll standardize on:
+The 'assumed' default configuration for LED panels is:
 
 * Serpentine layout is standard.
 * leds[0] being the top left pixel.
