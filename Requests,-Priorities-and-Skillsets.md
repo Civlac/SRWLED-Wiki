@@ -4,7 +4,7 @@ We've had a lot of fun creating our audio reactive fork of WLED, and we've got m
 | Topic  | Notes | Skills Required |
 | ------------- | ------------- |-- |
 | Dynamic FFT sliders  | Allow additional sliders to be hidden by default.  | Javascript/XML/JSON |
-| Content Cell  | Content Cell  | |
+| UDP Synchronization  | Ability to send sound information to other devices  | Networking and ?? |
 
 
 ## Outstanding Issues
