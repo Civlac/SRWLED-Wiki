@@ -10,6 +10,7 @@ We've had a lot of fun creating our audio reactive fork of WLED, and we've got m
 | Add SEGMENT support for 2D | Improve SEGMENT capabilities | Everything |
 
 
+
 ## Outstanding Issues
 | Issue  | Notes |
 | ------------- | ------------- |
