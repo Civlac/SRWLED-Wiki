@@ -27,9 +27,10 @@ We are still using the traditional Arduino IDE, versions 1.8.10 and 1.8.11. Old 
 
 In order to conserve space, Web UI interface are represented as a series of wled00/html_ui.h, wled00/html_settings.h and wled00/html_other.h files which contain C/C++ strings with specific parts of the Web UI.
 
-These files are automatically created from source files available in wled00/data folder. To generate files, install [NodeJS globally](https://nodejs.org/en/download/). After that, recreate html_*.h files by running in the repo directory:
+These files are automatically created from source files available in wled00/data folder. To generate files, install [NodeJS 11.0+ globally](https://nodejs.org/en/download/). After that, recreate html_*.h files by running in the repo directory:
 
 ```bash
+> npm install
 > npm run build
 ```
 
