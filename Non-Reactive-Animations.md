@@ -13,12 +13,6 @@ A spring-like effect using changing phases of sine waves, with perlin noise vary
 * Speed - Adjust the speed of the animation.
 * Intensity - Adjust the number of pixels displayed.
 
-### Twinkleup
-An 8 line random fade-in/out routine that's a fraction of the size of similar routines.
-
-* Speed - Adjust the speed of the animation.
-* Intensity - Adjust percentage of animated pixels.
-
 ### Noisepal
 A slow and soothing noise routine with palettes that slowly change on the fly. This does not have any controls. It's based on my old Noise routine at https://www.youtube.com/watch?v=fjoDkqoU5Fk
 
