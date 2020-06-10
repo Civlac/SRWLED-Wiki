@@ -205,5 +205,9 @@ You can now use it as a 1D or quasi 2D array, i.e.
   myArray[5*matrixWidth + 4] = 10;       // 2D array
 ```
 
+### Sound Reactive EEPROM Layout
+We've expanded const.h to 4095 due to our additional requirements and started saving values at 3072.
+Although we'd like to apply SEGMENT specific settings, we're not there yet.
+
 
 
