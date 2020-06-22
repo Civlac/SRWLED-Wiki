@@ -8,7 +8,7 @@
 [Audio Input Options](https://github.com/atuline/WLED/wiki/Audio-Input-Options)    
 
 ### Technicals
-[Connectivity Issues](https://github.com/atuline/WLED/wiki/Connectivity-Issues)
+[Connectivity Issues](https://github.com/atuline/WLED/wiki/Connectivity-Issues)  
 [It's Not Working](https://github.com/atuline/WLED/wiki/My--device--is-not-working)  
 [WLED Programming Notes](https://github.com/atuline/WLED/wiki/WLED-Programming-Notes)  
 [On Lossy Colours](https://github.com/atuline/WLED/wiki/On-Lossy-Colours)  
