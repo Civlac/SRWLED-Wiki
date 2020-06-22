@@ -15,5 +15,4 @@ If you'd like some help with your device, these are the types of things we would
 * Have you made any changes to the source?
 * If your bootloader is broken, the binary may not load. Try the one from wled.me first.
 * Can you document the steps to re-create that crash?
-
-[See my FastLED support FAQ](http://tuline.com/fastled-support-qa/)
+* [See my FastLED support FAQ](http://tuline.com/fastled-support-qa/)
