@@ -1,3 +1,5 @@
+If you'd like some help with your device, these are the types of things we would be asking:
+
 * Are you all wired up OK?
 * Does the the release from wled.me work?
 * Are you using our 'MASTER' release?
@@ -14,3 +16,4 @@
 * If your bootloader is broken, the binary may not load. Try the one from wled.me first.
 * Can you document the steps to re-create that crash?
 
+[See my FastLED support FAQ](http://tuline.com/fastled-support-qa/)
