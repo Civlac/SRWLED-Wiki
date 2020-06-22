@@ -7,4 +7,4 @@ During our journey with WLED, we've sometimes been unable to connect to one or m
 
 
 
-**Note:** This page has been brought to you by our Discord friend @tuantrung2905. Thanks for your continued testing efforts!
+**Note:** This page has been brought to you by our Discord friend **@tuantrung2905**. Thanks for your continued testing efforts!
