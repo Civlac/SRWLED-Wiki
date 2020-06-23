@@ -1,5 +1,5 @@
 ## Introduction
-This version of WLED contains sound reactive routines ASound01 through ASound15. Each are controllable by intensity and/or speed. ASound10 through ASound15 also include 3 dedicated FFT control sliders.
+This version of WLED contains sound reactive routines, which are (or will be) prefaced with a '*' for volume reactive routines and '**' for FFT routines. Each are controllable by intensity and/or speed. Some routines also include 3 dedicated FFT control sliders.
 
 Caveat: Some information on this page is in our 'dev' branch only and not yet ready for prime time.
 
@@ -64,6 +64,8 @@ We were used to FastLED.show(). Well, no longer.
 The next line supports SEGCOLOR(0) and SEGCOLOR(1) if no palette (i.e. default) is selected:
 
     setPixelColor(i, color_blend(SEGCOLOR(1), color_from_palette(index, false, PALETTE_SOLID_WRAP, 0), pixBri));
+
+where, 'i' is the location, 'index' is the colour and 'pixBri' is the brightness.
 
 
 ## Important WLED variables
