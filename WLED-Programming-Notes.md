@@ -26,8 +26,8 @@ Append the new function(s) and use current functions as templates. Cannot add an
 
 ## WLED Support Functions
 * fade_out(uint8_t rate);                 - This is CRITICAL!!!
-* blur(uint8_t blur_amount);              - Meh!
-* color_wheel(uint8_t index);             - I just use palettes instead.
+* blur(uint8_t blur_amount);              - Can be useful.
+* color_wheel(uint8_t index);             - This has history with NeoPixel library. I use palettes instead.
 
 ## Delays
 You DO NOT use delay statements here, except to keep the watchdog happy. Here is the awesome FastLED method of timing/scheduling:
@@ -56,7 +56,7 @@ void userLoop()
 ```
 
 ## Displaying the LED's.
-We were used to FastLED.show(). Well, no longer.
+We were used to FastLED.show(). Well, no longer, and this has some disadvantages.
 
     CRGB myCol = ColorFromPalette(currentPalette, index, brightness, LINEARBLEND);
     setPixelColor(myLED, myCol.red, myCol.green, myCol.blue);
@@ -67,10 +67,12 @@ The next line supports SEGCOLOR(0) and SEGCOLOR(1) if no palette (i.e. default) 
 
 where, 'i' is the location, 'index' is the colour and 'pixBri' is the brightness.
 
+Now, onto the disadvantage. . The problem is that you can perform a 'getPixelColor' and move it to another LED with 'setPixelColor'. After moving to about 10 pixels, the LED is now black. This is because of the built in scaling and addressing the memory that's used for DMA transfer. Unfortunately, we don't get a nice lossless leds[location] like we do with FastLED.
 
 ## Important WLED variables
 
 * SEGLEN	              // uint16_t - Segment length.
+
 * SEGMENT.length              // uint16_t - Segment length (but not for ESP8266 :^/ )
 * SEGMENT.intensity          // uint8_t - You can use this from the slider.
 * SEGMENT.speed              // uint8_t - You can use this from the slider.
@@ -79,12 +81,11 @@ where, 'i' is the location, 'index' is the colour and 'pixBri' is the brightness
 
 * now			   // uint32_t – Millis counter.
 
-* SEGENV.call		   // uint32_t – Counter each time a routine is called.
+* SEGENV.call		   // uint32_t – Counter each time a routine is called. Can be used for 'setup'.
 * SEGENV.next_time           // uint32_t – Millis counter.
-* SEGENV.step              // uint32_t - Use this as a stepper.
+* SEGENV.step              // uint32_t - Counter each time a routine is called.
 * SEGENV.aux0             // uint32_t   - Available for use.
 * SEGENV.aux1	           // uint32_t   - Available for use.
-
 
 
 ## Important Structures
