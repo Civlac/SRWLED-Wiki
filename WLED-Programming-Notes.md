@@ -67,6 +67,11 @@ I added:
 
 which supports SEGCOLOR(0) and SEGCOLOR(1) when no palette is selected. SEGCOLOR(0) also includes the white channel.
 
+I'll be replacing my setPixCol() routine and use the built in one and:
+
+    setPixelColor(i, color_blend(SEGCOLOR(1), color_from_palette(index, false, PALETTE_SOLID_WRAP, 0), pixBri));
+
+
 
 ## Important WLED variables
 
