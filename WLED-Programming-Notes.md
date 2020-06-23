@@ -61,16 +61,9 @@ We were used to FastLED.show(). Well, no longer.
     CRGB myCol = ColorFromPalette(currentPalette, index, brightness, LINEARBLEND);
     setPixelColor(myLED, myCol.red, myCol.green, myCol.blue);
 
-I added:
-
-    setPixCol(uint16_t location, uint32_t index, uint8_t intensity);
-
-which supports SEGCOLOR(0) and SEGCOLOR(1) when no palette is selected. SEGCOLOR(0) also includes the white channel.
-
-I'll be replacing my setPixCol() routine and use the built in one and:
+The next line supports SEGCOLOR(0) and SEGCOLOR(1) if no palette (i.e. default) is selected:
 
     setPixelColor(i, color_blend(SEGCOLOR(1), color_from_palette(index, false, PALETTE_SOLID_WRAP, 0), pixBri));
-
 
 
 ## Important WLED variables
