@@ -2,7 +2,8 @@
 [Introduction](https://github.com/atuline/WLED/wiki)  
 [Installing Sound Reactive WLED](https://github.com/atuline/WLED/wiki/Installing-Sound-Reactive-WLED)  
 [Compiling Sound Reactive WLED](https://github.com/atuline/WLED/wiki/Compiling-Sound-Reactive-WLED)  
-[Starting WLED](https://github.com/atuline/WLED/wiki/Starting-WLED)  
+[Starting Sound Reactive WLED](https://github.com/atuline/WLED/wiki/Starting-WLED)  
+[Running Sound Reactive WLED](https://github.com/atuline/WLED/wiki/Running-Sound-Reactive-WLED)  
 [Reactive Animations](https://github.com/atuline/WLED/wiki/Reactive-Animations)  
 [Non-Reactive Animations](https://github.com/atuline/WLED/wiki/Non-Reactive-Animations)    
 [Audio Input Options](https://github.com/atuline/WLED/wiki/Audio-Input-Options)    
@@ -16,4 +17,4 @@
 [Testing](https://github.com/atuline/WLED/wiki/Testing)  
 ### Links
 [WLED Main Wiki](https://github.com/Aircoookie/WLED/wiki)    
-[FastLED Wiki](https://github.com/FastLED/FastLED/wiki/Basic-usage)
+[FastLED Wiki](https://github.com/FastLED/FastLED/wiki/Basic-usage)  
