@@ -1,13 +1,13 @@
 ## Tests to Perform
 
-###Compile
+### Compile
 * Compile/run on ESP32
 * Compile/run on ESP8266
 
-###Network
+### Network
 Configure/test STA and AP modes
 
-###Colors
+### Colors
 * Test Default palette as well as defined palettes
 * Test RGBW
 * Test various effects
