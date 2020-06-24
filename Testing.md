@@ -10,10 +10,10 @@ Configure/test STA and AP modes
 ### Colors
 * Test Default palette as well as defined palettes
 * Test RGBW
-* Test various effects
+* Test with various effects
 
 ### Effects
-* Test each effect
+* Test each effect with/without palette
 
 ### Segments
 * Configure multiple segments
@@ -32,4 +32,6 @@ Configure/test STA and AP modes
 ### UDP Sound Sync
 * Test ESP8266 sync
 * Test ESP32 sync
+* Test Disabled/recevie/transmit
+
 
