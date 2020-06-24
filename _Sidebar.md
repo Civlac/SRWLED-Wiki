@@ -3,7 +3,7 @@
 [Installing Sound Reactive WLED](https://github.com/atuline/WLED/wiki/Installing-Sound-Reactive-WLED)  
 [Compiling Sound Reactive WLED](https://github.com/atuline/WLED/wiki/Compiling-Sound-Reactive-WLED)  
 [Running Sound Reactive WLED](https://github.com/atuline/WLED/wiki/Running-Sound-Reactive-WLED)  
-[Reactive Animations](https://github.com/atuline/WLED/wiki/Reactive-Animations)  
+[Sound Reactive Animations](https://github.com/atuline/WLED/wiki/Reactive-Animations)  
 [Non-Reactive Animations](https://github.com/atuline/WLED/wiki/Non-Reactive-Animations)    
 [Audio Input Options](https://github.com/atuline/WLED/wiki/Audio-Input-Options)    
 
