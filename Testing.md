@@ -1,5 +1,3 @@
-# Tests to Perform
-
 ### Compile
 * Compile/run on ESP32
 * Compile/run on ESP8266
