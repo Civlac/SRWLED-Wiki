@@ -26,7 +26,6 @@ Configure/test STA and AP modes
 
 ### 2D
 * Test different sizes, i.e. 1x32, 16x16, etc.
-* Ensure it saves on reboot
 * Serpentine/linear
 
 ### UDP Sound Sync
@@ -34,4 +33,6 @@ Configure/test STA and AP modes
 * Test ESP32 sync
 * Test Disabled/recevie/transmit
 
-
+### EEPROM
+* Ensure EEPROM changes survive reboot
+* Ensure EEPROM default is not 255 or 65535
