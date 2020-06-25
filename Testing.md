@@ -1,7 +1,7 @@
 
 **IMPORTANT NOTE:**
 
-When testing the UI, make **SURE** to refresh your web browser. It may have cached incorrect information.
+When testing the UI, make sure to **refresh your web browser**. It may have cached incorrect information.
 
 
 ### Compile
