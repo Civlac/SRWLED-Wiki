@@ -40,4 +40,4 @@ Configure/test STA and AP modes
 
 ### EEPROM
 * Ensure EEPROM changes survive reboot
-* Ensure EEPROM default is not 255 or 65535
+* (Ensure EEPROM default is not 255 or 65535 - Not done yet)
