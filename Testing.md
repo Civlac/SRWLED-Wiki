@@ -1,3 +1,9 @@
+
+**IMPORTANT NOTE:**
+
+When testing the UI, make SURE to refresh your web browser. It may have cached incorrect information.
+
+
 ### Compile
 * Compile/run on ESP32
 * Compile/run on ESP8266
