@@ -12,6 +12,7 @@ Configure/test STA and AP modes
 
 ### Effects
 * Test each effect with/without palette
+* Ensure they are all present and line-up
 
 ### Segments
 * Configure multiple segments
