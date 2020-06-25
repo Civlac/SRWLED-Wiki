@@ -36,7 +36,7 @@ Configure/test STA and AP modes
 ### UDP Sound Sync
 * Test ESP8266 sync
 * Test ESP32 sync
-* Test Disabled/receive/transmit
+* Test all modes
 
 ### EEPROM
 * Ensure EEPROM changes survive reboot
