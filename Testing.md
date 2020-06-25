@@ -27,7 +27,7 @@ Configure/test STA and AP modes
 ### Sound
 * Configure squelch setting
 * Reboot
-* Microphone input
+* Microphone input sensitivity
 
 ### 2D
 * Test different sizes, i.e. 1x32, 16x16, etc.
