@@ -7,11 +7,13 @@ Sound reactive effects for WLED!
 
 **WLED:** See [wled.me](http://wled.me)
 
-**Sound reactive ESP8266/ESP32:** Andrew Tuline
+**A bit of everything:** Andrew Tuline
 
 **Sound reactive ESP32 FFT:** Andreas Pleschutznig
 
 **General Contributor/Documentation/Versioning:** Chris Reese
+
+**UDP Sync:** Chris Hultin
 
 
 
