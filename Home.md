@@ -13,7 +13,7 @@ Sound reactive effects for WLED!
 
 **General Contributor/Documentation/Versioning:** Chris Reese
 
-**UDP Sync:** Chris Hultin
+**UDP Sound Sync:** Chris Hultin
 
 
 
