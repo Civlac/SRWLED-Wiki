@@ -24,7 +24,7 @@ This is a FORK of the original WLED code as found at [wled.me](http://wled.me). 
 We have added some addtional sliders for the FFT routines and are continuing to update documentation and fine tune our animations. We are now working on adding 2D as well as UDP Sound synchronization.
 
 ## Knowledge pre-requisites
-You MUST be familiar with how to install the ESP8266/ESP32 board drivers as well as multiple libraries. There are some instructions below on how to do this, however, they are provided **WITHOUT** support.
+You MUST be familiar with how to install the ESP8266/ESP32 board drivers as well as multiple libraries. There are some instructions below on how to do this with the Arduino IDE, however, they are provided **WITHOUT** support.
 
 Before attempting to compile this fork of WLED, make sure you CAN compile the one from [wled.me](http://wled.me).
 
