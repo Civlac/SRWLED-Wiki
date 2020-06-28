@@ -20,7 +20,7 @@ See: https://www.youtube.com/watch?v=4EXefD6INos
 1.  Press Flash NodeMCU
 
 The sound reactive WLED binary is located as follows:
-*   ESP8266 binary: https://github.com/atuline/WLED/releases/download/v0.9.1-s1/WLED_0.9.1_ESP8266_Sound.bin
+*   ESP8266 binary: <not yet available>
 *   ESP32 binary: <not yet available>
 
 
