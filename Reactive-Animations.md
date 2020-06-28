@@ -1,34 +1,33 @@
 
-**NOTICE:** There is a 'Squelch' setting on the LED settings page that allows you to reduce background noise for volume (only) reactive routines that begin with a single '*'. It is located at the bottom of the LED settings page.
+Effects beginning with '*' this are volume only and run on both ESP32 and ESP8266. They also have a 'Squelch', or background noise setting near the bottom of the LED settings page. 
+
+Effects beginning with '**' use FFT and only run on the ESP32.
 
 
 | Effect | Description | Sliders
 | --- | --- | ---
-| * Gravimeter | |
-| * Juggles | |
+| * Gravimeter | | Speed <br /> Intensity
+| * Juggles | Juggling balls| Speed <br /> Intensity - Number of balls
+| * Matripix | | Speed <br /> Intensity
+| * Midnoise | | Intensity
+| * Noisefire | A perlin noise based volume reactive fire routine. | n/a
+| * Noisemeter | | Intensity
+| * Pixels | | Intensity
+| * Pixelwave | |
+| * Plasmoid | | Intensity
+| * Puddlepeak | Blast coloured puddles randomly up and down the strand with the 'beat'. |Speed: Adjustable fade rate. Keep it high. <br /> Intensity: Size of puddles.
+| * Puddles | | Speed <br /> Intensity
+| * Ripple Peak | |
+| * Waterfall | A volume AND FFT version of a Waterfall.| Speed: Speed <br /> Intensity: Adjustable base colour
+| ** Binmap | This routine maps ALL of the bins throughout the length of the LEDs. Currently, it seems to mirror the data.| Intensity
+| ** Freqmatrix | Random pixels by frequency. |
+| ** Freqpixel | Random pixels by frequency. | Speed: Adjustable fade rate. Keep it high. <br /> Intensity: Adjustable base colour
+| ** Freqwave | |
+| ** Noisemove | Using perlin sound as movement for 3 different frequency bins. |Speed: Speed of perlin movement. <br /> Intensity: To be added as fade rate.
+| ** Noisepeak | Blast/fade a single frequency assigned limited palette of perlin noise to the beat (err, really detected peak). | Speed: Adjustable fade rate. Keep it high. <br /> Intensity: Adjustable base colour.
+| ** Spectral | |
 
 
-## Sound Reactive Animations
-
-
-
-### Pixelwave, Juggles, Matripix, Gravimeter, Puddles
-These are for ESP8266/ESP32.
-
-**Sliders Used:** Speed and Intensity
-
-### Pixels, Plasmoid, Midnoise, Noisemeter
-These are for ESP8266/ESP32.
-
-**Sliders Used:** Intensity
-
-### Noisefire
-A perlin noise based volume reactive fire routine.
-
-**Sliders Used:** None yet
-
-
-***
 
 ### FFT Routines for ESP32:
 ### Freqwave
@@ -65,43 +64,3 @@ This effect is best displayed on strips in multiples of 16 LEDs (and only in mul
 **FFT Sliders:** 
 1. FFT3 (custom): This acts as a form of squelch. As long as the FFT output is below the threshold that can be set with FFT3 there will be no lights. (Setting this lower will result in more lights while setting this higher will result in less lights)
 
-### Waterfall
-FFT version of a Waterfall.
-
-**Sliders used:**
-1. Speed: This determines the time delay before each pixel is moved down the line.
-1. Intensity: Adjustable base colour.
-
-### Freqpixel
-Random pixels by frequency.
-
-**Sliders used:**
-1. Speed: Adjustable fade rate. Keep it high.
-1. Intensity: Adjustable base colour.
-
-### Binmap
-This routine maps ALL of the bins throughout the length of the LEDs. Currently, it seems to mirror the data.
-
-**Sliders used:**
-1. Intensity.
-
-### Noisepeak
-Blast/fade a single frequency assigned limited palette of perlin noise to the beat (err, really detected peak).
-
-**Sliders used:**
-1. Speed: Adjustable fade rate. Keep it high.
-1. Intensity: Adjustable base colour.
-
-### Puddlepeak
-Blast frequency coloured puddles randomly up and down the strand.
-
-**Sliders used:**
-1. Speed: Adjustable fade rate. Keep it high.
-1. Intensity: Size of puddles.
-
-### Noisemove
-Using perlin sound as movement for 3 different frequency bins.
-
-**Sliders used:**
-1. Speed: Speed of perlin movement.
-1. Intensity: To be added as fade rate.
