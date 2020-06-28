@@ -17,11 +17,10 @@ Using Perlin Noise for fire has no controls at this time.
 
 ### 2D Matrix
 The Matrix
+
 **Sliders used:**
 * Speed - Affects speed of the movement.
 * FFT3 - Change orientation.
-
-
 
 ### 2D Meatballs
 Interesting effect (see code for details), which has no controls at this time.
@@ -33,7 +32,6 @@ A plasma effect.
 * Speed - Affects speed of the movement.
 * FFT1 - Shifts the colours.
 * FFT2 - Distance from the plasma.
-
 
 ### 2D Squared Swirl
 Boxes moving around has no controls at this time.
