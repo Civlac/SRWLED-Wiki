@@ -3,7 +3,7 @@
 ## Introduction.
 This is a FORK of the original WLED code as found at [wled.me](http://wled.me). It provides basic sound reactivity for both the ESP8266 and ESP32 platforms as well as FFT sound reactivity for the ESP32.
 
-We've made numerous changes to the UI of WLED, and are unable to merge it with the original at this time. In the meantime, our fork includes:
+In addition to new animations, we've made numerous changes to the UI of WLED, and are unable to merge it with the original at this time. In the meantime, our fork includes:
 
 * Several volume reactive effects.
 * Several FFT (frequency) reactive effects.
