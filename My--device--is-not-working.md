@@ -14,7 +14,7 @@ If you'd like some help with your device, these are the types of things we would
 * If it's a compile error, can you provide the errors?
 * Have you made any changes to the source?
 * If your bootloader is broken, the binary may not load. Try the one from wled.me first.
-* Can you document the steps to re-create that crash?
+* Can you document the steps to re-create that error?
 * Make sure your grounds are all connected together.
 * [See my FastLED support FAQ](http://tuline.com/fastled-support-qa/)
 
