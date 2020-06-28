@@ -17,9 +17,7 @@ See: https://www.youtube.com/watch?v=4EXefD6INos
 1.  Select 'yes, wipes all data'
 1.  Press Flash NodeMCU
 
-The sound reactive WLED binary is located as follows:
-*   ESP8266 binary: <not yet available>
-*   ESP32 binary: <not yet available>
+The sound reactive WLED binaries are located at https://github.com/Aircoookie/WLED/releases/tag/v0.10.0
 
 
 ## Compiling from a fresh install of the Arduino IDE
