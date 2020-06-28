@@ -7,7 +7,8 @@ Non-Reactive 1D Animations
 
 ### Perlin Move
 
-Using Perlin noise for movement.  
+Using Perlin noise for movement.
+
 **Sliders used:**
 * Speed - Affects speed of the movement.
 * Intensity - Number of pixels displayed.
