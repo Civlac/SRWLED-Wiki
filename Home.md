@@ -23,6 +23,7 @@ Please consider joining the [WLED Discord group](https://discord.gg/RNgqKpZ), wh
 * **General Contributor/Documentation/Versioning:** Chris Reese
 * **UDP Sound Sync:** Chris Hultin
 
+Other members of the WLED Discord have provided code and testing support as well.
 
 ## Knowledge pre-requisites
 You MUST be familiar with how to install the ESP8266/ESP32 board drivers as well as multiple libraries (if using the Arduino IDE). There are some instructions below on how to do this with the Arduino IDE, however, they are provided **WITHOUT** support.
