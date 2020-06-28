@@ -17,5 +17,5 @@ We've had a lot of fun creating our audio reactive fork of WLED, and we've got m
 ## Outstanding Issues
 | Issue  | Notes |
 | ------------- | ------------- |
-| ESP8266 WiFi drops out in AP mode  | As experienced by @tuatrung2905  |
+| |  |
 
