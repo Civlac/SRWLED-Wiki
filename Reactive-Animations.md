@@ -7,7 +7,7 @@ Effects beginning with '**' use FFT and only run on the ESP32.
 | Effect | Description | Sliders
 | :------------- | --- | ---
 | * Gravimeter | | Speed <br /> Intensity
-| * Juggles | Juggling balls| Speed <br /> Intensity - Number of balls
+| * Juggles | Juggling balls| Speed <br /> Intensity: Number of balls
 | * Matripix | | Speed <br /> Intensity
 | * Midnoise | | Intensity
 | * Noisefire | A perlin noise based volume reactive fire routine. | n/a
