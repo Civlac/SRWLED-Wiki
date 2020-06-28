@@ -20,7 +20,7 @@ If you're not already there, please consider joining the [WLED Discord group](ht
 
 **A bit of everything:** Andrew Tuline
 
-**Sound reactive ESP32 FFT:** Andreas Pleschutznig
+**Sound reactive ESP32 FFT, 2D:** Andreas Pleschutznig
 
 **General Contributor/Documentation/Versioning:** Chris Reese
 
