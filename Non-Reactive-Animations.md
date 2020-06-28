@@ -38,3 +38,8 @@ Boxes moving around has no controls at this time.
 
 
 
+| Effect | Description | Sliders
+| --- | --- | ---
+| Perlin Move | Using Perlin Noise for movement. | Speed<br/>Intensity - # of pixels<br />FFT1 - Fade rate
+
+
