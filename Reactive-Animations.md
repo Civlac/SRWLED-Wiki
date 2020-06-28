@@ -1,6 +1,16 @@
-## Sound Reactive Animations
 
 **NOTICE:** There is a 'Squelch' setting on the LED settings page that allows you to reduce background noise for volume (only) reactive routines that begin with a single '*'. It is located at the bottom of the LED settings page.
+
+
+| Effect | Description | Sliders
+| --- | --- | ---
+| * Gravimeter | |
+| * Juggles | |
+
+
+## Sound Reactive Animations
+
+
 
 ### Pixelwave, Juggles, Matripix, Gravimeter, Puddles
 These are for ESP8266/ESP32.
