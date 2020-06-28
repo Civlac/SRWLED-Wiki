@@ -1,6 +1,4 @@
-Before attempting to compile this fork of WLED, make sure you can compile the original from [wled.me](http://wled.me).
-
-If you are unable to compile WLED, please consider flashing your device with binaries instead.
+Before attempting to compile this fork of WLED, make sure you can compile the original from [wled.me](http://wled.me). If you are unable to compile WLED, please consider flashing your device with binaries instead.
 
 
 ## Flashing from binary
