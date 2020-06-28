@@ -18,13 +18,10 @@ Please consider joining the [WLED Discord group](https://discord.gg/RNgqKpZ), wh
 
 ## Sound Reactive WLED fork Team:
 
-**A bit of everything:** Andrew Tuline
-
-**Sound reactive ESP32 FFT, 2D:** Andreas Pleschutznig
-
-**General Contributor/Documentation/Versioning:** Chris Reese
-
-**UDP Sound Sync:** Chris Hultin
+* **A bit of everything:** Andrew Tuline
+* **Sound reactive ESP32 FFT, 2D:** Andreas Pleschutznig
+* **General Contributor/Documentation/Versioning:** Chris Reese
+* **UDP Sound Sync:** Chris Hultin
 
 
 ## Knowledge pre-requisites
