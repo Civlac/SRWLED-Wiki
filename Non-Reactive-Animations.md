@@ -10,13 +10,13 @@ Using Perlin noise for movement.
 A very cool DNA like pattern has no controls at this time.
 
 ### 2D Fire2012
-Mark Kriegsman's Fire routine has no controls at this time.
+Mark Kriegsman's fire routine has no controls at this time.
 
 ### 2D Firenoise
 Using Perlin Noise for fire has no controls at this time.
 
 ### 2D Matrix
-The Matrix
+The Matrix.
 
 **Sliders used:**
 * Speed - Affects speed of the movement.
