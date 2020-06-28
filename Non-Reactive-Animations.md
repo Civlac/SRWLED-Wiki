@@ -1,10 +1,13 @@
-### Perlin Move
-Using Perlin noise for movement.
 
-**Sliders used:**
-* Speed - Affects speed of the movement.
-* Intensity - Number of pixels displayed.
-* FFT1 - Fade rate.
+
+
+| Effect | Description | Sliders
+| --- | --- | ---
+| Perlin Move | Using Perlin Noise for movement. | Speed - speed of elements<br/>Intensity - # of pixels<br />FFT1 - Fade rate
+| 2D DNA | A very cool DNA like pattern has no controls at this time. | n/a
+| 2D Fire2012 | Mark Kriegsman's fire routine has no controls at this time. | n/a
+
+
 
 ### 2D DNA
 A very cool DNA like pattern has no controls at this time.
@@ -35,11 +38,3 @@ A plasma effect.
 
 ### 2D Squared Swirl
 Boxes moving around has no controls at this time.
-
-
-
-| Effect | Description | Sliders
-| --- | --- | ---
-| Perlin Move | Using Perlin Noise for movement. | Speed<br/>Intensity - # of pixels<br />FFT1 - Fade rate
-
-
