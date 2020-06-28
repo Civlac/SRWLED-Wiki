@@ -3,9 +3,6 @@ This version of WLED contains sound reactive routines, which are (or will be) pr
 
 Caveat: Some information on this page is in our 'dev' branch only and not yet ready for prime time.
 
-## Hardware
-WLED uses pin D4 and Rx on the WeMOS D1 Mini by default. Let’s stick with defaults whenever we can. We are also working on an FFT version for the ESP32.
-
 ## HTTP API Links
 I hope to work on an Android application in the future, so I'm keeping notes on the HTTP API.
 * https://tynick.com/blog/01-28-2020/controlling-wled-with-raspberry-pi-using-the-wled-api/
