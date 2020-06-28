@@ -22,3 +22,32 @@ Devices can be configured as 'disabled', 'transmit' or 'receive' UDP sound. This
 1.	Enter the password, the default is "wled1234"
 1.	Once connected, you should automatically be re-directed to your LED strip
 1.	If not, open up a browser and navigate to 4.3.2.1
+
+
+
+## Configure a bootup effects sequence
+
+1.	From the main screen, click on "TO THE CONTROLS!"
+1.	Select the "Effects" tab.
+1.	Select an effect mode, i.e. "Bpm".
+1.	Adjust overall brightness, speed and intensity/fade rate.
+1.	Select the "Colors" tab.
+1.	Select one of the palettes, such as "Beach".
+1.	Select the "Favorites" tab.
+1.	Select the "Saving mode" checkbox.
+1.	Save to slot "1".
+1.	Check the "Preset" cycle.
+1.	Select the Config cog at the top right of the application display.
+1.	Select "LED Preference".
+1.	Check "Set current preset cycle setting as boot default" checkbox.
+1.	Click on "Save" at the bottom of the screen.
+
+
+## Reset the device
+
+1.	Log in to the device. If you cannot log in, then you need to Reflash the device, which may default to AP mode
+1.	Select the Config cog at the top right of the application display
+1.	Select "Security and Updates"
+1.	Check "Factory reset"
+1.	Click on "Save & reboot"
+1.	Reverts to the initial AP Mode and all other settings are gone
