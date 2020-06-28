@@ -28,6 +28,7 @@ Effects beginning with '**' use FFT and only run on the ESP32.
 | ** Spectral | See below. | See below.
 
 <br />
+
 ## FFT Routines for ESP32 Notes
 ### Freqwave
 This effect maps the major frequencies from the incoming signal to colors in the HSV color space. From the low notes being mapped to red (0) to the high notes being mapped to blue (255) and everything in between. The band you are looking at can be restricted by the FFT Low and FFT High sliders. We are digitizing at 10240Hz, meaning the highest frequency bin that you can find is 5120Hz, which for most music is just fine.
