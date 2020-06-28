@@ -26,7 +26,7 @@ Please consider joining the [WLED Discord group](https://discord.gg/RNgqKpZ), wh
 Other members of the WLED Discord have provided code and testing support as well.
 
 ## Knowledge pre-requisites
-You MUST be familiar with how to install the ESP8266/ESP32 board drivers as well as multiple libraries (if using the Arduino IDE). There are some instructions below on how to do this with the Arduino IDE, however, they are provided **WITHOUT** support.
+You MUST be familiar with how to install the ESP8266/ESP32 board drivers as well as multiple libraries (if using the Arduino IDE). There are some instructions [here](https://github.com/atuline/WLED/wiki/Installing-Sound-Reactive-WLED) on how to do this with the Arduino IDE, however, they are provided **WITHOUT** support.
 
 Before attempting to compile this fork of WLED, make sure you CAN compile the one from [wled.me](http://wled.me).
 
