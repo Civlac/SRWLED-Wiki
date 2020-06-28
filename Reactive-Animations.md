@@ -15,7 +15,7 @@ Effects beginning with '**' use FFT and only run on the ESP32.
 | * Pixels | | Intensity
 | * Pixelwave | |
 | * Plasmoid | | Intensity
-| * Puddlepeak | Blast coloured puddles randomly up and down the strand with the 'beat'. |Speed: Adjustable fade rate. Keep it high. <br /> Intensity: Size of puddles.
+| *_Puddlepeak | Blast coloured puddles randomly up and down the strand with the 'beat'. |Speed: Adjustable fade rate. Keep it high. <br /> Intensity: Size of puddles.
 | * Puddles | | Speed <br /> Intensity
 | * Ripple Peak | |
 | * Waterfall | A volume AND FFT version of a Waterfall.| Speed: Speed <br /> Intensity: Adjustable base colour
