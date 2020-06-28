@@ -9,7 +9,7 @@ In addition to new animations, we've made numerous changes to the UI of WLED, an
 * Several FFT (frequency) reactive effects.
 * One or more new non-reactive 1D effects.
 * 2D effects.
-* UDP sync for sound reactive effects.
+* UDP sync for volume and FFT reactive effects.
 * Additional sliders for controlling effects.
 * 2D, and noise squelch and UDP sync settings in the UI.
 
