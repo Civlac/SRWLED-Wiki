@@ -12,7 +12,7 @@ We've had a lot of fun creating our audio reactive fork of WLED, and we've got m
 | Beat detection | Something better than the current volume only peak detection | Signal processing, C
 | Coordinated light show | To have delayed/coordinated lighting effects in different devices. To run on Android.| Kotlin (for Android), C
 
-
+In order to add new features, we need to ensure the code can still compile/run on both ESP8266 and ESP32 platforms. Those new features need to be documented as well.
 
 ## Outstanding Issues
 | Issue  | Notes |
