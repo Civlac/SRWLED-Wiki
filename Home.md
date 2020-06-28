@@ -13,7 +13,7 @@ In addition to new animations, we've made numerous changes to the UI of WLED, an
 * Additional sliders for controlling effects.
 * 2D, noise squelch and UDP sync settings.
 
-If you're not already there, please consider joining the [WLED Discord group](https://discord.gg/RNgqKpZ), where we have a dedicated channel to discuss this project and answer any questions you may have. 
+Please consider joining the [WLED Discord group](https://discord.gg/RNgqKpZ), where we have a dedicated channel to discuss this project and answer any questions you may have. 
 
 
 ## Sound Reactive WLED fork Team:
