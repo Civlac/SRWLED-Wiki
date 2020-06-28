@@ -1,11 +1,22 @@
 # WLED Sound Reactive
 
-Sound reactive effects for WLED!
+## Introduction.
+This is a FORK of the original WLED code as found at [wled.me](http://wled.me). It provides basic sound reactivity for both the ESP8266 and ESP32 platforms as well as FFT sound reactivity for the ESP32.
 
-**NOTE:** This project is still very much a Beta. Please be aware of this when testing this project. The code gets updated with changes and bug fixes almost daily, sometimes multiple times per day. If you're not already there, please consider joining the [WLED Discord group](https://discord.gg/RNgqKpZ), where we have a dedicated channel to discuss this project and answer any questions you may have. 
+We've made numerous changes to the UI of WLED, and are unable to merge it with the original at this time. In the meantime, our fork includes:
+
+* Several volume reactive effects.
+* Several FFT (frequency) reactive effects.
+* One or more new non-reactive effects.
+* 2D effects.
+* UDP sync for sound reactive effects, with settings in the UI.
+* Additional sliders for controlling effects
+* 2D, and noise squelch settings in the UI.
+
+If you're not already there, please consider joining the [WLED Discord group](https://discord.gg/RNgqKpZ), where we have a dedicated channel to discuss this project and answer any questions you may have. 
 
 
-**WLED:** See [wled.me](http://wled.me)
+### Sound Reactive WLED fork Team:
 
 **A bit of everything:** Andrew Tuline
 
@@ -17,14 +28,11 @@ Sound reactive effects for WLED!
 
 
 
-## Introduction.
-This is a FORK of the original WLED code as found at [wled.me](http://wled.me). It provides basic sound reactivity for both the ESP8266 and ESP32 platforms as well as FFT sound reactivity for the ESP32.
 
-## Status
-We have added some addtional sliders for the FFT routines and are continuing to update documentation and fine tune our animations. We are now working on adding 2D as well as UDP Sound synchronization.
+
 
 ## Knowledge pre-requisites
-You MUST be familiar with how to install the ESP8266/ESP32 board drivers as well as multiple libraries. There are some instructions below on how to do this with the Arduino IDE, however, they are provided **WITHOUT** support.
+You MUST be familiar with how to install the ESP8266/ESP32 board drivers as well as multiple libraries (if using the Arduino IDE). There are some instructions below on how to do this with the Arduino IDE, however, they are provided **WITHOUT** support.
 
 Before attempting to compile this fork of WLED, make sure you CAN compile the one from [wled.me](http://wled.me).
 
@@ -32,7 +40,7 @@ If you are unable to compile WLED, please consider flashing your device with bin
 
 ## Hardware used 
 
-Using the WLED 0.9.1 codebase, we have added some sound reactive routines. These have been tested with:
+Using the WLED 0.10 codebase, our code has been tested with:
 
 * [INMP401](https://www.sparkfun.com/products/9868) MEMS microphone
 * [MAX9814](https://www.digikey.com/products/en?mpart=1713&v=1528) electret microphone
