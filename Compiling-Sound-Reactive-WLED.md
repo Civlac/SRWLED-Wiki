@@ -8,5 +8,5 @@ In addition to the above support, the ESP32 platform also supports FFT (frequenc
 Some of our developers are using Platform IO, and have updated our repository to support it.
 
 ## Arduino IDE
-We are still using the traditional Arduino IDE, versions 1.8.10 and 1.8.11. Old people with old habits.
+We are still using the traditional Arduino IDE, versions 1.8.10 and 1.8.12. Old people with old habits.
 
