@@ -13,7 +13,7 @@
 [WLED Programming Notes](https://github.com/atuline/WLED/wiki/WLED-Programming-Notes)  
 [On Lossy Colours](https://github.com/atuline/WLED/wiki/On-Lossy-Colours)  
 [Sliders in WLED](https://github.com/atuline/WLED/wiki/Adding-Sliders)  
-[Future Directions](https://github.com/atuline/WLED/wiki/Requests,-Priorities,-Issues-and-Skillsets)  
+[Future Directions](https://github.com/atuline/WLED/wiki/Future-Directions)  
 [Testing](https://github.com/atuline/WLED/wiki/Testing)  
 ### Links
 [WLED Main Wiki](https://github.com/Aircoookie/WLED/wiki)    
