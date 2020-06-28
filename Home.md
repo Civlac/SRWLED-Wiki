@@ -16,7 +16,7 @@ In addition to new animations, we've made numerous changes to the UI of WLED, an
 If you're not already there, please consider joining the [WLED Discord group](https://discord.gg/RNgqKpZ), where we have a dedicated channel to discuss this project and answer any questions you may have. 
 
 
-### Sound Reactive WLED fork Team:
+## Sound Reactive WLED fork Team:
 
 **A bit of everything:** Andrew Tuline
 
