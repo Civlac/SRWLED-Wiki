@@ -11,3 +11,14 @@ The serpentine parameter, configures whether the LED's are wired up in a continu
 
 ### Initial UDP Sync Settings
 Devices can be configured as 'disabled', 'transmit' or 'receive' UDP sound. This is completely independent of the 'Sync' button, which synchronizes effects. As a result, you can run multiple types of sound reactive animations when this feature is enabled. This feature provides a subset of the FFT data to 'slave' devices, and as a result, some FFT enabled routines will not function in this mode.
+
+
+
+## Connect to WLED
+
+1. Open up settings on your phone or computer
+1.	Navigate to your Wi-Fi settings
+1.	Look for the WLED SSID, default is "WLED-AP"
+1.	Enter the password, the default is "wled1234"
+1.	Once connected, you should automatically be re-directed to your LED strip
+1.	If not, open up a browser and navigate to 4.3.2.1
