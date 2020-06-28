@@ -15,13 +15,13 @@ Effects beginning with '**' use FFT and only run on the ESP32.
 | * Pixels | | Intensity
 | * Pixelwave | |
 | * Plasmoid | | Intensity
-| * Puddlepeak | Blast coloured puddles randomly up and down the strand with the 'beat'. |Speed: Adjustable fade rate. Keep it high. <br /> Intensity: Size of puddles.
+| * Puddlepeak | Blast coloured puddles randomly up and down the strand with the 'beat'. |Speed: Adjustable fade rate.<br /> Intensity: Size of puddles.
 | * Puddles | | Speed <br /> Intensity
 | * Ripple Peak | |
-| * Waterfall | A volume AND FFT version of a Waterfall.| Speed: Speed <br /> Intensity: Adjustable base colour
+| * Waterfall | A volume AND FFT version of a Waterfall.| Speed: Speed <br /> Intensity: Adjustable base colour.
 | ** Binmap | This routine maps ALL of the bins throughout the length of the LEDs. Currently, it seems to mirror the data.| Intensity
 | ** Freqmatrix | Random pixels by frequency. |
-| ** Freqpixel | Random pixels by frequency. | Speed: Adjustable fade rate. Keep it high. <br /> Intensity: Adjustable base colour
+| ** Freqpixel | Random pixels by frequency. | Speed: Adjustable fade rate.<br /> Intensity: Adjustable base colour.
 | ** Freqwave | |
 | **_Noisemove | Using perlin sound as movement for 3 different frequency bins. |Speed: Speed of perlin movement. <br /> Intensity: To be added as fade rate.
 | ** Noisepeak | Blast/fade a single frequency assigned limited palette of perlin noise to the beat (err, really detected peak). | Speed: Adjustable fade rate. Keep it high. <br /> Intensity: Adjustable base colour.
