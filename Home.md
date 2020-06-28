@@ -10,7 +10,7 @@ In addition to new animations, we've made numerous changes to the UI of WLED, an
 * One or more new non-reactive effects.
 * 2D effects.
 * UDP sync for sound reactive effects, with settings in the UI.
-* Additional sliders for controlling effects
+* Additional sliders for controlling effects.
 * 2D, and noise squelch settings in the UI.
 
 If you're not already there, please consider joining the [WLED Discord group](https://discord.gg/RNgqKpZ), where we have a dedicated channel to discuss this project and answer any questions you may have. 
