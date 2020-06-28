@@ -132,7 +132,7 @@ For the 2D and FastLED data array functionality, the developers of this fork are
 
 Already declared in FX.cpp:
 ```
-  uint32_t ledData[MAX_LEDS];       // Currently 1500 as defined in const.h. Used for conversion from NeoPixelBus to FastLED. RGB or RGBW.
+  uint32_t ledData[MAX_LEDS];    // Currently 1500 as defined in const.h. Used for conversion from NeoPixelBus to FastLED. RGB or RGBW.
   uint32_t dataStore[4096];     // For ancillary functions. Can use any data type.
 ```
 
