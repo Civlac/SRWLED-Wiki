@@ -7,25 +7,25 @@ Effects beginning with '**' use FFT and only run on the ESP32.
 | Effect | Description | Sliders
 | :------------- | --- | ---
 | * Gravimeter | Volume reactive vu-meter with gravity. | Speed: Rate of fall <br /> Intensity: Sensitivity
-| * Juggles | Juggling balls| Speed: Yes <br /> Intensity: Number of balls
+| * Juggles | Juggling balls.| Speed: Yes <br /> Intensity: Number of balls
 | * Matripix | Similar to Matrix. | Speed: yes <br /> Intensity: Brightness
 | * Midnoise | Perlin noise emanating from center.| Speed: Fade rate <br /> Intensity: Maximum length
 | * Noisefire | A perlin noise based volume reactive fire routine. | n/a
-| * Noisemeter | Volume reactive vu-meter. | Speed: Fade rate <br /> Intensity: Width.
-| * Pixels | Random pixels | Intensity: Number of pixels
+| * Noisemeter | Volume reactive vu-meter. | Speed: Fade rate <br /> Intensity: Width
+| * Pixels | Random pixels. | Intensity: Number of pixels
 | * Pixelwave | Pixels emanating from center. | Speed: yes <br /> Intensity: Sensitivity
-| * Plasmoid | Sine wave based plasma | Intensity: Number of pixels
+| * Plasmoid | Sine wave based plasma. | Intensity: Number of pixels
 | * Puddlepeak | Blast coloured puddles randomly up and down the strand with the 'beat'. |Speed: Adjustable fade rate.<br /> Intensity: Size of puddles.
-| * Puddles | | Speed: Fade rate <br /> Intensity: Size of puddle
+| * Puddles | Blast coloured puddles based on volume.| Speed: Fade rate <br /> Intensity: Size of puddle
 | * Ripple Peak | Peak detection triggers ripples. | None.
 | * Waterfall | A volume AND FFT version of a Waterfall.| Speed: Speed <br /> Intensity: Adjustable base colour.
 | ** Binmap | This routine maps ALL of the bins throughout the length of the LEDs. Currently, it seems to mirror the data.| Intensity
 | ** Freqmatrix | Random pixels by frequency. | See below.
-| ** Freqpixel | Random pixels by frequency. | Speed: Adjustable fade rate.<br /> Intensity: Adjustable base colour.
-| ** Freqwave | See below. | See below.
-| **_Noisemove | Using perlin sound as movement for 3 different frequency bins. |Speed: Speed of perlin movement. <br /> Intensity: To be added as fade rate.
-| ** Noisepeak | Blast/fade a single frequency assigned limited palette of perlin noise to the beat (err, really detected peak). | Speed: Adjustable fade rate. Keep it high. <br /> Intensity: Adjustable base colour.
-| ** Spectral | See below. | See below.
+| ** Freqpixel | Random pixels by frequency. | Speed: Adjustable fade rate<br /> Intensity: Adjustable base colour
+| ** Freqwave | See below. | See below
+| **_Noisemove | Using perlin sound as movement for 3 different frequency bins. |Speed: Speed of perlin movement. <br /> Intensity: To be added as fade rate
+| ** Noisepeak | Blast/fade a single frequency assigned limited palette of perlin noise to the beat (err, really detected peak). | Speed: Adjustable fade rate. Keep it high. <br /> Intensity: Adjustable base colour
+| ** Spectral | See below. | See below
 
 <br />
 
