@@ -11,7 +11,7 @@ Effects beginning with '**' use FFT and only run on the ESP32.
 | * Matripix | Similar to Matrix. | Speed: yes <br /> Intensity: Brightness
 | * Midnoise | Perlin noise emanating from center.| Speed: Fade rate <br /> Intensity: Maximum length
 | * Noisefire | A perlin noise based volume reactive fire routine. | n/a
-| * Noisemeter | Volume reactive vu-meter. | Speed: Fade rate Intensity: Width.
+| * Noisemeter | Volume reactive vu-meter. | Speed: Fade rate <br /> Intensity: Width.
 | * Pixels | Random pixels | Intensity: Number of pixels
 | * Pixelwave | Pixels emanating from center. | Speed: yes <br /> Intensity: Sensitivity
 | * Plasmoid | Sine wave based plasma | Intensity: Number of pixels
