@@ -20,7 +20,7 @@ Effects beginning with '**' use FFT (fast fourier transforms) for frequency dete
 | * Ripple Peak | Peak detection triggers ripples. | None.
 | * Waterfall | A volume AND FFT version of a Waterfall.| Speed: Speed <br /> Intensity: Adjustable base colour.
 | ** Binmap | This routine maps ALL of the bins throughout the length of the LEDs. Currently, it seems to mirror the data.| Intensity
-| ** Freqmatrix | Random pixels by frequency. | See below.
+| ** Freqmatrix | See below. | See below.
 | ** Freqpixel | Random pixels by frequency. | Speed: Adjustable fade rate<br /> Intensity: Adjustable base colour
 | ** Freqwave | See below. | See below
 | **_Noisemove | Using perlin sound as movement for 3 different frequency bins. |Speed: Speed of perlin movement. <br /> Intensity: To be added as fade rate
