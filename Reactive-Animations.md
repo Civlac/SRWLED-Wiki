@@ -15,16 +15,16 @@ Effects beginning with '**' use FFT (fast fourier transforms) for frequency dete
 | * Pixels | Random pixels. | Intensity: # of pixels
 | * Pixelwave | Pixels emanating from center. | Speed: yes <br /> Intensity: Sensitivity
 | * Plasmoid | Sine wave based plasma. | Intensity: # of pixels
-| * Puddlepeak | Blast coloured puddles randomly up and down the strand with the 'beat'. |Speed: Adjustable fade rate.<br /> Intensity: Size of puddles.
+| * Puddlepeak | Blast coloured puddles randomly up and down the strand with the 'beat'. |Speed: Adjust fade rate.<br /> Intensity: Size of puddles.
 | * Puddles | Blast coloured puddles based on volume.| Speed: Fade rate <br /> Intensity: Size of puddle
 | * Ripple Peak | Peak detection triggers ripples. | None.
-| * Waterfall | A volume AND FFT version of a Waterfall.| Speed: Speed <br /> Intensity: Adjustable base colour.
+| * Waterfall | A volume AND FFT version of a Waterfall.| Speed: Speed <br /> Intensity: Adjust colour
 | ** Binmap | This routine maps ALL of the bins throughout the length of the LEDs. Currently, it seems to mirror the data.| Intensity
 | ** Freqmatrix | See below. | See below
-| ** Freqpixel | Random pixels by frequency. | Speed: Adjustable fade rate<br /> Intensity: Adjustable base colour
+| ** Freqpixel | Random pixels by frequency. | Speed: Adjust fade rate<br /> Intensity: Adjust colour
 | ** Freqwave | See below. | See below
 | **_Noisemove | Using perlin sound as movement for 3 different frequency bins. |Speed: Speed of perlin movement <br /> Intensity: To be added as fade rate
-| ** Noisepeak | Blast/fade a single frequency assigned limited palette of perlin noise to the beat (err, really detected peak). | Speed: Adjustable fade rate<br /> Intensity: Adjustable base colour
+| ** Noisepeak | Blast/fade a single frequency assigned limited palette of perlin noise to the beat (err, really detected peak). | Speed: Adjust fade rate<br /> Intensity: Adjust base colour
 | ** Spectral | See below. | See below
 
 <br />
