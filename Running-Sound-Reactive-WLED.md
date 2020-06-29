@@ -16,7 +16,7 @@ Devices can be configured as 'disabled', 'transmit' or 'receive' UDP sound. This
 
 ## Connect to WLED
 
-1. Open up settings on your phone or computer.
+1.	Open up settings on your phone or computer.
 1.	Navigate to your Wi-Fi settings.
 1.	Look for the WLED SSID, default is "WLED-AP".
 1.	Enter the password, the default is "wled1234".
