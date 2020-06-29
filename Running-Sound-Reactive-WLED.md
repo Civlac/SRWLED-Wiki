@@ -5,7 +5,7 @@ When you first connect to a WLED device in AP mode, there is some really annoyin
 On the LED Preferences page, configure the Squelch for a value to reduce your background noise. Typically, values between 10 and 20 should suffice. The higher the number, the greater the background noise is removed.
 
 ### Initial 2D Settings
-When changing any values in the LED settings page, you'll need to update the 2D settings. If not using a 2D matrix, you can set them to 1 x <Number of LED's> or vice versa.  If using a 2D matrix, configure these values for width x height. A value <4 of either dimension will not work with some of the 2D animations.
+When changing any values in the LED settings page, you'll need to update the 2D settings. If not using a 2D matrix, you can set them to 1 x <Number of LED's> or vice versa.  If using a 2D matrix, configure these values for width x height. A value of less than 4 in either dimension will not work with some of the 2D animations.
 
 The serpentine parameter, configures whether the LED's are wired up in a continuous/serpentine layout or top to bottom and repeat.
 
