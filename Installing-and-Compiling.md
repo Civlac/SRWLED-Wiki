@@ -98,6 +98,7 @@ When you are done, if you navigate to 'File | Examples' and scroll all the way d
 
 ### Download WLED
 * In a web browser you can navigate to wled at [wled.me](https://github.com/Aircoookie/WLED) and unzip into a new directory.
+* Alternatively, you can download our sound reactive Master at [https://github.com/atuline/WLED](https://github.com/atuline/WLED)
 * You can then 'Download' the Zip file.
 * Unzip it into a new directory.
 * If you have 'git' installed, once you have navigate to where you want to store your project, you can run:
