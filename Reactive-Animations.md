@@ -7,14 +7,14 @@ Effects beginning with '**' use FFT (fast fourier transforms) for frequency dete
 | Effect | Description | Sliders
 | :------------- | --- | ---
 | * Gravimeter | Volume reactive vu-meter with gravity. | Speed: Rate of fall <br /> Intensity: Sensitivity
-| * Juggles | Juggling balls.| Speed: Yes <br /> Intensity: Number of balls
+| * Juggles | Juggling balls.| Speed: Yes <br /> Intensity: # of balls
 | * Matripix | Similar to Matrix. | Speed: yes <br /> Intensity: Brightness
 | * Midnoise | Perlin noise emanating from center.| Speed: Fade rate <br /> Intensity: Maximum length
 | * Noisefire | A perlin noise based volume reactive fire routine. | n/a
 | * Noisemeter | Volume reactive vu-meter. | Speed: Fade rate <br /> Intensity: Width
-| * Pixels | Random pixels. | Intensity: Number of pixels
+| * Pixels | Random pixels. | Intensity: # of pixels
 | * Pixelwave | Pixels emanating from center. | Speed: yes <br /> Intensity: Sensitivity
-| * Plasmoid | Sine wave based plasma. | Intensity: Number of pixels
+| * Plasmoid | Sine wave based plasma. | Intensity: # of pixels
 | * Puddlepeak | Blast coloured puddles randomly up and down the strand with the 'beat'. |Speed: Adjustable fade rate.<br /> Intensity: Size of puddles.
 | * Puddles | Blast coloured puddles based on volume.| Speed: Fade rate <br /> Intensity: Size of puddle
 | * Ripple Peak | Peak detection triggers ripples. | None.
