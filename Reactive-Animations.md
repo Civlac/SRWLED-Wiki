@@ -6,18 +6,18 @@ Effects beginning with '**' use FFT and only run on the ESP32.
 
 | Effect | Description | Sliders
 | :------------- | --- | ---
-| * Gravimeter | | Speed: Rate of fall <br /> Intensity: Sensitivity
+| * Gravimeter | Volume reactive vu-meter with gravity. | Speed: Rate of fall <br /> Intensity: Sensitivity
 | * Juggles | Juggling balls| Speed: Yes <br /> Intensity: Number of balls
-| * Matripix | | Speed:yes <br /> Intensity: Brightness
-| * Midnoise | | Speed: Fade rate <br /> Intensity: Maximum length
+| * Matripix | Similar to Matrix. | Speed: yes <br /> Intensity: Brightness
+| * Midnoise | Perlin noise emanating from center.| Speed: Fade rate <br /> Intensity: Maximum length
 | * Noisefire | A perlin noise based volume reactive fire routine. | n/a
-| * Noisemeter | | Intensity
-| * Pixels | | Intensity
-| * Pixelwave | |
-| * Plasmoid | | Intensity
+| * Noisemeter | Volume reactive vu-meter. | Speed: Fade rate Intensity: Width.
+| * Pixels | Random pixels | Intensity: Number of pixels
+| * Pixelwave | Pixels emanating from center. | Speed: yes <br /> Intensity: Sensitivity
+| * Plasmoid | Sine wave based plasma | Intensity: Number of pixels
 | * Puddlepeak | Blast coloured puddles randomly up and down the strand with the 'beat'. |Speed: Adjustable fade rate.<br /> Intensity: Size of puddles.
-| * Puddles | | Speed <br /> Intensity
-| * Ripple Peak | |
+| * Puddles | | Speed: Fade rate <br /> Intensity: Size of puddle
+| * Ripple Peak | Peak detection triggers ripples. | None.
 | * Waterfall | A volume AND FFT version of a Waterfall.| Speed: Speed <br /> Intensity: Adjustable base colour.
 | ** Binmap | This routine maps ALL of the bins throughout the length of the LEDs. Currently, it seems to mirror the data.| Intensity
 | ** Freqmatrix | Random pixels by frequency. | See below.
