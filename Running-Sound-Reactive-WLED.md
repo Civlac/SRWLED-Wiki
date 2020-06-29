@@ -45,9 +45,9 @@ Devices can be configured as 'disabled', 'transmit' or 'receive' UDP sound. This
 
 ## Reset the device
 
-1.	Log in to the device. If you cannot log in, then you need to Reflash the device, which may default to AP mode
-1.	Select the Config cog at the top right of the application display
-1.	Select "Security and Updates"
-1.	Check "Factory reset"
-1.	Click on "Save & reboot"
-1.	Reverts to the initial AP Mode and all other settings are gone
+1.	Log in to the device. If you cannot log in, then you need to Reflash the device, which may default to AP mode.
+1.	Select the Config cog at the top right of the application display.
+1.	Select "Security and Updates".
+1.	Check "Factory reset".
+1.	Click on "Save & reboot".
+1.	Reverts to the initial AP Mode and all other settings are gone.
