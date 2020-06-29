@@ -19,7 +19,7 @@ Effects beginning with '**' use FFT (fast fourier transforms) for frequency dete
 | * Puddles | Blast coloured puddles based on volume.| Speed: Fade rate <br /> Intensity: Size of puddle
 | * Ripple Peak | Peak detection triggers ripples. | None.
 | * Waterfall | A volume AND FFT version of a Waterfall.| Speed: Speed <br /> Intensity: Adjust colour
-| ** Binmap | This routine maps ALL of the bins throughout the length of the LEDs. Currently, it seems to mirror the data.| Intensity
+| ** Binmap | This routine maps 16 summary bins throughout the length of the LEDs.| Intensity: Max volume
 | ** Freqmatrix | See below. | See below
 | ** Freqpixel | Random pixels by frequency. | Speed: Adjust fade rate<br /> Intensity: Adjust colour
 | ** Freqwave | See below. | See below
