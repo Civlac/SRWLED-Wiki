@@ -9,7 +9,7 @@ Effects beginning with '**' use FFT and only run on the ESP32.
 | * Gravimeter | | Speed: Rate of fall <br /> Intensity: Sensitivity
 | * Juggles | Juggling balls| Speed: Yes <br /> Intensity: Number of balls
 | * Matripix | | Speed:yes <br /> Intensity: Brightness
-| * Midnoise | | Intensity: Maximum length
+| * Midnoise | | Speed: Fade rate <br /> Intensity: Maximum length
 | * Noisefire | A perlin noise based volume reactive fire routine. | n/a
 | * Noisemeter | | Intensity
 | * Pixels | | Intensity
