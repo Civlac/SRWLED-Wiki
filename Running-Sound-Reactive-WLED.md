@@ -21,7 +21,7 @@ Devices can be configured as 'disabled', 'transmit' or 'receive' UDP sound. This
 1.	Look for the WLED SSID, default is "WLED-AP".
 1.	Enter the password, the default is "wled1234".
 1.	Once connected, you should automatically be re-directed to your LED strip.
-1.      This gets you to the limited captive portal 'browser'.
+1.	This gets you to the limited captive portal 'browser'.
 1.	If not, open up a browser and navigate to 4.3.2.1.
 
 
