@@ -40,5 +40,6 @@ Configure/test STA and AP modes
 
 ### EEPROM
 * Ensure EEPROM changes survive reboot
-* Test with both ESP32 and ESP8266
+* Test with ESP32
+* Test with ESP8266
 * (Ensure EEPROM default is not 255 or 65535 - Not done yet)
