@@ -7,4 +7,4 @@ We've sometimes been unable to connect to one or more of our WLED enabled device
 * When compiling, make sure you have selected Flash Size as 4MB (FS:2MB OTA:~1019KB)
 
 
-**Note:** This page has been brought to you by our Discord friend **@tuantrung2905**. Thanks for your continued testing efforts!
+**Note:** This page has been brought to you by our Discord friend **@tuantrung2905**. Thanks for your continued and persistent testing efforts!
