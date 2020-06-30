@@ -116,6 +116,7 @@ Once you have:
 * Downloaded and installed the library pre-requisites.
 * Downloaded and installed WLED.
 * Connected your device and ensured it connected to a COM port.
+* For previous WLED users, ensure you have modified your Flash settings to support 2MB minimum.
 
 You should now be able to compile and upload WLED to your ESP device.
 
