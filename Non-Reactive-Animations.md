@@ -1,3 +1,5 @@
+**Note: **Due to the limited capability, we have disabled 2D animations on the ESP8266 platform at this time. The LED settings page still requires 2D values, so you could enter 1x30 or 30x1 or whatever your string size is.
+
 
 | Effect | Description | Sliders
 | --- | --- | ---
