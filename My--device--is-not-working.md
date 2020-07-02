@@ -9,7 +9,7 @@ If you'd like some help with your device, these are the types of things we would
 * Which IDE are you using?
 * Is it just sound reactivity that doesn't work?
 * If just sound reactivity, are you using one of our approved microphones?
-* Have you tested that microphone with a basic sound sampling sketch?
+* Have you tested that microphone with a basic sound sampling sketch (i.e. [https://pastebin.com/BHtzh5yY](https://pastebin.com/BHtzh5yY)?
 * If it's a compile error, can you provide the errors?
 * Have you made any changes to the source?
 * If your bootloader is broken, the binary may not load. Try the one from wled.me first.
