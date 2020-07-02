@@ -1,6 +1,7 @@
 If you'd like some help with your device, these are the types of things we would be asking:
 
 * Please provide a clear and concise description of the problem and the environment.
+* If you are referring to code, please provide a link to the version you are referring to.
 * Are you all wired up OK?
 * Does the the release from wled.me work?
 * Are you using our most recent 'MASTER' release?
