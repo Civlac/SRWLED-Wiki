@@ -13,7 +13,11 @@ In addition to new animations, we've made numerous changes to the UI of WLED, an
 * Additional sliders for controlling effects.
 * 2D, noise squelch and UDP sync settings.
 
-Please consider joining the [WLED Discord group](https://discord.gg/RNgqKpZ) where we have a dedicated channel to discuss this project and answer any questions you may have. 
+Please consider joining the [WLED Discord group](https://discord.gg/RNgqKpZ) where we have a dedicated channel to discuss this project and answer any questions you may have.
+
+Are you looking for some MSGEQ7 support? If so, there's a fork for the ESP8266 that provides this over at:
+
+https://github.com/NeariX67/WLED_MSGEQ7
 
 
 ## Sound Reactive WLED fork Team:
