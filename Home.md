@@ -22,7 +22,7 @@ https://github.com/NeariX67/WLED_MSGEQ7
 
 ## Sound Reactive WLED fork Team:
 
-* **A bit of everything:** Andrew Tuline
+* **A bit of everything (mainly FastLED):** Andrew Tuline
 * **Sound reactive ESP32 FFT, 2D:** Andreas Pleschutznig
 * **General Contributor/Documentation/Versioning:** Chris Reese
 * **UDP Sound Sync:** Chris Hultin
