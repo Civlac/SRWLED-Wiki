@@ -15,6 +15,7 @@
 [Sliders in WLED](https://github.com/atuline/WLED/wiki/Adding-Sliders)  
 [Future Directions](https://github.com/atuline/WLED/wiki/Future-Directions)  
 [Testing](https://github.com/atuline/WLED/wiki/Testing)  
+[UDP Sound Sync](https://github.com/atuline/WLED/wiki/UDP-Sound-Sync)   
 ### Links
 [WLED Main Wiki](https://github.com/Aircoookie/WLED/wiki)    
 [FastLED Wiki](https://github.com/FastLED/FastLED/wiki/Basic-usage)  
