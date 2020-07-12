@@ -1,4 +1,4 @@
-Before attempting to compile this fork of WLED, make sure you can compile the original from [wled.me](http://wled.me). If you are unable to compile WLED, please consider flashing your device with binaries instead.
+***IMPORTANT:*** _Before attempting to compile this fork of WLED, make sure you can compile the [original WLED.](https://github.com/Aircoookie/WLED) If you are unable to compile WLED, please consider flashing your device with [binaries](https://github.com/atuline/WLED/releases/latest) instead._
 
 
 ## Flashing from binary
@@ -7,17 +7,14 @@ The following instructions show you how to flash the original (not sound reactiv
 
 See: https://www.youtube.com/watch?v=4EXefD6INos
 
-1.  The sound reactive binaries are located here: https://github.com/atuline/WLED/releases
-1.  For sound-reactive WeMOS D1 Mini, download and save WLED_0.9.1_ESP8266_Sound.bin
-1.  The original WLED binaries are located here: https://github.com/Aircoookie/WLED/releases
+1.  The Sound Reactive WLED binaries for ESP32 and Wemos D1 Mini are located [here.](https://github.com/atuline/WLED/releases/latest)
+1.  The Original WLED binaries are located [here.](https://github.com/Aircoookie/WLED/releases/latest)
 1.  Download [NodeMCU-PyFlasher Latest](https://github.com/marcelstoer/nodemcu-pyflasher/releases) which works on Windows and macOS
 1.  Plug the WeMOS D1 Mini into your computer
 1.  Run NodeMCU-PyFlasher
 1.  Load the binary
 1.  Select 'yes, wipes all data'
 1.  Press Flash NodeMCU
-
-The sound reactive WLED binaries are located at https://github.com/atuline/WLED/releases/tag/v0.10.0-alpha
 
 
 ## Compiling from a fresh install of the Arduino IDE
@@ -36,8 +33,8 @@ If you already have ESP8266/32 drivers installed, please ensure your drivers are
 
 1. Go to "Tools | Board | Boards Manager...".
 1. For the ESP8266/32, search for "ESP8266" or "ESP32"
-1. As of May 2020, the current version was 2.7.1
-1. As of May 2020, the current version was 1.0.4
+1. As of July 2020, the current version was 2.7.2
+1. As of July 2020, the current version was 1.0.4
 
 ## Board Settings
 
@@ -63,7 +60,6 @@ WLED makes use of a LOT of 3rd party libraries and is NOT easy to compile, espec
 * ESPAsyncUDP (ESP8266 Only)
 * ESPAsyncWebServer
 * AsyncTCP (ESP32 Only)
-
 
 See the next section to find/install these libraries.
 
@@ -97,14 +93,14 @@ When you are done, if you navigate to 'File | Examples' and scroll all the way d
 ![](https://github.com/atuline/WLED/blob/assets/media/examples.png?raw=true)
 
 ### Download WLED
-* In a web browser you can navigate to wled at [wled.me](https://github.com/Aircoookie/WLED) and unzip into a new directory.
-* Alternatively, you can download our sound reactive Master at [https://github.com/atuline/WLED](https://github.com/atuline/WLED).
+* In a web browser you can navigate to [wled](https://github.com/Aircoookie/WLED) and unzip into a new directory.
+* Alternatively, you can download our [Sound Reactive Master](https://github.com/atuline/WLED).
 * Make sure you can compile the original WLED before attempting to compile our sound reactive version.
 * You can then 'Download' the Zip file.
 * Unzip it into a new directory.
-* If you have 'git' installed, once you have navigate to where you want to store your project, you can run:
+* If you have 'git' installed, navigate to where you want to store your project and run:
 
-    `git clone https://github.com/Aircookie/WLED.git WLED`
+    `git clone https://github.com/atuline/WLED.git WLED-Reactive`
 
 ### Compiling WLED
 
