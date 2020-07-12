@@ -1,7 +1,7 @@
 
 Effects beginning with '*' are volume only and run on both ESP32 and ESP8266. They also have a 'Squelch', or background noise setting near the bottom of the LED settings page. 
 
-Effects beginning with '**' use FFT (fast fourier transforms) for frequency detection and only run on the ESP32.
+Effects beginning with '**' use FFT (Fast Fourier Transforms) for frequency detection and only run on the ESP32.
 
 
 | Effect | Description | Sliders
