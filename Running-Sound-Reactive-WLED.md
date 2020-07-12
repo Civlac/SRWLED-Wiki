@@ -2,7 +2,7 @@
 When you first connect to a WLED device in AP mode, there is some really annoying behaviour on the captive portal implementation in Android. The captive portal is the limited browser you are forwarded to in order to login to a web site. What happens is that if you go into 'Effects', you can't scroll up. In order to get around that, click the three dots at the top right of the page, select 'Use Network as is' and then open up Chrome and navigate to the site at 4.3.2.1.
 
 ### Initial Sound Reactive Settings
-On the LED Preferences page, configure the Squelch for a value to reduce your background noise for volume reactive effects starting with a single '*'. Typically, values between 10 and 20 should suffice. The higher the number, the greater the background noise is removed.
+On the LED Preferences page, configure the Squelch for a value (default is 10) to reduce your background noise for volume reactive effects. Volume reactive effects start with a single '*'. Typically, values between 10 and 20 should suffice. The higher the number, the greater the background noise is removed.
 
 ### Initial 2D Settings
 When changing any values in the LED settings page, you'll need to update the 2D settings. If not using a 2D matrix, you can set them to 1 x <number of LED's> or vice versa.  If using a 2D matrix, configure these values for width x height. A value of less than 4 in either dimension will not work with some of the 2D animations.
