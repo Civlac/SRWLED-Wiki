@@ -2,6 +2,13 @@
 This page provides WLED programmers information on adding another slider to WLED. This information is not yet complete, as it doesn't yet deal with icons, EEPROM or IR. I will also be researching how to programmatically show/hide these sliders.
 
 ## Updating html_ui.h
+
+Please see [https://github.com/atuline/WLED/wiki/Modifying-Sound-Reactive-WLED](https://github.com/atuline/WLED/wiki/Modifying-Sound-Reactive-WLED) on how to generate html_ui.h since the UI was changed in v0.10.0-alpha-lw.
+
+***
+
+**The information below describes the way html_ui.h was generated before the UI change and is deprecated.**
+
 This file is compressed and is taken from data\index.htm. Please see Aircoookie's page on 'adding your own effect:
 
 https://github.com/Aircoookie/WLED/wiki/Add-own-functionality
