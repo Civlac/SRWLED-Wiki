@@ -49,3 +49,5 @@ void analog_sample() {
   Serial.print(micIn); Serial.print(" ");
   Serial.print(micLev); Serial.println(" ");
 } // analog_sample()
+```
+Original code can be found [here](https://pastebin.com/BHtzh5yY).
