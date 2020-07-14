@@ -43,7 +43,7 @@ This effect maps the major frequencies from the incoming signal to colors in the
 1. FFT Custom: This slider works similarly to a **"pre-amp"** for the input signal. The possible values for this slider are 1-10. A good starting point for this is around 2-3.
 
 ### Freqmatrix 
-This effect is the same as sound10, but in this case, the "injection point" where the temporal tail starts is at the beginning of the Segment rather than in the center of the segment.
+The temporal tail for this animation starts at the beginning of the Segment rather than in the center of the segment.
 
 **Sliders used:**
 1. Speed: This determines the time delay before each pixel is moved down the line.
