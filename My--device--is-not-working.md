@@ -11,7 +11,7 @@ If you'd like some help with your device, these are the types of things we would
 * Is your device working in AP mode?
 * Which IDE are you using?
 * Is it just sound reactivity that doesn't work?
-* If just sound reactivity, are you using one of our [approved microphones](https://github.com/atuline/WLED/wiki/Audio-Input-Options)?
+* If just sound reactivity, are you using one of our [approved microphone configurations](https://github.com/atuline/WLED/wiki/Audio-Input-Options)?
 * Have you tested that microphone with a [basic sound sampling sketch](https://github.com/atuline/WLED/wiki/Basic-Sound-Sampling-Sketch-Example)?
 * If it's a compile error, can you provide the errors?
 * Have you made any changes to the source?
