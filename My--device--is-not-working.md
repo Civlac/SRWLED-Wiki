@@ -10,6 +10,7 @@ If you'd like some help with your device, these are the types of things we would
 * Are you using an ESP8266 or ESP32?
 * Is your device working in AP mode?
 * Which IDE are you using?
+* Which microphone/input are you using and how is it configured?
 * Is it just sound reactivity that doesn't work?
 * If just sound reactivity, are you using one of our [approved microphone configurations](https://github.com/atuline/WLED/wiki/Audio-Input-Options)?
 * Have you tested that microphone with a [basic sound sampling sketch](https://github.com/atuline/WLED/wiki/Basic-Sound-Sampling-Sketch-Example)?
