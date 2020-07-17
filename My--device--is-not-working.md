@@ -3,6 +3,7 @@ If you'd like some help with your device, these are the types of things we would
 * Please provide a clear and concise description of the problem and the environment.
 * If you are referring to code, please provide a link to the version you are referring to.
 * Is it just sound reactivity that doesn't work?
+* Have you gone through [initial settings](https://github.com/atuline/WLED/wiki/Running-Sound-Reactive-WLED)?
 * Is your audio all wired up OK? See [here](https://github.com/atuline/WLED/wiki/Audio-Input-Options).
 * Which microphone/input are you using and how is it configured?
 * Have you tested that microphone with a [basic sound sampling sketch](https://github.com/atuline/WLED/wiki/Basic-Sound-Sampling-Sketch-Example)?
