@@ -2,7 +2,7 @@ If you'd like some help with your device, these are the types of things we would
 
 * Please provide a clear and concise description of the problem and the environment.
 * If you are referring to code, please provide a link to the version you are referring to.
-* Are you all wired up OK? See [here](https://github.com/atuline/WLED/wiki/Audio-Input-Options).
+* Is your audio all wired up OK? See [here](https://github.com/atuline/WLED/wiki/Audio-Input-Options).
 * How about power? Lots of LED's require lots of power and a common ground for everything.
 * Does the [latest release from WLED](https://github.com/Aircoookie/WLED/releases/latest) work?
 * Are you using our most recent 'MASTER' release?
