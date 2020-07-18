@@ -8,6 +8,7 @@ If you'd like some help with your device, these are the types of things we would
 * Which microphone/input are you using and how is it configured?
 * Have you tested that microphone with a [basic sound sampling sketch](https://github.com/atuline/WLED/wiki/Basic-Sound-Sampling-Sketch-Example)?
 * What are the results of that sketch?
+* Have spares. They're cheap.
 * How about power? Lots of LED's require lots of power and a common ground for everything.
 * Does the [latest release from WLED](https://github.com/Aircoookie/WLED/releases/latest) work?
 * Are you using our most recent 'MASTER' release?
