@@ -18,7 +18,7 @@ If you'd like some help with your device, these are the types of things we would
 * Which IDE are you using?
 * You may need to re-flash/clear the device completely (ie using NodeMCU Pyflasher), especially after a major update.
 * Alternatively, try a factory reset from within the WLED GUI.
-* Got too much noise? Try lowering the current draw/brightness.
+* Got too much noise? Try lowering the current draw/brightness and clean up the wiring.
 * If it's a compile error, can you provide the errors?
 * Have you made any changes to the source?
 * If your bootloader is broken, the binary may not load. Try the one from wled.me first.
