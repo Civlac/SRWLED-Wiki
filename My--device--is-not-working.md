@@ -24,5 +24,5 @@ If you'd like some help with your device, these are the types of things we would
 * Can you document the steps to re-create that error?
 * Make sure your grounds are all connected together.
 * If you're using our 'dev' branch, don't forget to make a fresh 'pull'.
-* [See my FastLED support FAQ](http://tuline.com/fastled-support-qa/)
+* [See my FastLED support FAQ](http://tuline.com/fastled-support-qa/).
 
