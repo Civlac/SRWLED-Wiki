@@ -17,6 +17,7 @@ If you'd like some help with your device, these are the types of things we would
 * Is your device working in AP mode?
 * Which IDE are you using?
 * You may need to re-flash/clear the device completely (ie using Pyflasher), especially after a major update.
+* Alternatively, try a factory reset from within the WLED GUI.
 * Got too much noise? Try lowering the current draw/brightness.
 * If it's a compile error, can you provide the errors?
 * Have you made any changes to the source?
