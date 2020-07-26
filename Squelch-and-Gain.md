@@ -10,20 +10,15 @@ Line-in signals are typically much lower than that of some of the microphones. R
 
 ## Tables of Approximate Values
 
+ For your microphone/line-in signal, adjust the squelch to reduce background noise and the gain settings in order to maximize the led activity. Gain values range from 0 to 255, which are 0 = 1.0, 64 = 2.0, 128 = 3.0, 192 = 4.0, 255 = 5.0  
  
- The goal is to drive the LED's to the maxiumum about 90% of the time.
+Calculation:  sample = sample*sampleGain/64+sample;
  
- For each input device, adjust the gain settings below range from 0 to 255, which are 0 = 1.0, 64 = 2.0, 128 = 3.0, 192 = 4.0, 255 = 5.0
- 
- Calculation:  sampleAdj = sample*sampleGain/64+sample;
- 
- 
- FG085 Sinewave generator providing P-P output @ 100Hz. This generator does not provide pink or white noise capability.
- 
+FG085 Sinewave generator providing P-P output @ 100Hz. This generator does not provide pink or white noise capability. This is used to understand the voltages produced by various inputs. This table was used to configure an animation that reacted the same at different input levels.
 
 | Generator setting | Squelch | Gain | Comments
 | :------------- | --- | --- | ---
-| Line-In (FG085) 100Hz@  4.0V  | Sq: 5 | Gain: 0   | I don't want to go higher. It's about 90%
+| Line-In (FG085) 100Hz@  4.0V  | Sq: 5 | Gain: 0   | I don't want to go higher.
 | Line-In (FG085) 100Hz@  2.4V  | Sq: 5 | Gain: 64  | 2X multiplier
 | Line-In (FG085) 100Hz@  1.5V  | Sq: 5 | Gain: 128 | 3X multiplier
 | Line-In (FG085) 100Hz@  1.1V  | Sq: 5 | Gain: 192 | 4X multiplier
