@@ -43,12 +43,9 @@ FG085 Sinewave generator providing P-P output @ 100Hz. This generator does not p
 | MAX9814 @40 dB |     Sq: 10 | Gain: 112 | A good configuration.
 | INMP401 |            Sq: 6 | Gain: 64   | I'd like to like this microphone, but have had a lot of bad ones (from China).
 | MAX4466 (midway) |  Sq: 6  | Gain: 82 | This is a nice microphone that needs a bit of a boost.
- 
 | MAX4466 (full CCW) | Sq: 6  | Gain: 65 | Seems OK.
 | MAX4466 (full CW) |  Sq: 8  | Gain: 110 | Seems OK. 
- 
- 
-| INMP441              | Sq:     | Gain: 0    | Wow! This thing is an amplification beast!
+| INMP441 (not yet integrated)             | Sq:     | Gain: 0    | Wow! This thing is an amplification beast!
  
  
  Conclusion: The INMP441 microphone has by far the widest dynamic range, but is also much more complex to configure and run.
