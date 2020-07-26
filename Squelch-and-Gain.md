@@ -1,28 +1,28 @@
 ## Introduction
 
-In order to accomodate a wide range of audio inputs, we have added user configurable squelch (noise reduction) and gain controls for the '*' or volume reactive routines on the LED settings page.
+In order to accomodate a wide range of audio inputs, we have added user configurable squelch (noise reduction) and gain controls on the LED settings page for the volume reactive animations that start with a single *.
 
 ## Squelch
-The volume reactive routines (starting with a single *), support a squelch or background noise suppression. For your current environment, , adjust this value on the LED Settings page so that the leds are only activated above a certain 'noise' level.
+Adjust this value on the LED Settings page so that the leds are only activated above a certain 'noise' level.
 
 ## Gain
-Line-in signals are typically much lower than that of some of the microphones. Rather than use an auto gain function, you can adjust the gain from 0 to 255, which translate to a 1.0 gain to a 5.0 gain for the volume reactive routines.
+Line-in signals are typically much lower than that of some of the microphones. Rather than use an auto gain function, you can manually adjust the gain from 0 to 255, which translate to a 1.0 gain up to a 5.0 gain for the volume reactive routines.
 
 ## Tables of Approximate Values
 
- For your microphone/line-in signal, adjust the squelch to reduce background noise and the gain settings in order to maximize the led activity. Gain values range from 0 to 255, which are 0 = 1.0, 64 = 2.0, 128 = 3.0, 192 = 4.0, 255 = 5.0  
+For your microphone/line-in signal, adjust the squelch to reduce background noise and the gain settings in order to maximize the led activity. Gain values range from 0 to 255, which are 0 = 1.0, 64 = 2.0, 128 = 3.0, 192 = 4.0, 255 = 5.0  
  
 Calculation:  sample = sample*sampleGain/64+sample;
- 
-FG085 Sinewave generator providing P-P output @ 100Hz. This generator does not provide pink or white noise capability. This is used to understand the voltages produced by various inputs. This table was used to configure an animation that reacted the same at different input levels.
+
+The first table uses FG085 Sinewave generator providing P-P output @ 100Hz. This is used to understand the voltages produced by various inputs. This table was used to configure an animation that reacted the same at different input levels.
 
 | Generator setting | Squelch | Gain | Comments
 | :------------- | --- | --- | ---
 | Line-In (FG085) 100Hz@  4.0V  | Sq: 5 | Gain: 0   | I don't want to go higher.
-| Line-In (FG085) 100Hz@  2.4V  | Sq: 5 | Gain: 64  | 2X multiplier
-| Line-In (FG085) 100Hz@  1.5V  | Sq: 5 | Gain: 128 | 3X multiplier
-| Line-In (FG085) 100Hz@  1.1V  | Sq: 5 | Gain: 192 | 4X multiplier
-| Line-In (FG085) 100Hz@  0.9V  | Sq: 5 | Gain: 255 | 5X multiplier
+| Line-In (FG085) 100Hz@  2.4V  | Sq: 5 | Gain: 64  | =2.0X multiplier
+| Line-In (FG085) 100Hz@  1.5V  | Sq: 5 | Gain: 128 | =3.0X multiplier
+| Line-In (FG085) 100Hz@  1.1V  | Sq: 5 | Gain: 192 | =4.0X multiplier
+| Line-In (FG085) 100Hz@  0.9V  | Sq: 5 | Gain: 255 | =5.0X multiplier
  
  
  Using a pink noise generator from https://www.youtube.com/watch?v=WJ9Go1PnAVA
@@ -30,11 +30,12 @@ FG085 Sinewave generator providing P-P output @ 100Hz. This generator does not p
 | Device | Squelch | Gain    | Comments
 | :------------- | --- | ----------- | ---
 | Line-In (Hyper-X Gaming Headset) | Sq: 5   | Gain: 255 | Goes to about 70% if everything is turned up to full. Uses 3.5mm output of USB based Hyper X gaming headset.
-| Line-In Laptop | Sq: 5 | Gain: 140 |   A similarly tested laptop provided a significantly higher output voltage.
-| Line-In (Android)    | Sq: 5   | Gain: 160 | Seems OK.
+| Line-In Laptop | Sq: 5 | Gain: 140 |   The laptop produced a significantly higher voltage than the headset.
+| Line-In (Android)    | Sq: 5   | Gain: 160 | About the same as a standard line-in.
 
 
- Providing ~80 dB of Pink noise to speaker from https://www.youtube.com/watch?v=WJ9Go1PnAVA
+Providing ~80 dB of Pink noise to speaker from https://www.youtube.com/watch?v=WJ9Go1PnAVA
+As measured by an Android based sound analyzer app.
 
 | Microphone | Squelch | Gain | Comments
 | :------------- | --- | --- | ---
