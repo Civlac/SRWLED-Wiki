@@ -1,14 +1,14 @@
-##Introduction##
+## Introduction
 
 In order to accomodate a wide range of audio inputs, we have added user configurable squelch (noise reduction) and gain controls for the '*' or volume reactive routines on the LED settings page.
 
-##Squelch##
+## Squelch
 The volume reactive routines (starting with a single *), support a squelch or background noise suppression. For your current environment, , adjust this value on the LED Settings page so that the leds are only activated above a certain 'noise' level.
 
-##Gain##
+## Gain
 Line-in signals are typically much lower than that of some of the microphones. Rather than use an auto gain function, you can adjust the gain from 0 to 255, which translate to a 1.0 gain to a 5.0 gain for the volume reactive routines.
 
-##Table of Approximate Values##
+## Tables of Approximate Values
 
  
  The goal is to drive the LED's to the maxiumum about 90% of the time.
