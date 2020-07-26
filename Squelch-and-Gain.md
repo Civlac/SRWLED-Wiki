@@ -27,7 +27,7 @@ FG085 Sinewave generator providing P-P output @ 100Hz. This generator does not p
  
  Using a pink noise generator from https://www.youtube.com/watch?v=WJ9Go1PnAVA
  
-| Device | Squelch | Gain | Comments
+| Device | Squelch | Gain    | Comments
 | :------------- | --- | ----------- | ---
 | Line-In (Hyper-X Gaming Headset) | Sq: 5   | Gain: 255 | Goes to about 70% if everything is turned up to full. Uses 3.5mm output of USB based Hyper X gaming headset.
 | Line-In Laptop | Sq: 5 | Gain: 140 |   A similarly tested laptop provided a significantly higher output voltage.
