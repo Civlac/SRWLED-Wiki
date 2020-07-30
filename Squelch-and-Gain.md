@@ -8,6 +8,9 @@ Adjust this value on the LED Settings page so that the leds are only activated a
 ## Gain
 Line-in signals are typically much lower than that of some of the microphones. Rather than use an auto gain function, you can manually adjust the gain from 0 to 255, which translate to a 1.0 gain up to a 5.0 gain for the volume reactive routines.
 
+## Voltage Fluctuation
+I've found that bright LED's can sometimes affect the microphone levels, and I suspect this is from voltage fluctuation of the power supply, possibly USB power. In order to minimize that, I had to reduce the maximum current draw on that setup.
+
 ## Tables of Approximate Values
 
 For your microphone/line-in signal, adjust the squelch to reduce background noise and the gain settings in order to maximize the led activity. Gain values range from 0 to 255.
