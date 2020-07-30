@@ -18,7 +18,7 @@ Calculation:  sample = sample*sampleGain/40+sample/16;
 
 The first table uses FG085 Sinewave generator providing P-P output @ 100Hz. This is used to understand the voltages produced by various inputs. This table was used to configure an animation that reacted the same at different input levels.
 
-## Note: Since creating these tables, I've fine tuned the gain formula. As in Pirates of the Caribbean, consider this as more of a guideline.
+## Note: Since creating these tables, I've fine tuned the gain formula. Just like Pirates of the Caribbean, consider this as more of a guideline.
 
 | Generator setting | Squelch | Gain | Comments
 | :------------- | --- | --- | ---
