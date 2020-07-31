@@ -25,6 +25,7 @@ If you'd like some help with your device, these are the types of things we would
 * If your bootloader is broken, the binary may not load. Try the one from wled.me first.
 * Can you document the steps to re-create that error?
 * Make sure your grounds are all connected together.
+* If you are compiling from source and you've previously used normal WLED on that board, make sure you erase the board first.
 * If you're using our 'dev' branch, don't forget to make a fresh 'pull'.
 * [See my FastLED support FAQ](http://tuline.com/fastled-support-qa/).
 
