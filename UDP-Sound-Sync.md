@@ -10,3 +10,5 @@ You would then to go the ‘Sync Interfaces’ page and configure the UDP sync a
 This does not sync the actual animations, but rather just the transmission of summary audio sampling information.
 
 You’ll need to cycle the power on everything once you’ve saved the settings.
+
+UDP Sound sync brought to you by @spedione on Discord.
