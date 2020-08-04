@@ -27,7 +27,8 @@ When an ESP32 is configured for audio transmission, it will connect to a UDP Mul
 UDP_SYNC_HEADER is a versioning number that's defined in audio_reactive.h
 
 When an ESP32 or ESP8266 is configured to receive audio data from another device, the receiver will disable any onboard microphone sampling in favor of audio data received from the network.  Any time a UDP Multicast packet is received from a transmitter, it will be treated as a discrete microphone sample and stored in memory the same way it would be if it were a local microphone.
-Note: An ESP8266 will not be able to use any FFT data transmitted from an ESP32, as a result of the differences in hardware and software.
+
+An ESP8266 will not be able to use any FFT data transmitted from an ESP32, as a result of the differences in hardware and software.
 
 The UDP Multicast IP is 239.0.0.1, and the default port is 11988
 
