@@ -3,12 +3,12 @@ If you'd like some help with your device, these are the types of things we would
 * Please provide a clear and concise description of the problem and the environment.
 * If you are referring to code, please provide a link to the version you are referring to.
 * Is it just sound reactivity that doesn't work?
-* Make sure your microphone is powered by the 3V pin and NOT Vin or 5V . . and that your LED's are NOT connected to that 3V pin.
+* Make sure your microphone is powered by the 3V pin and NOT Vin or 5V . . and that your LED's are NOT connected to that 3V pin either.
 * Have you gone through [initial settings](https://github.com/atuline/WLED/wiki/Running-Sound-Reactive-WLED)?
 * Is your audio all wired up OK? See [here](https://github.com/atuline/WLED/wiki/Audio-Input-Options).
 * Which microphone/input are you using and how is it configured?
 * Have you tested that microphone with a [basic sound sampling sketch](https://github.com/atuline/WLED/wiki/Basic-Sound-Sampling-Sketch-Example)?
-* What are the results of that sketch?
+* What are the results of that sketch? A MAX4466 should average about 1875 on an ESP32.
 * Have spares. They're cheap and they break. (experience speaking)
 * How about power? Lots of LED's require lots of power and a common ground for everything.
 * Does the [latest release from WLED](https://github.com/Aircoookie/WLED/releases/latest) work?
