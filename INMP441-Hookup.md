@@ -6,11 +6,11 @@ If an INMP441 is not detected during powerup, sound reactive WLED will fall back
 
 | INMP441 | Other | ESP32 Pin
 | ---- | ---- | ----
-| SD | DOUT | 26
+| SD | DOUT | 32
 | L/R | L/R | Gnd
 | VDD | VDD | 3.3V
-| WS | LRCL | 17
-| SCK | BCLK | 18
+| WS | LRCL | 15
+| SCK | BCLK | 14
 
 
 
