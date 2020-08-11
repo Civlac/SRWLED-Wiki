@@ -12,6 +12,6 @@ On an ESP32 (only), if an INMP441 is not detected during startup, Sound Reactive
 | WS | LRCL | 15
 | SCK | BCLK | 14
 
-
+Note that 'Other' is supposed to represent the GY-SPH0645 I²S, which did not function correctly during testing with the INMP441 setup.
 
 INMP441 support by @spedione
