@@ -2,7 +2,7 @@ As for Aug 11, 2020, this is only available on our dev branch.
 
 The INMP441 is a high-performance, low power, digital output, omnidirectional MEMS microphone and consists of a MEMS sensor, signal conditioning, an analog-to-digital converter, anti-aliasing filters, power management, and an industry-standard 24-bit I²S interface. The I²S interface allows the INMP441 to connect directly to digital processors, such as DSPs and microcontrollers, without the need for an audio codec in the system.
 
-If an INMP441 is not detected during startup, Sound Reactive WLED will fall back to analog read.
+On an ESP32 (only), if an INMP441 is not detected during startup, Sound Reactive WLED will fall back to analog read.
 
 | INMP441 | Other | ESP32 Pin
 | ---- | ---- | ----
