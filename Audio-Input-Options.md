@@ -38,3 +38,6 @@ On the ESP32, the ADC pin used is pin 36 (also known as VP), while the ESP8266 u
 
 ### Squelch
 The volume reactive routines (starting with a single *), support a squelch or background noise suppression. This can be configured near the bottom of the LED Settings page.
+
+### Gain
+Line-in signals are typically much lower than that of some of the microphones. Rather than use an auto gain function, you can manually adjust the gain from 0 to 255, which translate to a 1.0 gain up to a 5.0 gain for the volume reactive routines (only).
