@@ -19,6 +19,10 @@ Are you looking for some MSGEQ7 support? If so, there's a fork for the ESP8266 t
 
 https://github.com/NeariX67/WLED_MSGEQ7
 
+How about INMP441 support using [Constant Q Transform](https://en.wikipedia.org/wiki/Constant-Q_transform) instead of FFT at:
+
+https://github.com/GrumpyMeow/WLED/tree/sound/wled00
+
 
 ## Sound Reactive WLED fork Team:
 
