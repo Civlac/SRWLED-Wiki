@@ -7,7 +7,7 @@ On an ESP32 (only), if an INMP441 is not detected during startup, Sound Reactive
 | INMP441 | Other | ESP32 Pin
 | ---- | ---- | ----
 | SD | DOUT | 32
-| L/R | L/R | Gnd
+| L/R | SEL | Gnd
 | VDD | VDD | 3.3V
 | WS | LRCL | 15
 | SCK | BCLK | 14
