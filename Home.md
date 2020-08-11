@@ -50,6 +50,7 @@ Using the WLED 0.10 codebase, our code has been tested with:
 * 3.5mm Line In
 * [WeMOS D1 Mini (ESP8266)](https://docs.wemos.cc/en/latest/d1/d1_mini.html)
 * [Espressif ESP32 DevKitC V4](https://www.digikey.com/product-detail/en/espressif-systems/ESP32-DEVKITC-32D/1965-1000-ND/9356990)
+* [LOLIN D32](https://docs.wemos.cc/en/latest/d32/d32.html)
 
 For more information, see our **[Audio Input Options](https://github.com/atuline/WLED/wiki/Audio-Input-Options)** page.
 
