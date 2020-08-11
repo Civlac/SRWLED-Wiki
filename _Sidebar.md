@@ -4,7 +4,7 @@
 [Running Sound Reactive WLED](https://github.com/atuline/WLED/wiki/Running-Sound-Reactive-WLED)  
 [Sound Reactive Animations](https://github.com/atuline/WLED/wiki/Reactive-Animations)  
 [Non-Reactive Animations](https://github.com/atuline/WLED/wiki/Non-Reactive-Animations)    
-[Audio Input Options](https://github.com/atuline/WLED/wiki/Audio-Input-Options)    
+[Analog Audio Input Options](https://github.com/atuline/WLED/wiki/Audio-Input-Options)    
 [Squelch and Gain](https://github.com/atuline/WLED/wiki/Squelch-and-Gain)
 
 ### Technicals
