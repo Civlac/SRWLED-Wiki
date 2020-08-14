@@ -220,7 +220,7 @@ We've expanded `EEPSIZE` in const.h to 4095 for ESP32 and 3300 for ESP8266 due t
 
 | Byte         | Data       |
 | ----         | ----       |
-| EEP_AUDIO    | Sound Squelch
+| EEP_AUDIO    | Sound Squelch Setting
 | EEP_AUDIO+1  | Audio Sync Port
 | EEP_AUDIO+2  | Audio Sync Port
 | EEP_AUDIO+3  | Audio Sync Enabled
@@ -229,6 +229,7 @@ We've expanded `EEPSIZE` in const.h to 4095 for ESP32 and 3300 for ESP8266 due t
 | EEP_AUDIO+6  | FFT3 Slider Value
 | EEP_AUDIO+7  | Begin 2D Matrix Values
 | EEP_AUDIO+11 | End 2D Matrix Values
+| EEP_AUDIO+12 | Input Gain Setting
 
 ### Presets in EEPROM
 How do we store FFT slider values in EEPROM for WLED presets? WLED Presets are 20-byte blocks (slots) stored in EEPROM. There is space reserved in EEPROM for 25 slots from 400-899. Currently, 18 of the 20 bytes are being used by WLED. This presents a problem for us since, at the time of writing,  we have 3 bytes that we need to store for our FFT sliders. We didn't want to attempt to rewrite the entire WLED preset protocol as that would surely introduce unnecessary headaches.
