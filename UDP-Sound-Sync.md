@@ -1,8 +1,3 @@
-Start of the page.
-
-Reference: https://github.com/Aircoookie/WLED/wiki/UDP-Realtime-Control
-
-
 In order to configure UDP sound sync, the ‘master’ needs to be an ESP32 along with an audio input.
 
 You would then to go the ‘Sync Interfaces’ page and configure the UDP sync at the bottom of the page. Transmit for the ESP32 and receive for devices without an audio input (either ESP32's or ESP8266's). Make sure the UDP port is the same.
@@ -33,3 +28,7 @@ An ESP8266 will not be able to use any FFT data transmitted from an ESP32, as a 
 The UDP Multicast IP is 239.0.0.1, and the default port is 11988
 
 UDP Sound sync brought to you by @spedione on Discord.
+
+Reference: https://github.com/Aircoookie/WLED/wiki/UDP-Realtime-Control
+
+
