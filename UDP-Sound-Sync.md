@@ -25,7 +25,7 @@ When an ESP32 or ESP8266 is configured to receive audio data from another device
 
 An ESP8266 will not be able to use any FFT data transmitted from an ESP32, as a result of the differences in hardware and software.
 
-The UDP Multicast IP is 239.0.0.1, and the default port is 11988
+The UDP Multicast IP is 239.0.0.1, and the default port is 11988.
 
 UDP Sound sync brought to you by @spedione on Discord.
 
