@@ -11,7 +11,7 @@ In addition to new animations, we've made numerous changes to the UI of WLED, an
 * 2D effects.
 * UDP sync for volume and FFT reactive effects.
 * Additional sliders for controlling effects.
-* 2D, noise squelch and UDP sync settings.
+* Configuration setting for 2D, noise squelch, gain and UDP sound synchronization.
 
 Please consider joining the [WLED Discord group](https://discord.gg/RNgqKpZ) where we have a dedicated channel to discuss this project and answer any questions you may have.
 
