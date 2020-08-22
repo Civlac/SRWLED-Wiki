@@ -1,4 +1,4 @@
-###August 22, 2020
+### August 22, 2020
 
 - Our dev build now has INMP441 support for the ESP32 as well as Gain settings control for volume reactive ('*") routines.
 - That has not yet been rolled up into main.
