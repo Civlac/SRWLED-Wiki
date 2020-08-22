@@ -1,6 +1,6 @@
 ### Home
 [Introduction](https://github.com/atuline/WLED/wiki)  
-[News](https://github.com/atuline/WLED/wiki/News)
+[News](https://github.com/atuline/WLED/wiki/News)  
 [Installing and Compiling](https://github.com/atuline/WLED/wiki/Installing-and-Compiling)  
 [Running Sound Reactive WLED](https://github.com/atuline/WLED/wiki/Running-Sound-Reactive-WLED)  
 [Sound Reactive Animations](https://github.com/atuline/WLED/wiki/Reactive-Animations)  
