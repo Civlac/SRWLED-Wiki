@@ -13,6 +13,7 @@
 [Connectivity Issues](https://github.com/atuline/WLED/wiki/Connectivity-Issues)  
 [It's Not Working](https://github.com/atuline/WLED/wiki/My--device--is-not-working)  
 [Modifying Sound Reactive WLED](https://github.com/atuline/WLED/wiki/Modifying-Sound-Reactive-WLED)
+[Adding a new Settings Page](https://github.com/atuline/WLED/wiki/Adding-a-Sound-Settings-page-to-the-UI)
 [WLED Programming Notes](https://github.com/atuline/WLED/wiki/WLED-Programming-Notes)  
 [On Lossy Colours](https://github.com/atuline/WLED/wiki/On-Lossy-Colours)  
 [Sliders in WLED](https://github.com/atuline/WLED/wiki/Adding-Sliders)  
