@@ -1,4 +1,4 @@
-#Introduction
+# Introduction
 This is a FORK of the original WLED code as found at [wled.me](http://wled.me). It provides basic sound reactivity for both the [ESP8266](https://github.com/atuline/WLED/tree/ESP8266) and [ESP32](https://github.com/atuline/WLED) platforms as well as FFT sound reactivity for the ESP32.
 
 **NOTE:** Due to the performance limitations of the ESP8266, we decided to separate the ESP8266 and ESP32 code in order to provide a more stable build for the ESP8266. Beginning with version 0.10.2 and moving forward, ESP8266 support has been removed from the master branch and will continue to be supported in the [ESP8266 Branch](https://github.com/atuline/WLED/tree/ESP8266).
