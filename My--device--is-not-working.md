@@ -5,7 +5,7 @@ If you'd like some help with your device, these are the types of things we would
 * Is it just sound reactivity that doesn't work?
 * Make sure your microphone is powered by the 3V pin and NOT Vin or 5V . . and that your LED's are NOT connected to that 3V pin either.
 * Have you gone through [initial settings](https://github.com/atuline/WLED/wiki/Running-Sound-Reactive-WLED)?
-* Is your audio all wired up OK? See [here](https://github.com/atuline/WLED/wiki/Audio-Input-Options).
+* Is your audio all wired up OK? [See here](https://github.com/atuline/WLED/wiki/Analog-Audio-Input-Options).
 * Which microphone/input are you using and how is it configured?
 * Have you tested that microphone with a [basic sound sampling sketch](https://github.com/atuline/WLED/wiki/Basic-Sound-Sampling-Sketch-Example)?
 * What are the results of that sketch? Does it respond to your speech? A MAX4466 and INMP401 should average about 1875 on an ESP32, a MAX9814 about 1350 for all gain settings. 
