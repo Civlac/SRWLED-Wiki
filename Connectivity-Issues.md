@@ -1,6 +1,7 @@
 We've sometimes been unable to connect to one or more of our WLED enabled devices. Here are some things to try:
 
-* Wipe (using [pyflasher](https://github.com/marcelstoer/nodemcu-pyflasher/releases/latest)) and re-flash your device.
+* Wipe (using [pyflasher](https://github.com/marcelstoer/nodemcu-pyflasher/releases/latest) or [esptool.py](https://github.com/espressif/esptool)) and re-flash your device.
+  * **NOTE:** For ESP32 you must write flash at 0x10000. There are great [instructions here](https://github.com/Aircoookie/WLED/wiki/Install-WLED-binary).
 * For more reliable connectivity on Android, go into WiFi advanced settings (press the 3 dots at the top right of the WiFi page) and disable 'Switch to mobile data' as well as 'Wi-Fi power saving mode'.
 * In the WIFI Setup settings page of WLED, uncheck 'Disable WiFi sleep'.
 * Ensure you have a strong signal to the device.
