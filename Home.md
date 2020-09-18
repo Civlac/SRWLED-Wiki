@@ -1,6 +1,4 @@
-# WLED Sound Reactive
-
-## Introduction.
+# WLED Sound Reactive: Introduction
 This is a FORK of the original WLED code as found at [wled.me](http://wled.me). It provides basic sound reactivity for both the [ESP8266](https://github.com/atuline/WLED/tree/ESP8266) and [ESP32](https://github.com/atuline/WLED) platforms as well as FFT sound reactivity for the ESP32.
 
 **NOTE:** Due to the performance limitations of the ESP8266, we decided to separate the ESP8266 and ESP32 code in order to provide a more stable build for the ESP8266. Beginning with version 0.10.2 and moving forward, ESP8266 support has been removed from the master branch and will continue to be supported in the [ESP8266 Branch](https://github.com/atuline/WLED/tree/ESP8266).
@@ -13,9 +11,11 @@ In addition to new animations, we've made numerous changes to the UI of WLED, an
 * 2D effects.
 * UDP sync for volume and FFT reactive effects.
 * Additional sliders for controlling effects.
-* Configuration setting for 2D, noise squelch, gain and UDP sound synchronization.
+* Configuration setting for 2D, noise squelch, gain, and UDP sound synchronization.
 
 Please consider joining the [WLED Discord group](https://discord.gg/RNgqKpZ) where we have a dedicated channel to discuss this project and answer any questions you may have.
+
+We can also be found on reddit at [r/soundreactive](https://www.reddit.com/r/soundreactive).
 
 Are you looking for some MSGEQ7 support? If so, there's a fork for the ESP8266 that provides this over at:
 
@@ -26,7 +26,7 @@ How about INMP441 support using [Constant Q Transform](https://en.wikipedia.org/
 https://github.com/GrumpyMeow/WLED/tree/sound/wled00
 
 
-## Sound Reactive WLED fork Team:
+### Sound Reactive WLED fork Team:
 
 * **A bit of everything (mainly FastLED):** Andrew Tuline
 * **Sound reactive ESP32 FFT, 2D:** Andreas Pleschutznig
@@ -36,7 +36,7 @@ https://github.com/GrumpyMeow/WLED/tree/sound/wled00
 Other members of the WLED Discord group have provided code and testing support as well. Thanks all!
 
 ## Knowledge pre-requisites
-You MUST be familiar with how to install the ESP8266/ESP32 board drivers as well as multiple libraries (if using the Arduino IDE). There are some [instructions here](https://github.com/atuline/WLED/wiki/Installing-Sound-Reactive-WLED) on how to do this with the Arduino IDE, however, they are provided **WITHOUT** support.
+You MUST be familiar with how to install the ESP8266/ESP32 board drivers as well as multiple libraries (if using the Arduino IDE). There are some [instructions here](https://github.com/atuline/WLED/wiki/Installing-and-Compiling) on how to do this with the Arduino IDE, however, they are provided **WITHOUT** support.
 
 Before attempting to compile this fork of WLED, make sure you CAN compile the one from [wled.me](http://wled.me).
 
@@ -55,7 +55,7 @@ Using the WLED 0.10 codebase, our code has been tested with:
 * [Espressif ESP32 DevKitC V4](https://www.digikey.com/product-detail/en/espressif-systems/ESP32-DEVKITC-32D/1965-1000-ND/9356990)
 * [LOLIN D32](https://docs.wemos.cc/en/latest/d32/d32.html)
 
-For more information, see our **[Audio Input Options](https://github.com/atuline/WLED/wiki/Audio-Input-Options)** page.
+For more information, see our **[Analog Audio Input Options](https://github.com/atuline/WLED/wiki/Analog-Audio-Input-Options)** or **[Digital Audio Input Options](https://github.com/atuline/WLED/wiki/Digital-Microphone-Hookup)** page.
 
 
 ## Default pins used
