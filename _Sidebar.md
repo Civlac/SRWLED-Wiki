@@ -10,7 +10,7 @@
 [News](https://github.com/atuline/WLED/wiki/News) 
 
 ### Technicals
-[It's Not Working](https://github.com/atuline/WLED/wiki/My--device--is-not-working) 
+[It's Not Working](https://github.com/atuline/WLED/wiki/My--device--is-not-working)   
 [Connectivity Issues](https://github.com/atuline/WLED/wiki/Connectivity-Issues)  
 [Modifying Sound Reactive WLED](https://github.com/atuline/WLED/wiki/Modifying-Sound-Reactive-WLED)  
 [Adding a new Settings Page](https://github.com/atuline/WLED/wiki/Adding-a-Sound-Settings-page-to-the-UI)  
