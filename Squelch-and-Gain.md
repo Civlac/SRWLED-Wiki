@@ -13,7 +13,7 @@ I've found that bright LED's can sometimes affect the microphone levels, and I s
 
 ## Tables of Approximate Values
 
-For your microphone/line-in signal, adjust the squelch to reduce background noise and the gain settings in order to maximize the led activity. Gain values range from 0 to 255.
+For your microphone/line-in signal, adjust the squelch to reduce background noise and the gain settings in order to maximize the led activity. Gain values range from 1 to 255.
  
 Calculation:  sample = sample*sampleGain/40+sample/16;
 
