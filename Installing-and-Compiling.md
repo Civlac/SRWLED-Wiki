@@ -60,7 +60,7 @@ WLED makes use of a LOT of 3rd party libraries and is NOT easy to compile, espec
 * ArduinoFFT (ESP32 Only)
 * ESPAsyncTCP (ESP8266 Only)
 * ESPAsyncUDP (ESP8266 Only)
-* ESPAsyncWebServer
+* ESPAsyncWebServer (See notes below)
 * AsyncTCP (ESP32 Only)
 
 See the next section to find/install these libraries.
@@ -84,9 +84,15 @@ To install libraries that are not in the library manager, you would typically:
 1. Your library should now be included if you go "Sketch | Include Libraries" and navigate down to Contributed libraries.
 
 1. Download and install [ESPAsyncTCP](https://github.com/me-no-dev/ESPAsyncTCP)
-1. Download and install [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
+1. Download and install [ESPAsyncWebServer](https://github.com/Aircoookie/ESPAsyncWebServer)
+
 1. Download and install [ESPAsyncUDP](https://github.com/me-no-dev/ESPAsyncUDP)
 1. For ESP32 Download and install [AsyncTCP](https://github.com/me-no-dev/AsyncTCP)
+
+**Note:** AirCoookie has since created a fork of ESPAsyncWebServer, and the original will no longer work with WLED.
+
+1. You can no longer install the original [Original ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
+
 
 If you add the library manually or with git you will most likely need to **restart**, yes **restart** the Arduino IDE before it will be recognized. For more information on libraries, see: https://www.arduino.cc/en/Guide/Libraries.
 
@@ -103,6 +109,8 @@ When you are done, if you navigate to 'File | Examples' and scroll all the way d
 * If you have 'git' installed, navigate to where you want to store your project and run:
 
     `git clone https://github.com/atuline/WLED.git WLED-Reactive`
+
+
 
 ### Compiling WLED
 
