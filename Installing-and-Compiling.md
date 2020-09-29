@@ -91,7 +91,10 @@ To install libraries that are not in the library manager, you would typically:
 
 **Note:** AirCoookie has since created a fork of ESPAsyncWebServer, and the original will no longer work with WLED.
 
-1. You can no longer install the original [Original ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
+You can no longer install the original [Original ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer)
+If you have the original installed, you can edit wled.h and comment out the line as follows:
+
+//  #define WLED_ENABLE_WEBSOCKETS
 
 
 If you add the library manually or with git you will most likely need to **restart**, yes **restart** the Arduino IDE before it will be recognized. For more information on libraries, see: https://www.arduino.cc/en/Guide/Libraries.
