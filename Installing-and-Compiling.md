@@ -89,7 +89,7 @@ To install libraries that are not in the library manager, you would typically:
 1. Download and install [ESPAsyncUDP](https://github.com/me-no-dev/ESPAsyncUDP)
 1. For ESP32 Download and install [AsyncTCP](https://github.com/me-no-dev/AsyncTCP)
 
-**Note:** AirCoookie has since created a fork of ESPAsyncWebServer, and the [original ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer) will no longer work with WLED. If you have the original installed, you can edit wled.h and comment out the line as follows:
+**Note:** AirCoookie has since created a fork of ESPAsyncWebServer, and the original [ESPAsyncWebServer](https://github.com/me-no-dev/ESPAsyncWebServer) will no longer work with WLED. If you have the original installed, you can edit wled.h and comment out the line as follows:
 
 //  #define WLED_ENABLE_WEBSOCKETS
 
