@@ -28,3 +28,7 @@ If you'd like some help with your device, these are the types of things we would
 * If you're using our 'dev' branch, don't forget to make a fresh 'pull'.
 * [See my FastLED support FAQ](http://tuline.com/fastled-support-qa/).
 
+[MAX4466 in quiet room](https://github.com/atuline/WLED/blob/assets/media/quiet.jpg)
+[MAX4466 talking](https://github.com/atuline/WLED/blob/assets/media/loud.jpg)
+
+
