@@ -1,6 +1,7 @@
 If you'd like some help with your device, these are the types of things we would be asking:
 
 * Please provide a clear and concise description of the problem and the environment.
+* How about posting a crystal clear close-up photo of your wiring?
 * If you are referring to code, please provide a link to the version you are referring to.
 * Is it just sound reactivity that doesn't work?
 * Make sure your microphone is powered by the 3V pin and NOT Vin or 5V . . and that your LED's are NOT connected to that 3V pin either (source: experience).
