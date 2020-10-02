@@ -34,4 +34,4 @@ MAX4466/ESP32 Sampling results - Quiet room
 MAX4466/ESP32 Sampling results - Talking
 ![MAX4466 talking](https://github.com/atuline/WLED/blob/assets/media/loud.jpg)
 
-
+The other analog input options should provide something similar.
