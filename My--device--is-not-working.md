@@ -11,7 +11,7 @@ If you'd like some help with your device, these are the types of things we would
 * Have you tested that microphone with a [basic sound sampling sketch](https://github.com/atuline/WLED/wiki/Basic-Sound-Sampling-Sketch-Example)?
 * What are the results of that sketch? Does it respond to your speech? A MAX4466 and INMP401 should average about 1875 on an ESP32, a MAX9814 about 1350 for all gain settings.
 * Try a different pin when using that sketch if you're still not seeing good results.
-* Have spares. They're cheap and they break. (experience speaking)
+* Have spares. They're cheap and they break. (source: experience)
 * How about power? Lots of LED's require lots of power and a common ground for everything.
 * Does the [latest release from WLED](https://github.com/Aircoookie/WLED/releases/latest) work?
 * Are you using our most recent 'MASTER' release?
