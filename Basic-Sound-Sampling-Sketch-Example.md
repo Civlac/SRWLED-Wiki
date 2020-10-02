@@ -1,9 +1,8 @@
 **Use this basic code to read and calculate the average from the INMP401/MAX4466/MAX9814 microphone on an ESP32 or ESP8266**
 
 * Use the Arduino Serial plotter to view the output and compare your results to those found [here](https://github.com/atuline/WLED/blob/assets/docs/Microphones.pdf).
-
+* Make sure you have set the baud rate on your Serial plotter to 115200 (as defined in the sketch).
 * Note that the ESP32 employs a 12 bit ADC, while the ESP8266 has a 10 bit ADC. Also note the anomalous spikes on the ESP8266.
-
 * The `micLev` variable is the DC Offset value that you can use for zeroing your samples.
 
 ```C
