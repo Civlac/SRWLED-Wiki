@@ -24,6 +24,7 @@ If you'd like some help with your device, these are the types of things we would
 * Got too much noise? Try lowering the current draw/brightness and clean up the wiring.
 * If it's a compile error, can you provide the errors?
 * Have you made any changes to the source?
+* UDP Sync not working? Have you tested WLED's built-in sync? Do you need to enable multicast on your network equipment?
 * If your bootloader is broken, the binary may not load. Try the one from wled.me first.
 * Can you document the steps to re-create that error?
 * Make sure your grounds are all connected together.
