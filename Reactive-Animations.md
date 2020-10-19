@@ -6,7 +6,9 @@ Effects beginning with '**' use FFT (Fast Fourier Transforms) for frequency dete
 
 | Effect | Description | Sliders
 | :------------- | --- | ---
-| * Gravimeter | Volume reactive vu-meter with gravity. | Speed: Rate of fall <br /> Intensity: Sensitivity
+| * Gravimeter | Volume reactive vu-meter with gravity and perlin noise. | Speed: Rate of fall <br /> Intensity: Sensitivity
+| * Gravcenter | Volume reactive vu-meter from center with gravity and perlin noise. | Speed: Rate of fall <br /> Intensity: Sensitivity
+| * Gravcentric |  Volume reactive vu-meter from center with gravity. Colour wheel selects center colour. | Speed: Rate of fall <br /> Intensity: Sensitivity
 | * Juggles | Juggling balls.| Speed: Yes <br /> Intensity: # of balls
 | * Matripix | Similar to Matrix. | Speed: yes <br /> Intensity: Brightness
 | * Midnoise | Perlin noise emanating from center.| Speed: Fade rate <br /> Intensity: Maximum length
@@ -23,6 +25,7 @@ Effects beginning with '**' use FFT (Fast Fourier Transforms) for frequency dete
 | ** Freqmatrix | See below. | See below
 | ** Freqpixel | Random pixels by frequency. | Speed: Adjust fade rate<br /> Intensity: Adjust colour
 | ** Freqwave | See below. | See below
+| ** Gravfreq | VU Meter from center. Log of frequency is index to center colour. | Speed: Speed: Rate of fall<br /> Intensity: Sensitivity
 | **_Noisemove | Using perlin sound as movement for 3 different frequency bins. |Speed: Speed of perlin movement <br /> Intensity: Fade rate
 | ** Noisepeak | Blast/fade a single frequency assigned limited palette of perlin noise to the beat (err, really detected peak). | Speed: Adjust fade rate<br /> Intensity: Adjust colour
 | ** Spectral | See below. | See below
