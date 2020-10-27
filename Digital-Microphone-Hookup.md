@@ -4,11 +4,12 @@ On an ESP32 (only), if an INMP441 is not detected during startup, Sound Reactive
 
 | INMP441 | Other | ESP32 Pin
 | ---- | ---- | ----
-| SD | DOUT | 32
 | L/R | SEL | Gnd
-| VDD | VDD | 3.3V
+| SD | DOUT | 32
 | WS | LRCL | 15
 | SCK | BCLK | 14
+| VDD | VDD | 3.3V
+| GND | GND | Gnd
 
 Note that 'Other' is supposed to represent the GY-SPH0645 I²S, which did not function correctly during testing with the INMP441 setup.
 
