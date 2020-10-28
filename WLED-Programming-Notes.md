@@ -258,7 +258,7 @@ Also, in fx_fcn.h, there's:
 
 if(nowUp - _lastShow<MIN_SHOW_DELAY) return;
 
-These notes brought to you by adityakush (on Discord).
+* Frame rate information brought to you by adityakush (on Discord).
 
 
 
