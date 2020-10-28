@@ -244,7 +244,21 @@ To solve this problem, we reserved 25 5-byte blocks (slots) in EEPROM from 3175-
 | 3    | ZERO (Reserved)   |
 | 4    | ZERO (Reserved)   |
 
+### On Frame Rates
 
+WLED limits the frame rate, and it's apparently because the LED's start flashing if the frame rate is too high. First off, when writing any animations, make sure you add to your animation:
+
+return FRAMETIME;
+
+If you wish to increase the frame rate, have a look at fx.h with:
+
+\# define MIN_SHOW_DELAY 15
+
+Also, in fx_fcn.h, there's:
+
+if(nowUp - _lastShow<MIN_SHOW_DELAY) return;
+
+These notes brought to you by adityakush (on Discord).
 
 
 
