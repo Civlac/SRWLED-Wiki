@@ -252,7 +252,7 @@ return FRAMETIME;
 
 If you wish to increase the frame rate, have a look at fx.h with:
 
-\# define MIN_SHOW_DELAY 15
+\#define MIN_SHOW_DELAY 15
 
 Also, in fx_fcn.h, there's:
 
