@@ -246,7 +246,7 @@ To solve this problem, we reserved 25 5-byte blocks (slots) in EEPROM from 3175-
 
 ### On Frame Rates
 
-WLED limits the frame rate, and it's apparently because the LED's start flashing if the frame rate is too high. First off, when writing any animations, make sure you add to your animation:
+WLED limits the frame rate, and it's apparently because the LED's start flashing if the frame rate is too high. The standard for maintaining a consistent frame rate when writing any animations is to make sure you add to the end of your animation:
 
 return FRAMETIME;
 
