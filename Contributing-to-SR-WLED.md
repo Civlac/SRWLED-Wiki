@@ -26,5 +26,6 @@ In addition:
 * Keeping any commit to a limited topic for ease of testing/rollback.
 * Good communication with team members.
 * Keeping the Wiki documentation in good order.
+* Commitment. You're really keen on WLED and have a long term commitment to help the community.
 
-In conclusion. . the most important factors are teamwork, communication, documentation, testing, testing and more testing. Oh yea, and a bit of new code as well.
+In conclusion. . the most important factors are commitment, teamwork, communication, documentation, testing, testing and more testing. Oh yea, and a bit of new code as well.
