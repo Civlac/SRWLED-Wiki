@@ -22,9 +22,9 @@ If you'd like to contribute, you would need to be able to perform a significant 
 
 In addition:
 
-* Keeping any code update to a limited topic for ease of testing/rollback.
-* Good communication with team members.
-* Keeping the Wiki documentation in good order.
+* Keep any code update to a limited topic for ease of testing/rollback.
+* Good communication with team members is important.
+* Keep the Wiki documentation in good order.
 * Commitment. You're really keen on WLED and have a long term commitment to help the community.
 
 Knowledge required:
