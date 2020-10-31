@@ -10,7 +10,7 @@ We learned a long time ago that a adding new code can make for a LOT of testing.
 * UDP sound synchronization.
 * Settings for gain, squelch, sliders, UDP sync and 2D layout.
 * EEPROM code to save/load those settings.
-* A dedicated sound reactive settings page.
+* A dedicated sound reactive settings web page.
 * ESP32 and ESP8266 based devices.
 * dev branch for the latest code for ESP32 (optionally ESP8266).
 * ESP8266 branch for volume only routines.
