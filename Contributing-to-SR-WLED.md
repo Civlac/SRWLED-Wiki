@@ -31,7 +31,7 @@ Knowledge required:
 
 * Github versioning, merging.
 * FastLED (for animations), combined with NeoPixelBus.
-* C, C++, pointers.
+* Intermediate C programming.
 * HTML, CSS, Javascript, XML, JSON, npm for any UI changes.
 * WLED coding standards.
 
