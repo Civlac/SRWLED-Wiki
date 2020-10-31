@@ -16,7 +16,7 @@ We learned a long time ago that a adding new code can make for a LOT of testing.
 * An ESP8266 branch for volume only routines.
 * A master branch, which gets occasionally gets merged with AC's master by one of our team members.
 
-If you'd like to contribute, you would need to be able to perform a significant amount of testing so your new code doesn't unintentionally break other functionality. For instance, if you'd like to update the FFT code, you'll need to test:
+If you'd like to contribute, you would need to be able to perform a significant amount of testing so your new code doesn't unintentionally break other functionality. For instance, if you'd like to update the FFT code, you'll at least need to test:
 
 * ALL of the FFT animations and sliders to be tested, the FFT sound sync, and (for now) make sure #ifdef's are used so that it'll still compile on the ESP8266.
 
