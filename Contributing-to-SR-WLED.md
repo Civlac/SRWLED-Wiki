@@ -25,7 +25,7 @@ In addition:
 * Keep any code update to a limited topic for ease of testing/rollback.
 * Good communication with team members is important.
 * Keep the Wiki documentation in good order.
-* Commitment. You're really keen on WLED and have a long term commitment to help the community.
+* Commitment. You're really keen on WLED and have a long term commitment to support the community.
 
 Knowledge required:
 
