@@ -35,7 +35,7 @@ Knowledge required:
 * HTML, CSS, Javascript, XML, JSON, npm for any UI changes.
 * WLED coding standards.
 
-We still have the occasional issue with our dev/master branches where we lose connectivity with the web server on occasion. This was most prevalent with the ESP8266 in AP mode, and precipitated a dedicated re-write for that platform. As a result of this ongoing issue, we are sensitive to new functionality being added without adequate testing.
+We still have the occasional issue with our dev/master branches where we lose connectivity with the web server on occasion. This was most prevalent with the ESP8266 in AP mode, which precipitated a re-write for that platform. As a result of this ongoing issue, we are sensitive to new functionality being added without adequate testing.
 
 In conclusion, the most important factors are commitment, teamwork, communication, documentation, testing, testing and more testing. Oh yea, and a bit of new code as well.
 
