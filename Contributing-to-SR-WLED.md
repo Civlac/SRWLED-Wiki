@@ -15,6 +15,7 @@ We learned a long time ago that a adding new code can make for a LOT of testing.
 * A dev branch for the latest code for ESP32 (optionally ESP8266).
 * An ESP8266 branch for volume only routines.
 * A master branch, which gets occasionally gets merged with AC's master by one of our team members.
+* Segments. We haven't really done testing with segments. Do they work, or don't they. . 
 
 If you'd like to contribute, you would need to be able to perform a significant amount of testing so your new code doesn't unintentionally break other functionality. For instance, if you'd like to update the FFT code, you'll at least need to test:
 
