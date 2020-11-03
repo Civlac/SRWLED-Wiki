@@ -258,7 +258,14 @@ Also, in fx_fcn.h, there's:
 
 if(nowUp - _lastShow<MIN_SHOW_DELAY) return;
 
-* Frame rate information brought to you by adityakush (on Discord).
+* Frameimt is a constance, which is 1000/42. In order to increase the FPS, instead of return framtime, we can write a smaller value than that and for max speed simply go for return(0), which is the smallest.
+
+### On Segments
+
+Some animations may break when the users start implementing segments. Issues encountered were:
+
+* Triggers. A triggered event, which was reset by the animation. This does not work with SEGMENTS. One workaround is knowing that the MIN_SHOW_DELAY is 15, and then determine if now-original_event > MIN_SHOW_DELAY in order to reset the animation.
+* EVERY_N_MILLIS. Does not work, especially if you want to use the variable version. You'll have to use the SEGMENT.speed variable the old fashioned way, i.e. similar blink without delay.
 
 
 
