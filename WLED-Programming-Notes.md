@@ -265,7 +265,7 @@ if(nowUp - _lastShow<MIN_SHOW_DELAY) return;
 Some animations may break when the users start implementing SEGMENTS. Issues encountered were:
 
 * Triggers. A triggered event, which was reset by the animation. This does not work with SEGMENTS. One workaround is knowing that the MIN_SHOW_DELAY is 15, and then determine if now-original_event > MIN_SHOW_DELAY in order to reset the animation.
-* EVERY_N_MILLIS. Does not work, especially if you want to use the variable version. You'll have to use the SEGMENT.speed variable the old fashioned way, i.e. similar blink without delay.
+* To get the current segment being displayed, try Serial.println(_segment_index);
 
 
 
