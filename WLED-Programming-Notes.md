@@ -38,6 +38,7 @@ Append the new function(s) and use current functions as templates. Cannot add an
 ## Important WLED variables
 
 * `SEGLEN`	              // uint16_t - Segment length.
+* `_segment_index`            // uint8_t - Current segment being displayed.
 
 * `SEGMENT.length`              // uint16_t - Segment length (but not for ESP8266 :^/ )
 * `SEGMENT.intensity`          // uint8_t - You can use this from the slider.
@@ -48,8 +49,8 @@ Append the new function(s) and use current functions as templates. Cannot add an
 * `SEGENV.call`		   // uint32_t – Counter each time a routine is called. Can be used for 'setup'.
 * `SEGENV.next_time`           // uint32_t – Millis counter.
 * `SEGENV.step`              // uint32_t - Counter each time a routine is called.
-* `SEGENV.aux0`             // uint32_t   - Available for use.
-* `SEGENV.aux1`	           // uint32_t   - Available for use.
+* `SEGENV.aux0`             // uint16_t   - Available for use as a SEGMENT specific persistent variable.
+* `SEGENV.aux1`	           // uint16_t   - Available for use as a SEGMENT specific persistent variable.
 
 ## Important Structures
 
