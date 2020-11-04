@@ -267,7 +267,7 @@ Some animations may break when the users start implementing SEGMENTS. Issues enc
 
 * Triggers. A triggered event, which was reset by the animation. This does not work with SEGMENTS. One workaround is knowing that the MIN_SHOW_DELAY is 15, and then determine if now-original_event > MIN_SHOW_DELAY in order to reset the animation.
 * To get the current segment being displayed, try Serial.println(_segment_index);
-* To use persistent variable across SEGMENTS, don't use 'static', but rather use the uint16_t define SEGENV.aux0 and SEGENV.aux1 variables.
+* To use persistent variable across SEGMENTS, don't use 'static', but rather use the existing uint16_t defined SEGENV.aux0 and SEGENV.aux1 variables. Too bad they're not uint32_t.
 
 Here's a replacmeent for EVERY_N_MILLIS()
 
@@ -278,4 +278,5 @@ Here's a replacmeent for EVERY_N_MILLIS()
     <rest of code goes here>
   }
 ```
+
 
