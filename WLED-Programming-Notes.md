@@ -269,5 +269,13 @@ Some animations may break when the users start implementing SEGMENTS. Issues enc
 * To get the current segment being displayed, try Serial.println(_segment_index);
 * To use persistent variable across SEGMENTS, don't use 'static', but rather use the uint16_t define SEGENV.aux0 and SEGENV.aux1 variables.
 
+Here's a replacmeent for EVERY_N_MILLIS()
 
+```C
+  uint8_t secondHand = millis()/(256-SEGMENT.speed) % 10;
+  if(SEGENV.aux0 != secondHand) {
+    SEGENV.aux0 = secondHand;
+    <rest of code goes here>
+  }
+```
 
