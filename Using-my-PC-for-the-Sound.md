@@ -1,6 +1,6 @@
 Q. Several people have asked if it's possible to use their PC for the sound and without using the microphone.
 
-A. We support line-in, several analog microphones, an INMP441 digital microphone, as well as UDP sound sync, the latter of which is documented at:
+A. We support line-in, several analog microphones, an INMP441 digital microphone, as well as UDP sound sync, the latter is documented at:
 
 https://github.com/atuline/WLED/wiki/UDP-Sound-Sync
 
