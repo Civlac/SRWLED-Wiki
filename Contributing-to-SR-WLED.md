@@ -15,7 +15,7 @@ We learned a long time ago that a adding new code can make for a LOT of testing.
 * A dev branch for the latest code for ESP32 (optionally ESP8266).
 * An ESP8266 branch for volume only routines.
 * A master branch, which gets occasionally gets merged with AC's master by one of our team members.
-* Segments. We haven't really done testing with segments. Do they work, or don't they. . 
+* SEGMENTS. Every routine must be compatible and tested for SEGMENTS.
 
 If you'd like to contribute, you would need to be able to perform a significant amount of testing so your new code doesn't unintentionally break other functionality. For instance, if you'd like to update the FFT code, you'll at least need to test:
 
@@ -24,15 +24,15 @@ If you'd like to contribute, you would need to be able to perform a significant 
 In addition:
 
 * Keep any code update to a limited topic for ease of testing/rollback.
-* Good communication with team members is important.
+* Good communication with team members is very important.
 * Keep the Wiki documentation in good order.
 * Commitment. You're really keen on WLED and have a long term commitment to support the community.
 
 Knowledge required:
 
-* Github versioning, merging.
+* Github versioning, commits, branching, merging.
 * FastLED (for animations), combined with NeoPixelBus.
-* Intermediate C programming.
+* Junior/intermediate level C programming.
 * HTML, CSS, Javascript, XML, JSON, npm for any UI changes.
 * WLED coding standards.
 
