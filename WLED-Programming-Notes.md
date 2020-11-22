@@ -297,6 +297,7 @@ The problem, however is that while the FastLED method preserves the original pix
 
 ```C
   if (!SEGENV.allocateData(SEGLEN)) return mode_static(); //allocation failed
+```
 
 You now have SEGENV.data[SEGLEN] allocated for your use.
 
