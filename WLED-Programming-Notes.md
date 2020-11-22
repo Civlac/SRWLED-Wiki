@@ -257,9 +257,9 @@ If you wish to increase the frame rate, have a look at fx.h with:
 
 Also, in fx_fcn.h, there's:
 
-if(nowUp - _lastShow<MIN_SHOW_DELAY) return;
+if (nowUp - _lastShow<MIN_SHOW_DELAY) return;
 
-* Frameimt is a constance, which is 1000/42. In order to increase the FPS, instead of return framtime, we can write a smaller value than that and for max speed simply go for return(0), which is the smallest.
+* Frametime is a constant, which is 1000/42. In order to increase the FPS, instead of return frametime, we can write a smaller value than that and for max speed simply go for return(0), which is the smallest.
 
 ### On Segments
 
@@ -273,7 +273,7 @@ Here's a replacmeent for EVERY_N_MILLIS()
 
 ```C
   uint8_t secondHand = millis()/(256-SEGMENT.speed) % 10;
-  if(SEGENV.aux0 != secondHand) {
+  if (SEGENV.aux0 != secondHand) {
     SEGENV.aux0 = secondHand;
     <rest of code goes here>
   }
