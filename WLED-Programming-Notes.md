@@ -296,7 +296,17 @@ That's not an option with WLED, because it doesn't have the leds[] array. Instea
 The problem, however is that while the FastLED method preserves the original pixel information, the 'WLED' method is lossy, and eventually the cascaded led's will fade out entirely. The workaround is to create an array used by the segment that preserves the LED information. AirCoookie's method is to allocate memory on the fly for this. For instance:
 
 ```C
-  if (!SEGENV.allocateData(SEGLEN)) return mode_static(); //allocation failed
+  if (!SEGENV.allocateData(SEGLEN)) return mode_static(); // allocation failed
+  SEGENV.data[SEGLEN-1] = 0;                              // a byte value
+```
+
+
+If you want, you can give it another name with:
+
+```C
+  if (!SEGENV.allocateData(SEGLEN)) return mode_static(); // allocation failed
+  byte* heat = SEGENV.data;
+  heat[SEGLEN-1] = 0;                                     // a byte value
 ```
 
 You now have SEGENV.data[SEGLEN] allocated for your use. Adding a structure for use with your segment is a whole other level of complexity and can be found by examining mode_multi_comet and mode_oscillate among others. Just search for SEGENV.allocateData in FX.cpp.
