@@ -279,4 +279,19 @@ Here's a replacmeent for EVERY_N_MILLIS()
   }
 ```
 
+### getPixel and setPixel
+
+In the FastLED world, we could cascade led information with things like:
+
+```C
+   leds[i+1] = leds[i];
+```
+
+That's not an option with WLED, because it doesn't have the leds[] array. Instead, you have:
+
+```C
+  setPixelColor(i+1,getPixelColor(i)); 
+```
+
+The problem, however is that while the FastLED method preserves the original pixel information, the 'WLED' method is lossy, and eventually the cascaded led's will fade out entirely.
 
