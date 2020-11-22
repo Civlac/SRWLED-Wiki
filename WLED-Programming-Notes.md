@@ -299,6 +299,6 @@ The problem, however is that while the FastLED method preserves the original pix
   if (!SEGENV.allocateData(SEGLEN)) return mode_static(); //allocation failed
 ```
 
-You now have SEGENV.data[SEGLEN] allocated for your use. Adding a structure for use with your segment is a whole other level of complexity and can be found by examining mode_multi_comet among others. Just search for SEGENV.allocateData in FX.cpp.
+You now have SEGENV.data[SEGLEN] allocated for your use. Adding a structure for use with your segment is a whole other level of complexity and can be found by examining mode_multi_comet and mode_oscillate among others. Just search for SEGENV.allocateData in FX.cpp.
 
 
