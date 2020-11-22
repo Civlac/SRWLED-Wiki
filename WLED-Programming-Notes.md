@@ -293,5 +293,12 @@ That's not an option with WLED, because it doesn't have the leds[] array. Instea
   setPixelColor(i+1,getPixelColor(i)); 
 ```
 
-The problem, however is that while the FastLED method preserves the original pixel information, the 'WLED' method is lossy, and eventually the cascaded led's will fade out entirely.
+The problem, however is that while the FastLED method preserves the original pixel information, the 'WLED' method is lossy, and eventually the cascaded led's will fade out entirely. The workaround is to create an array used by the segment that preserves the LED information. AirCoookie's method is to allocate memory on the fly for this. For instance:
+
+```C
+  if (!SEGENV.allocateData(SEGLEN)) return mode_static(); //allocation failed
+
+You now have SEGENV.data[SEGLEN] allocated for your use.
+
+
 
