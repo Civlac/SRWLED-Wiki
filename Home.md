@@ -49,7 +49,7 @@ Using the WLED 0.10 codebase, our code has been tested with:
 
 * [INMP401](https://www.sparkfun.com/products/9868) MEMS microphone
 * [MAX9814](https://www.digikey.com/products/en?mpart=1713&v=1528) electret microphone
-* [INMP441](https://www.aliexpress.com/i/32962426410.html)
+* [INMP441](https://www.aliexpress.com/i/32962426410.html) I2S digital microphone
 * 3.5mm Line In
 * [WeMOS D1 Mini (ESP8266)](https://docs.wemos.cc/en/latest/d1/d1_mini.html)
 * [Espressif ESP32 DevKitC V4](https://www.digikey.com/product-detail/en/espressif-systems/ESP32-DEVKITC-32D/1965-1000-ND/9356990)
