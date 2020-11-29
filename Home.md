@@ -48,6 +48,7 @@ If you are unable to compile WLED, please consider flashing your device with bin
 Using the WLED 0.10 codebase, our code has been tested with:
 
 * [INMP401](https://www.sparkfun.com/products/9868) MEMS microphone
+* [MAX4466](https://www.adafruit.com/product/1063) Electret microphone
 * [MAX9814](https://www.digikey.com/products/en?mpart=1713&v=1528) electret microphone
 * [INMP441](https://www.aliexpress.com/i/32962426410.html) I2S digital microphone
 * 3.5mm Line In
