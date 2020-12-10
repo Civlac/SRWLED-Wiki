@@ -13,4 +13,6 @@ On an ESP32 (only), if an INMP441 is not detected during startup, Sound Reactive
 
 Note that 'Other' is supposed to represent the GY-SPH0645 I²S, which did not function correctly during testing with the INMP441 setup.
 
+Having problems getting the INMP441 running with WLED? Here's a test sketch: https://pastebin.com/Ua7s7LYF
+
 INMP441 support by @spedione
