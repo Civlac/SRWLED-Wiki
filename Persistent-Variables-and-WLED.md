@@ -43,7 +43,7 @@ At the end of the first loop, all the variables were assigned values. The second
   7    0    25
 ```
 
-So, we have global and local variables, as well as persistent and non-persistent ones. Local variable require the 'static' keyword in order for them to be persistent between function calls, while ALL global variables are persistent.
+So, we have global and local variables, as well as persistent and non-persistent ones. Local variables require the 'static' keyword in order for them to keep their values (or be persistent) between function calls, while ALL global variables are persistent.
 
 
 ## Enter WLED . . . 
