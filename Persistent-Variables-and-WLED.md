@@ -33,13 +33,15 @@ Normally, for a given Arduino sketch you can define variables as follows:
 
 The first time you run through the loop, we'll see the following, where only var1 has been assigned a non-zero value:
 
-``5    0     0
-
+```
+  5    0     0
+```
 
 At the end of the first loop, all the variables were assigned values. The second time through the loop, var1 was already changed to 7 in the first loop, while var2 is non-persistent and has yet to have a value assigned in this loop. The variable var3 is a 'persistent' local variable, with a value assigned in the first pass of the loop. Output will be:
 
-``7    0    25
-
+```
+  7    0    25
+```
 
 So, we have global and local variables, as well as persistent and non-persistent ones. Local variable require the 'static' keyword in order for them to be persistent between function calls, while ALL global variables are persistent.
 
