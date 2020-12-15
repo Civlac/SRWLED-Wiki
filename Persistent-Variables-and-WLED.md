@@ -131,7 +131,7 @@ Now, we can use our structure, up to maxRipples-1:
 As an exercise, let's just allocate a single floating point variable:
 
 ```
-  if (!SEGENV.allocateData(sizeof(float)) return mode_static();
+  if (!SEGENV.allocateData(sizeof(float))) return mode_static();
   float* expAdj = reinterpret_cast<float*>(SEGENV.data);          // We then redefine that byte* pointer to a float.
 ```
 
