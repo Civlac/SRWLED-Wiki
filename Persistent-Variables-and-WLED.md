@@ -48,9 +48,9 @@ So, we have global and local variables, as well as persistent and non-persistent
 
 ## Enter WLED . . . 
 
-Although you CAN use the static keyword in a WLED animation to define a persistent variable, that variable will have the same value for ALL of the segments, and may not result in the desired properties. You will need to define a persistent variable unique to each SEGMENT.
+Although you CAN use the static keyword in a WLED animation to define a persistent variable, that variable will have the same value for ALL of the segments, and may not result in the desired properties. As a result, you may need to define a persistent variable unique to each SEGMENT.
 
-WLED has a SEGMENT runtime structure that supports persistency. The only problem is that it has a limited number of pre-defined variables for generic use by animations in FX.cpp. The readily available variables (as defined in FX.h) are:
+WLED has a SEGMENT runtime structure that supports persistency. The only problem is that it has a limited number of pre-defined variables for generic use by animations (in FX.cpp). The readily available variables (as defined in FX.h) are:
 
 ```
 uint16_t SEGENV.aux0;               // Available for your routine.
@@ -58,21 +58,21 @@ uint16_t SEGENV.aux1                // Available for your routine.
 byte* SEGENV.data;                  // Available for your routine.
 ```
 
-SEGENV.aux0 and SEGENV.aux1 are both unsigned 16 bit values, which you can use as persistent variables in your routines. The question is, what if I need:
+SEGENV.aux0 and SEGENV.aux1 are both unsigned 16 bit values, which you can use as persistent variables in your routines and will be unique for each SEGMENT. The question is, what if you need:
 
-* Floating point or long variables?
+* A floating point or long variable?
 * An array?
 * A structure?
 
-At that point, you'll need to make use of that *byte SEGENV.data pointer and allocate memory for it and then redefine how it's used. Let's examine some methods to do so, and we'll be reviewing some of the animations in FX.cpp to do so. WLED has a method called SEGENT.allocateData() that allocates memory for your animation. Here's some examples of how to use that.
+At that point, you'll need to make use of that *byte SEGENV.data pointer and allocate memory for it and then redefine how it's used. Let's examine some methods to do so and review some of the animations in FX.cpp to do so. WLED has a method called SEGENT.allocateData() which allocates memory for your animation. Here's some examples of how to use that.
 
 ## Basic Memory Allocation
 
 In its simplest form, the routine mode_dynamic() just performs a basic request to allocate space for the length of a given SEGMENT with:
 
-`  if (!SEGENV.allocateData(SEGLEN)) return mode_static(); //allocation failed
+`  if (!SEGENV.allocateData(SEGLEN)) return mode_static();           // If it fails, WLED runs mode_static().
 
-It doesn't make use of additional variables and is probably a good idea to implement on other animations, especially in a limited environment, such as the ESP01.
+It doesn't make use of additional variables and is probably a good idea to implement on other animations, especially in a limited environment such as the ESP01 and with a considerable number of LED's.
 
 ## An Array
 
@@ -92,7 +92,7 @@ Next up is mode_multi_comet(), which reserves space for 8 uint16_t values for an
 
 ## A Structure
 
-Finally, we'll look into ripple_base(), which allocates persistent memory for the 'Ripple' structure. First off, we define the structure externally to the routine and call it 'ripple'.
+Finally, we'll look into ripple_base(), which allocates persistent memory for a 'Ripple' structure. First off, we define the structure externally to the animation and call it 'ripple'.
 
 ```
   typedef struct Ripple {
@@ -102,7 +102,7 @@ Finally, we'll look into ripple_base(), which allocates persistent memory for th
   } ripple;
 ```
 
-From within ripple_base(), we determine the number of ripples we want to support for each segment. In this case, it's:
+From within the ripple_base() routine, we determine the number of ripples we want to support for each segment. In this case, we'll say:
 
 ` uint16_t maxRipples = 1 + (SEGLEN >> 2);
 
@@ -112,7 +112,7 @@ Next, we determine how much memory we need, where 'sizeof' returns number of byt
 
 Next, we allocate the memory, and then re-define it as our structure:
 ```
-  if (!SEGENV.allocateData(dataSize)) return mode_static();        //allocation failed
+  if (!SEGENV.allocateData(dataSize)) return mode_static();
   Ripple* ripples = reinterpret_cast<Ripple*>(SEGENV.data);
 ```
 
@@ -128,7 +128,7 @@ Now, we can use our structure, up to maxRipples-1:
 
 ## A Floating Point Variable
 
-Now, let's just allocate a single floating point variable:
+As an exercise, let's just allocate a single floating point variable:
 
 ```
   if (!SEGENV.allocateData(sizeof(float)) return mode_static();
