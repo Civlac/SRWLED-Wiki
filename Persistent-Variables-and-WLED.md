@@ -62,19 +62,17 @@ SEGENV.aux0 and SEGENV.aux1 are both unsigned 16 bit values, which you can use a
 * An array?
 * A structure?
 
-At that point, you'll need to make use of that *byte pointer and allocate memory for it and then redefine how it's used. Let's examine some methods to do so, and we'll be reviewing some of the animations in FX.cpp to do so. WLED has a method called SEGENT.allocateData() that allocates memory for your animation. Here's some examples of how to use that.
+At that point, you'll need to make use of that *byte SEGENV.data pointer and allocate memory for it and then redefine how it's used. Let's examine some methods to do so, and we'll be reviewing some of the animations in FX.cpp to do so. WLED has a method called SEGENT.allocateData() that allocates memory for your animation. Here's some examples of how to use that.
 
-
+## Basic Memory Allocation
 
 In its simplest form, the routine mode_dynamic() just performs a basic request to allocate space for the length of a given SEGMENT with:
 
-  if (!SEGENV.allocateData(SEGLEN)) return mode_static(); //allocation failed
+`  if (!SEGENV.allocateData(SEGLEN)) return mode_static(); //allocation failed
 
 It doesn't make use of additional variables and is probably a good idea to implement on other animations, especially in a limited environment, such as the ESP01.
 
-
-
-
+## An Array
 
 Next up is mode_multi_comet(), which reserves space for 8 uint16_t values for an array of comets.
 
@@ -90,49 +88,54 @@ Next up is mode_multi_comet(), which reserves space for 8 uint16_t values for an
   }
 
 
+## A Structure
 
 Finally, we'll look into ripple_base(), which allocates persistent memory for the 'Ripple' structure. First off, we define the structure externally to the routine and call it 'ripple'.
 
+```
   typedef struct Ripple {
     int8_t state;
     uint8_t color;
     uint16_t pos;
   } ripple;
-
+```
 
 From within ripple_base(), we determine the number of ripples we want to support for each segment. In this case, it's:
 
- uint16_t maxRipples = 1 + (SEGLEN >> 2);
+` uint16_t maxRipples = 1 + (SEGLEN >> 2);
 
 Next, we determine how much memory we need, where 'sizeof' returns number of bytes occupied by a variable of a given type.
 
-   uint16_t dataSize = sizeof(ripple) * maxRipples;
+ `  uint16_t dataSize = sizeof(ripple) * maxRipples;
 
 Next, we allocate the memory, and then re-define it as our structure:
-
+```
   if (!SEGENV.allocateData(dataSize)) return mode_static();        //allocation failed
   Ripple* ripples = reinterpret_cast<Ripple*>(SEGENV.data);
-
+```
 
 Now, we can use our structure, up to maxRipples-1:
 
+```
   for (uint16_t i = 0; i < maxRipples; i++) {
     ripples[i].pos   = ???;  // uint16_t
     ripples[i].state = ???;  // int8_t
     ripples[i].color = ???;  // uint8_t
   }
+```
 
-
+## A Floating Point Variable
 
 Now, let's just allocate a single floating point variable:
 
-
+```
   if (!SEGENV.allocateData(sizeof(float)) return mode_static();
   float* expAdj = reinterpret_cast<float*>(SEGENV.data);          // We then redefine that byte* pointer to a float.
+```
 
 We should now be able to use the persistent floating point variable 'expAdj' with our routine and it should work with ALL segments indepently of each other.
 
-  expAdj = 1.2345;
+```  expAdj = 1.2345;
 
 
 
