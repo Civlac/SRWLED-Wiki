@@ -5,29 +5,31 @@ Let's investigate persistent variables for the Arduino and how to use them, and 
 
 Normally, for a given Arduino sketch you can define variables as follows:
 
+```
+  uint8_t var1 = 5;                 // A persistent global variable that is defined once.
 
-`  uint8_t var1 = 5;                 // A persistent global variable that is defined once.`
+  void setup() {
+    Serial.begin(115200);
+  }
 
-  `void setup() {`
-    `Serial.begin(115200);`
-  `}`
+  void loop() {
+    routine1();
+  }
 
-  `void loop() {`
-    `routine1();`
-  `}`
 
-  `void routine1() {`
-    `uint8_t var2;                   // A non-persistent local variable.`
-    `static uint8_t var3;            // A persistent local variable.`
+  void routine1() {
+    uint8_t var2;                   // A non-persistent local variable.
+    static uint8_t var3;            // A persistent local variable.
 
-    `Serial.print(var1); Serial.print("\t"); Serial.print(var2); Serial.print("\t"); Serial.println(var3);`
+    Serial.print(var1); Serial.print("\t"); Serial.print(var2); Serial.print("\t"); Serial.println(var3);
 
-    `var1 = 7;`
-    `var2 = 10;`
-    `var3 = 25;`
+    var1 = 7;
+    var2 = 10;
+    var3 = 25;
 
-    `delay(1000);`
-  `}`
+    delay(1000);
+  }
+```
 
 
 The first time you run through the loop, we'll see the following, where only var1 has been assigned a non-zero value:
