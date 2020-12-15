@@ -33,12 +33,12 @@ Normally, for a given Arduino sketch you can define variables as follows:
 
 The first time you run through the loop, we'll see the following, where only var1 has been assigned a non-zero value:
 
-`5    0     0
+`  5    0     0
 
 
 At the end of the first loop, all the variables were assigned values. The second time through the loop, var1 was already changed to 7 in the first loop, while var2 is non-persistent and has yet to have a value assigned in this loop. The variable var3 is a 'persistent' local variable, with a value assigned in the first pass of the loop. Output will be:
 
-`7    0    25
+`  7    0    25
 
 
 So, we have global and local variables, as well as persistent and non-persistent ones. Local variable require the 'static' keyword in order for them to be persistent between function calls, while ALL global variables are persistent.
@@ -76,7 +76,7 @@ It doesn't make use of additional variables and is probably a good idea to imple
 
 Next up is mode_multi_comet(), which reserves space for 8 uint16_t values for an array of comets.
 
-
+```
   if (!SEGENV.allocateData(sizeof(uint16_t) * 8)) return mode_static(); //Allocates based on the size of 8 uint16_t variables
 
   uint16_t* comets = reinterpret_cast<uint16_t*>(SEGENV.data);          // It then redefined that byte* pointer to uint16_t comets[16].
@@ -86,7 +86,7 @@ Next up is mode_multi_comet(), which reserves space for 8 uint16_t values for an
   for (int i=0; i<8; i++) {
     comets[i] = 65535;          // Or other uint16_t value.
   }
-
+```
 
 ## A Structure
 
@@ -135,7 +135,7 @@ Now, let's just allocate a single floating point variable:
 
 We should now be able to use the persistent floating point variable 'expAdj' with our routine and it should work with ALL segments indepently of each other.
 
-```  expAdj = 1.2345;
+`  expAdj = 1.2345;
 
 
 
