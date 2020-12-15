@@ -16,7 +16,6 @@ Normally, for a given Arduino sketch you can define variables as follows:
     routine1();
   }
 
-
   void routine1() {
     uint8_t var2;                   // A non-persistent local variable.
     static uint8_t var3;            // A persistent local variable.
