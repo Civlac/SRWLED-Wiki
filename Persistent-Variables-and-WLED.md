@@ -44,18 +44,17 @@ At the end of the first loop, all the variables were assigned values. The second
 So, we have global and local variables, as well as persistent and non-persistent ones. Local variable require the 'static' keyword in order for them to be persistent between function calls, while ALL global variables are persistent.
 
 
-Enter WLED . . . 
-
-
+## Enter WLED . . . 
 
 Although you CAN use the static keyword in a WLED animation to define a persistent variable, that variable will have the same value for ALL of the segments, and may not result in the desired properties. You will need to define a persistent variable unique to each SEGMENT.
 
+WLED has a SEGMENT runtime structure that supports persistency. The only problem is that it has a limited number of pre-defined variables for generic use by animations in FX.cpp. The readily available variables (as defined in FX.h) are:
 
-WLED has a SEGMENT runtime strucuture that supports persistency. The only problem is that it has a limited number of pre-defined variables for generic use by animations in FX.cpp. The readily available variables (as defined in FX.h) are:
-
+```
 uint16_t SEGENV.aux0;               // Available for your routine.
 uint16_t SEGENV.aux1                // Available for your routine.
 byte* SEGENV.data;                  // Available for your routine.
+```
 
 SEGENV.aux0 and SEGENV.aux1 are both unsigned 16 bit values, which you can use as persistent variables in your routines. The question is, what if I need:
 
